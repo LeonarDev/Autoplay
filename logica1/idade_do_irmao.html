@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>8) A idade do meu irmão</title>
+</head>
+<body>
+  <script>
+    pulaLinha = () => {
+      document.write('<br>');
+    }
+
+    mostra = (parametro) => {
+      document.write(parametro);
+      pulaLinha();
+    }
+
+    var minhaIdade = 30;
+    var idadeDoIrmao = 28;
+
+    mostra('Nossa diferença de idade é: ' + (minhaIdade - idadeDoIrmao) + ' anos')
+  </script>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <title>11) Sorteia</title>
+</head>
+<body>
+  <script>
+    function pulaLinha() {
+      document.write("<br>");
+      document.write("<br>");
+  }
+  
+    function mostra(frase) {
+      document.write(frase);
+      pulaLinha();
+  }
+  
+  var numeroPensado = Math.round(Math.random() * 10);
+  var tentativas = 1;
+  
+  while(tentativas <= 3) {
+    var chute = parseInt(prompt("Digite seu chute!"));
+  
+    if(chute == numeroPensado) {
+      mostra("Você ACERTOU, o número pensado era " + numeroPensado);
+      break;
+  
+    } else {
+      mostra("Você ERROU!");
+    }
+  
+    tentativas++;
+  }
+  
+  mostra("FIM");
+  </script>
+</body>
+</html>

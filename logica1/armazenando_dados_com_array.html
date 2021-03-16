@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Comparar segredo</title>
+</head>
+<body>
+  <input type="text">
+  <button>Comparar segredo</button>
+  <script>
+    sorteia = () => {
+      return Math.round(Math.random() * 10);
+    }
+
+    sorteiaNumeros = (quantidade) => {
+      var segredos = [];
+      var contador = 1;
+
+      while (contador <= quantidade) {
+        var numeroAleatorio = sorteia();
+        var achou = false;
+
+        if (numeroAleatorio !== 0) {
+          for (var posicao = 0; posicao < segredos.length; posicao++) {
+            if(segredos[posicao] === numeroAleatorio) {
+              achou = true;
+              break;
+            }
+          }
+
+          if (achou === false) {
+            segredos.push(numeroAleatorio);
+            contador++;
+          }
+        }
+      }
+      return segredos;
+    }
+
+    var segredos = sorteiaNumeros(3);
+    
+    console.log(segredos);
+  
+    var button = document.querySelector('button');
+    var input = document.querySelector('input');
+    input.focus();
+
+    verifica = () => {
+      var achou = false;
+
+      for (let posicao = 0; posicao < segredos.length; posicao += 1) {
+        if(input.value == segredos[posicao]) {
+          alert("Você ACERTOU!");
+          achou = true;
+          break;
+        }
+      }
+
+      if (achou === false) {
+        alert('Você ERROU!'); 
+    }
+
+      input.value = '';
+      input.focus();
+    }
+
+    button.onclick = verifica;
+
+    
+
+  </script>
+</body>
+</html>

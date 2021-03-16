@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Page Title</title>
+</head>
+<body>
+  <script>
+
+  function pulaLinha() {
+    document.write("<br><hr><br>");
+  }
+
+  function mostra(frase) {
+    document.write('<big>' + frase + '</big>');
+    pulaLinha();
+  }
+
+  var ano = 2021;
+  mostra("Eu nasci em: " + (ano - 30));
+  mostra("Adriano nasceu em: " + (ano - 26));
+  mostra("Paulo nasceu em: " + (ano - 32));
+  </script>
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Exibindo em um alert o nome digitado no input</title>
+</head>
+<body>
+  <input type="text"/>
+  <button>Clique-me</button>
+
+  <script>
+    var input = document.querySelector('input');
+    var button = document.querySelector('button');
+
+    exibeTexto = () => {
+      alert(input.value);
+    }
+
+    button.onclick = exibeTexto;
+
+  </script>
+</body>
+</html>

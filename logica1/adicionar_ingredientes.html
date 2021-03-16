@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <title>Não existe ingrediente repetido aqui!</title>
+</head>
+<body>
+  <h1>Receitas do Yan</h1>
+
+<script>
+  var ingredientes = [];
+  var quantidade = parseInt(prompt("Quantos ingredientes você vai adicionar?"));
+  var contador = 1;
+
+  while (contador <= quantidade) {
+    var ingrediente = prompt("Informe o ingrediente " + contador);
+    var ingredienteExiste = false;
+    
+    for (let index = 0; index <= ingredientes.length; index++) {
+      if (ingredientes[index] === ingrediente) {
+        ingredienteExiste = true;
+        break;
+      }
+    }
+
+    if (ingredienteExiste == false) {
+      ingredientes.push(ingrediente);
+      contador++;
+    }
+  }
+
+  console.log(ingredientes);
+  document.write(ingredientes);
+</script>
+</body>
+</html>

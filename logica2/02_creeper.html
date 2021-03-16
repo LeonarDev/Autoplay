@@ -4,16 +4,25 @@
   <title>Canvas</title>
 </head>
 <body>
-  <canvas width="350" height="300"></canvas>
+  <canvas width="600" height="400"></canvas>
 
   <script>
     let tela = document.querySelector('canvas');
     let pincel = tela.getContext('2d');
 
     pincel.fillStyle = 'green';
-    pincel.fillRect(0, 0, 600, 400);
+    pincel.fillRect(125, 50, 350, 300);
 
-    
+    pincel.fillStyle = 'black';
+    pincel.fillRect(170, 100, 100, 100);
+
+    pincel.fillRect(330, 100, 100, 100);
+
+    pincel.fillRect(265, 200, 70, 100);
+
+    pincel.fillRect(225, 240, 40, 110);
+
+    pincel.fillRect(335, 240, 40, 110);
 
   </script>
 </body>

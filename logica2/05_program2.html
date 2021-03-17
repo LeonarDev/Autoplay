@@ -7,11 +7,19 @@
   <canvas width="600" height="400"></canvas>
 
   <script>
-    let tela = document.querySelector('canvas');
-    let pincel = tela.getContext('2d');
-
+    desenhaQuadrado = (x, y, cor) => {
+      let tela = document.querySelector('canvas');
+      let pincel = tela.getContext('2d');
   
+      pincel.fillStyle = cor;
+      pincel.fillRect(x, y, 50, 50);
+      pincel.fillStroke = 'black';
+      pincel.strokeRect(x, y, 50, 50);
+    }
 
+    desenhaQuadrado(0, 0, 'green');
+    desenhaQuadrado(50, 0, 'green');
+    desenhaQuadrado(100, 0, 'green');
   </script>
 </body>
 </html>

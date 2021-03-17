@@ -16,10 +16,10 @@
       pincel.fillStroke = 'black';
       pincel.strokeRect(x, y, 50, 50);
     }
-
-    desenhaQuadrado(0, 0, 'green');
-    desenhaQuadrado(50, 0, 'green');
-    desenhaQuadrado(100, 0, 'green');
+    
+    for (let x = 0; x < 600; x += 50) {
+      desenhaQuadrado(x, 0, 'green'); 
+    }
   </script>
 </body>
 </html>

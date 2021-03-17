@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Canvas: Draw Circle</title>
+  <title>Canvas: Draw Graphics</title>
 </head>
 <body>
   <canvas width="600" height="400"></canvas>
@@ -12,25 +12,40 @@
     pincel.fillStyle = 'lightgray';
     pincel.fillRect(0, 0, 600, 400);
 
-    desenhaQuadrado = (x, y, tamanho, cor) => {
-      pincel.fillStyle = cor;
-      pincel.beginPath();
-      pincel.fillRect(x, y, tamanho, tamanho);
-      pincel.strokeRect(x, y, tamanho, tamanho)
+  desenhaRetangulo = (x, y, largura, altura, cor) => {
+    pincel.fillStyle=cor;
+    pincel.fillRect(x,y, largura, altura);
+    pincel.strokeStyle='black';
+    pincel.strokeRect(x,y, largura, altura);
+  }
+
+  desenhaTexto = (x, y, texto) => {
+    var tela = document.querySelector('canvas');
+    var pincel = tela.getContext('2d');
+
+    pincel.font='15px Georgia';
+    pincel.fillStyle='black';
+    pincel.fillText(texto, x, y);
+  }
+
+  var serie2015 = [50, 25, 20, 5];
+  var serie2016 = [65, 20, 13, 2];
+  var cores = ['blue', 'green', 'yellow', 'red'];
+
+  desenhaBarra = (x, y, serie, cores, texto) => {
+    desenhaTexto(x, y - 10, texto);
+
+    let somaAltura = 0;
+
+    for (let index = 0; index < serie.length; index += 1) {
+      let altura = serie[index];
+      desenhaRetangulo(x, y + somaAltura, 50, altura, cores[index]);
+      somaAltura += altura;
     }
+  }
 
-    desenhaTexto = (texto, x , y) => {
-      pincel.font='20px Georgia';
-      pincel.fillStyle='black';
-      pincel.fillText(texto, x, y);    
-    }
-
-    desenhaTexto("Qual é a fração?", 50, 30);
-
-    desenhaQuadrado(50, 50, 100, 'green');
-    desenhaQuadrado(150, 50, 100, 'green');
-    desenhaQuadrado(250, 50, 100, 'green');
-    desenhaQuadrado(350, 50, 100, 'white');
+  desenhaBarra(50, 50, serie2015, cores, '2015');
+  desenhaBarra(150, 50, serie2016, cores, '2016');
   </script>
 </body>
 </html>

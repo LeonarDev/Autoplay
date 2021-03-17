@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Canvas: Set square</title>
+</head>
+<body>
+  <canvas width="600" height="400"></canvas>
+
+  <script>
+    let screen = document.querySelector('canvas');
+    let pincel = tela.getContext('2d');
+    pincel.fillStyle = 'lightgray';
+    pincel.fillRect(0, 0, 600, 400);
+
+    showAlert = (event) => {
+      let x = event.pageX - screen.offsetLeft;
+      let y = event.pageY - screen.offsetTop;
+      alert(`Position of the click: ${x} ${y}`)
+    }
+
+  </script>
+</body>
+</html>

@@ -20,15 +20,15 @@ let sentido = 1;
 function atualizaTela() {
   if (x > 595) {
     sentido = -1;
-  } else if (x < 5) {
+} else if (x < 5) {
     sentido = 1;
   }
+  
   limpaTela();
   pincel.fillStyle = 'lightgray';
   pincel.fillRect(0, 0, 600, 400);
   desenhaCirculo(x, 20, 10);
   x += sentido;
-
 }
 
 setInterval(atualizaTela, 10);

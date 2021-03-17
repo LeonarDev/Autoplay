@@ -11,18 +11,28 @@
     let paintbrush = canvasScreen.getContext('2d');
     let colors = ['blue', 'red', 'green'];
     let colorIndex = 0;
+    let ray = 10;
     
     paintbrush.fillStyle = 'lightgrey';
     paintbrush.fillRect(0, 0, 600, 400);
     
     drawCircles = (event) => {
-      var x = event.pageX - canvasScreen.offsetLeft;
-      var y = event.pageY - canvasScreen.offsetTop;
+      let x = event.pageX - canvasScreen.offsetLeft;
+      let y = event.pageY - canvasScreen.offsetTop;
       
+      if (event.shiftKey && ray <= 40) {
+        ray += 10;
+      }
+
+      if (event.altKey && ray >= 10) {
+        ray -= 5;
+      }
+
       paintbrush.fillStyle = colors[colorIndex];
       paintbrush.beginPath();
-      paintbrush.arc(x, y, 10, 0, 2 * 3.14);
+      paintbrush.arc(x, y, ray, 0, 2 * 3.14);
       paintbrush.fill();
+
       
       console.log(`Position of the click: ${x} ${y}`)
     }

@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Canvas: Set square</title>
+  <title>Canvas: Events with click</title>
 </head>
 <body>
   <canvas width="600" height="400"></canvas>
 
   <script>
-    let screen = document.querySelector('canvas');
-    let pincel = tela.getContext('2d');
-    pincel.fillStyle = 'lightgray';
-    pincel.fillRect(0, 0, 600, 400);
+    let canvasScreen = document.querySelector('canvas');
+    let paintbrush = canvasScreen.getContext('2d');
 
-    showAlert = (event) => {
-      let x = event.pageX - screen.offsetLeft;
-      let y = event.pageY - screen.offsetTop;
-      alert(`Position of the click: ${x} ${y}`)
+    paintbrush.fillStyle = 'lightgrey';
+    paintbrush.fillRect(0, 0, 600, 400);
+
+    drawCircles = (event) => {
+      var x = event.pageX - canvasScreen.offsetLeft;
+      var y = event.pageY - canvasScreen.offsetTop;
+
+      paintbrush.fillStyle = 'black';
+      paintbrush.beginPath();
+      paintbrush.arc(x, y, 10, 0, 2 * 3.14);
+      paintbrush.fill();
+
+      console.log(`Position of the click: ${x} ${y}`)
     }
 
+    canvasScreen.onclick = drawCircles;
   </script>
 </body>
 </html>

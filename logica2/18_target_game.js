@@ -37,4 +37,18 @@ atualizaTela = () => {
   desenhaAlvo(xAleatorio, yAleatorio);
 }
 
-setInterval(atualizaTela, 500);
+setInterval(atualizaTela, 5000);
+
+dispara = (evento) => {
+  let x = evento.pageX - tela.offsetLeft 
+  let y = evento.pageY - tela.offsetTop 
+    
+  if ( (x > xAleatorio - raio)
+  && (x < xAleatorio + raio)
+  && (y > yAleatorio - raio)
+  && (y < yAleatorio + raio) ) {
+    alert('BANG! NA MOSCA!');
+  }
+}
+  
+tela.onclick = dispara;

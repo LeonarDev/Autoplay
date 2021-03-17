@@ -14,12 +14,21 @@ function limpaTela() {
   pincel.clearRect(0, 0, 600, 400);
 }
 
-var x = 20;
+let x = 20;
+let sentido = 1;
 
 function atualizaTela() {
+  if (x > 595) {
+    sentido = -1;
+  } else if (x < 5) {
+    sentido = 1;
+  }
   limpaTela();
+  pincel.fillStyle = 'lightgray';
+  pincel.fillRect(0, 0, 600, 400);
   desenhaCirculo(x, 20, 10);
-  x++;
+  x += sentido;
+
 }
 
 setInterval(atualizaTela, 10);

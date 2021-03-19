@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="style.css">
+  <title>Cinema Autoplay</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">CINE AUTOPLAY</h1>
+  </header>
+  
+  <main>
+    <div>
+      <h2>Mortal Kombat</h2>
+      <img src="https://www.cinemark.com.br/content/uploads/movie/7468/mortal-kombat-poster-tablet.jpg">
+      <p class="sinopse">Em "Mortal Kombat", o lutador de MMA Cole Young, acostumado a apanhar por dinheiro, desconhece sua ascendência -- ou por que o imperador de Exoterra (Outworld), Shang Tsung, enviou seu melhor guerreiro, Sub-Zero, um Criomante de outro mundo, para caçar Cole. Temendo pela segurança da família, Cole vai em busca de Sonya Blade seguindo a indicação de Jax, um major das Forças Especiais que tem a mesma estranha marca de dragão com a qual Cole nasceu. Logo, ele se vê no templo do lorde Raiden, um Deus Ancião e guardião do Plano Terreno (Earthrealm), que abriga todos que possuem a marca. Aqui, Cole treina com os experientes guerreiros Liu Kang, Kung Lao e o mercenário Kano, enquanto ele se prepara para lutar ao lado dos maiores campeões da Terra contra os inimigos de Exoterra em uma batalha pelo universo. Mas será que Cole irá longe o suficiente para desbloquear sua arcana -- o imenso poder da sua alma -- a tempo de salvar não apenas a família, mas interromper os planos de Exoterra de uma vez por todas?</p>
+    </div>
+  
+    Opções de Exibição:
+    <select id="data">
+      <option value="19/03/2021">19/03/2021</option>
+      <option value="20/03/2021">20/03/2021</option>
+      <option value="21/03/2021">21/03/2021</option>
+    </select>
+
+    <select id="hora">
+      <option value="15:00">15:00</option>
+      <option value="17:00">17:00</option>
+      <option value="19:00">19:00</option>
+    </select>
+
+    <select id="filme">
+      <option value="Godzila vs Kong">Godzila vs Kong</option>
+      <option selected value="Mortal Kombat">Mortal Kombat</option>
+      <option value="Viúva Negra">Viúva Negra</option>
+    </select>
+
+    <select id="cadeira">
+      <option value="1A">Poltrona 1A</option>
+      <option value="2B">Poltrona 2B</option>
+      <option value="3C">Poltrona 3C</option>
+    </select>
+
+    <select id="ingresso">
+      <option value="Inteira">Inteira R$ 10,00</option>
+      <option value="Meia-entrada">Meia: R$ 5,00</option>
+    </select>
+
+    <button id="comprar">Comprar ingresso</button>
+  </main>
+
+  <script src='cinema.js'></script>
+</body>
+</html>

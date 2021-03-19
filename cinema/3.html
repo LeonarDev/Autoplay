@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8'>
+  <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+  <meta name='viewport' content='width=device-width, initial-scale=1'>
+  <link rel="stylesheet" href="style.css">
+  <title>Cinema Autoplay</title>
+</head>
+<body>
+  <header>
+    <h1 class="title">CINE AUTOPLAY</h1>
+  </header>
+  
+  <main>
+    <div>
+      <h2>Viúva Negra</h2>
+      <img src="https://www.cinemark.com.br/content/uploads/movie/7007/viuva-negra-poster-tablet.jpg">
+      <p class="sinopse">Em Godzilla vs Kong, as duas poderosas forças da natureza vão se enfrentar em batalha. Enquanto a organização científica secreta Monarch caça, investiga e estuda a origem dos Titãs, uma conspiração tem a intenção de acabar com todas as criaturas, sejam elas ameaçadoras ou não. O mundo sobreviverá ao duelo de monstros?</p>
+    </div>
+  
+    Opções de Exibição:
+    <select id="data">
+      <option value="19/03/2021">19/03/2021</option>
+      <option value="20/03/2021">20/03/2021</option>
+      <option value="21/03/2021">21/03/2021</option>
+    </select>
+
+    <select id="hora">
+      <option value="15:00">15:00</option>
+      <option value="17:00">17:00</option>
+      <option value="19:00">19:00</option>
+    </select>
+
+    <select id="filme">
+      <option value="Godzila vs Kong">Godzila vs Kong</option>
+      <option value="Mortal Kombat">Mortal Kombat</option>
+      <option selected value="Viúva Negra">Viúva Negra</option>
+    </select>
+
+    <select id="cadeira">
+      <option value="1A">Poltrona 1A</option>
+      <option value="2B">Poltrona 2B</option>
+      <option value="3C">Poltrona 3C</option>
+    </select>
+
+    <select id="ingresso">
+      <option value="Inteira">Inteira R$ 10,00</option>
+      <option value="Meia-entrada">Meia: R$ 5,00</option>
+    </select>
+
+    <button id="comprar">Comprar ingresso</button>
+  </main>
+
+  <script src='cinema.js'></script>
+</body>
+</html>

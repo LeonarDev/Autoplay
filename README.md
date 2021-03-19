@@ -1,2 +1,2 @@
-# Alura
+# Autoplay
 Exercises

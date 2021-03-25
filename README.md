@@ -1,8 +1,10 @@
 # Autoplay Links
 
-### [Jogo "Pong"](https://editor.p5js.org/LeonarDev/sketches/AVdhVQ8ro)
+### [Link do Jogo "Pong"](https://editor.p5js.org/LeonarDev/present/AVdhVQ8ro)
+##### [Código do Jogo](https://editor.p5js.org/LeonarDev/sketches/AVdhVQ8ro)
 
-### [Jogo "Freeway"](https://editor.p5js.org/LeonarDev/sketches/UFaV1WJ4l)
+### [Link do Jogo "Freeway"](https://editor.p5js.org/LeonarDev/present/UFaV1WJ4l)
+##### [Código do Jogo](https://editor.p5js.org/LeonarDev/sketches/UFaV1WJ4l)
 
 ### [Aplicação "Períodos do Dia"](https://github.com/LeonarDev/Autoplay/tree/main/projeto_datas)
 

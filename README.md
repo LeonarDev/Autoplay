@@ -1,5 +1,4 @@
 # Autoplay Links
-
 <br>
 
 ### [Link do Jogo "Pong"](https://editor.p5js.org/LeonarDev/present/AVdhVQ8ro)

@@ -1,25 +1,27 @@
-carregar = () => {
-  var message = document.getElementById("div_msg");
-  var image = document.getElementById("img_dia");
-
+load = () => {
   var date = new Date();
   var hour = date.getHours();
+  var image = document.getElementById("image");
+  var message = document.getElementById("message");
+  message.innerHTML = `Agora são ${hour} horas <br>`
 
-  message.innerHTML = `<br> Agora são ${hour} hours <br>`
-
-  if(hour >= 0 && hour < 12) {
-    image.src = "img/dia.png";
+  day = () => {
     document.body.style.background = "rgb(236, 225, 70)";
+    image.src = "img/dia.png";
     message.innerHTML += `<br>Bom dia!`
+  }
 
-  } else if (hour >= 12 && hour < 18) {
-    image.src = "img/tarde.png";
+  afternoon = () => {
     document.body.style.background = "rgb(218, 132, 4)";
+    image.src = "img/tarde.png";
     message.innerHTML += `<br>Boa tarde!`
+  }
 
-  } else {
-    image.src = "img/noite.png";
+  night = () => {
     document.body.style.background = "rgb(16, 3, 133)";
+    image.src = "img/noite.png";
     message.innerHTML += `<br>Boa noite!`
   }
+
+  hour < 12 ? day() : (hour >= 12 && hour < 18) ? afternoon() : night()  
 }

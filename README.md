@@ -15,4 +15,6 @@
 ### [Aplicação "Lista de Tarefas"](https://github.com/LeonarDev/Autoplay/tree/main/projeto_lista_de_tarefas)
 <hr>
 
+<br>
+
 ##### [Relatório de atividades](https://docs.google.com/spreadsheets/d/1Prodhu5ArRMOwmDUNxrt9BOTZ2vCblK0FRldaDVtr-s/edit?usp=sharing)

@@ -12,7 +12,7 @@ const getAge = () => {
 const checkGender = (gender) => {
   image.src = `img/${gender}.png`;
   
-  (gender === 'homem' || gender === 'mulher') ? 
+  (gender === 'male' || gender === 'female') ? 
     resultMessage.innerHTML = `Avaliado - ${selectedGender.value} com ${age} anos de idade` 
     : resultMessage.innerHTML = `Informe um ano de nascimento válido!`
 }
@@ -21,7 +21,7 @@ button.addEventListener('click', () => {
   selectedGender = document.querySelector('input[type="radio"]:checked');
   getAge();
 
-  selectedGender.value === 'Homem' && age > 0 && age <= 100 ? checkGender('homem')
-  : (selectedGender.value === 'Mulher' && age > 0 && age <= 100) ? checkGender('mulher') 
-  : checkGender('erro');
+  selectedGender.value === 'Homem' && age > 0 && age <= 100 ? checkGender('male')
+  : (selectedGender.value === 'Mulher' && age > 0 && age <= 100) ? checkGender('female') 
+  : checkGender('error');
 })

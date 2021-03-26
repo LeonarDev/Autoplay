@@ -12,7 +12,7 @@ const getAge = () => {
 const checkGender = (gender) => {
   image.src = `img/${gender}.png`;
   
-  (gender === 'male' || gender === 'female') ? 
+  gender === 'male' || gender === 'female' ? 
     resultMessage.innerHTML = `Avaliado - ${selectedGender.value} com ${age} anos de idade` 
     : resultMessage.innerHTML = `Informe um ano de nascimento válido!`
 }

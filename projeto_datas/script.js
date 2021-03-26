@@ -1,8 +1,8 @@
 load = () => {
-  var date = new Date();
-  var hour = date.getHours();
-  var image = document.getElementById("image");
-  var message = document.getElementById("message");
+  let date = new Date();
+  let hour = date.getHours();
+  let image = document.getElementById("image");
+  let message = document.getElementById("message");
   message.innerHTML = `Agora são ${hour} horas <br>`
 
   day = () => {

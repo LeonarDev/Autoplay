@@ -2,17 +2,17 @@
 
 <img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/cinema/readme-img/home.PNG">
 
-<br>>
+<br>
 
 <img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/cinema/readme-img/ingressos.PNG">
 
-<br>>
+<br>
 
 <img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/cinema/readme-img/filmes.PNG">
 
-<br>>
+<br>
 
 <img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/cinema/readme-img/comprar.PNG">
 
-<br>>
+<br>
 

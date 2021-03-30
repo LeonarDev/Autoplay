@@ -1,13 +1,10 @@
 let button = document.getElementById('comprar');
 let preco = 26;
 
-let isValid = () => {
-  if (ingresso === 'Meia-entrada') {
-    preco = 13;
-  }
+let compraValida = () => {
+  ingresso === 'Meia-Entrada' ? preco = 13 : preco
 
-  alert(`BILHETE COMPRADO: 
-  \n${filme} \n${data} às ${hora} \n Poltrona ${cadeira.value} \n${ingresso} por R$ ${preco} \n`)
+  alert(`BILHETE COMPRADO: \n${filme} \n${data} às ${hora} \nPoltrona ${cadeira.value} \n${ingresso} por R$ ${preco},00 \n`)
 }
 
 comprarIngresso = () => {
@@ -22,7 +19,7 @@ comprarIngresso = () => {
   : hora === '' ? alert(`Favor selecionar um horário`)
   : ingresso === '' ? alert(`Favor selecionar o tipo de ingresso`)
   : cadeira === null ? alert(`Favor selecionar uma poltrona`) 
-  : isValid();
+  : compraValida();
 }
 
 button.onclick = comprarIngresso;

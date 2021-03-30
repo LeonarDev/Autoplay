@@ -69,10 +69,6 @@ nav a:hover {
 	border-color: #164194;
 }
 
-.filmes li:active {
-	border-color: #088C19;	
-}
-
 .filmes li:hover h2 {
 	font-size: 34px;
 }
@@ -161,8 +157,6 @@ td, th {
 	padding: 8px 15px;
 }
 
-
-/* css da página inicial */
 .banner {
 	width:100%;
 }
@@ -273,7 +267,6 @@ td, th {
 .button {
 	width: auto;
 	height: 30px;
-	/* display: block; */
 	border: 2px solid #000;
 	background: #164194;
 	color: #FFF;
@@ -283,43 +276,42 @@ td, th {
 	border-radius: 3px;
 	text-decoration: none;
 	margin-top: auto;
-	}
+}
 	
-	.btn:hover{
-	 cursor:pointer;
-	}
+.btn:hover{
+	cursor:pointer;
+}
 
-	#filme {
-		font-size: 1.3rem;
-		width: 50%;
-		padding: 10px;
-	}
+#filme {
+	font-size: 1.3rem;
+	width: 50%;
+	padding: 10px;
+}
 
-	#data, #hora {
-		width: 23%;
-		padding: 10px;
-	}
+#data, #hora {
+	width: 23%;
+	padding: 10px;
+}
 
-	#hora {
-		height: 45px;
-	}
+#hora {
+	height: 45px;
+}
 
-	#ingresso {
-		padding: 10px;
-	}
+#ingresso {
+	padding: 10px;
+}
 
-	#comprar {
-		width: 68%;
-		padding: 14px;
-		color: #FFF ;
-		font-weight: bold;
-		font-size: 1.2rem;
-		background-color: #164194;
-		cursor: pointer;
-	}
+#comprar {
+	width: 68%;
+	padding: 14px;
+	color: #FFF ;
+	font-weight: bold;
+	font-size: 1.2rem;
+	background-color: #164194;
+	cursor: pointer;
+}
 
-.screen
-{
+.screen {
   width:100%;
   height:20px;
   background:#4388cc;
@@ -328,58 +320,52 @@ td, th {
   font-size:15px;
 }
 
-.smallBox::before
-{
+.smallBox::before {
   content:".";
   width:15px;
   height:15px;
   float:left;
   margin-right:10px;
 }
-.greenBox::before
-{
+
+.greenBox::before {
   content:"";
   background:Green;
 }
-.redBox::before
-{
+
+.redBox::before {
   content:"";
   background:Red;
 }
-.emptyBox::before
-{
-  content="";
+
+.emptyBox::before {
   box-shadow: inset 0px 2px 3px 0px rgba(0, 0, 0, .3), 0px 1px 0px 0px rgba(255, 255, 255, .8);
-    background-color:#ccc;
+	background-color:#ccc;
 }
 
-.seats
-{
+.seats {
   border:1px solid red;background:yellow;
 } 
 
-.seatGap
-{
+.seatGap {
   width:40px;
 }
 
-.seatVGap
-{
+.seatVGap {
   height:40px;
 }
 
-table
-{
+table {
   text-align:center;
 }
 
-.Displaytable
-{
+.Displaytable {
   text-align:center;
 }
+
 .Displaytable td, .Displaytable th {
-    border: 1px solid;
-    text-align: left;
+	border: 1px solid;
+	text-align: left;
 }
 
 @media screen and (max-width: 480px) {

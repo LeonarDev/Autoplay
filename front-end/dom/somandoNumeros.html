@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eventos - Somando Números</title>
+</head>
+
+<body>
+  <div> <!--SOMAR-->
+    <h1>Somando Valores</h1>
+    <input type="number" name="somar_numero1" id="somar1_Id"> +
+    <input type="number" name="somar_numero2" id="somar2_Id">
+    <input type="button" value="Somar" id="btn_somar" onclick="somar()">
+    <div id="divResultSomar">Resultado: </div>
+  </div>
+
+  <div> <!--SUBTRAIR-->
+    <h1>Subtraindo Valores</h1>
+    <input type="number" name="subtrair_numero1" id="subtrair1_Id"> -
+    <input type="number" name="subtrair_numero2" id="subtrair2_Id">
+    <input type="button" value="Subtrair" id="btn_subtrair" onclick="subtrair()">
+    <div id="divResultSubtrair">Resultado: </div>
+  </div>
+
+  <div> <!--MULTIPLICAR-->
+    <h1>Multiplicar Valores</h1>
+    <input type="number" name="multiplicar_numero1" id="multiplicar1_Id"> *
+    <input type="number" name="multiplicar_numero2" id="multiplicar2_Id">
+    <input type="button" value="Multiplicar" id="btn_multiplicar" onclick="multiplicar()">
+    <div id="divResultMultiplicar">Resultado: </div>
+  </div>
+
+  <div> <!--COMPARAR-->
+    <h1>Comparar Valores</h1>
+    <input type="number" name="comparar_numero1" id="compara1_Id"> ===
+    <input type="number" name="comparar_numero2" id="compara2_Id">
+    <input type="button" value="Comparar" id="btn_comparar" onclick="comparar()">
+    <div id="divResultComparar">Resultado: </div>
+  </div>
+
+  <script>
+    function somar() {
+      var elem_n1 = document.getElementById("somar1_Id")
+      var elem_n2 = document.getElementById("somar2_Id")
+      var elem_result = document.getElementById("divResultSomar")
+
+      //converter para number para somar e não concatenar
+      var n1 = Number(elem_n1.value)
+      var n2 = Number(elem_n2.value)
+      var total = n1 + n2
+
+      elem_result.innerHTML = "Resultado = " + total;
+
+      if (total > 10) {
+        elem_result.style.background = `green`; //trocar cor do fundo background para verde
+        elem_result.style.width = `300px`; //trocar tamanho da div width para 300
+        elem_result.style.font = `normal 15pt Arial` //trocar a font para "normal 15pt Arial";
+      } else {
+        elem_result.style.background = `aqua`; //trocar cor do fundo background para azul
+        elem_result.style.width = `200px`; //trocar tamanho da div width para 200
+        elem_result.style.font = `normal 10px Arial` //trocar a font para "normal 10pt Arial";
+      }
+    }
+
+    function subtrair() {
+      var elem_n1 = document.getElementById("subtrair1_Id")
+      var elem_n2 = document.getElementById("subtrair2_Id")
+      var elem_result = document.getElementById("divResultSubtrair")
+
+      //converter para number para somar e não concatenar
+      var n1 = Number(elem_n1.value)
+      var n2 = Number(elem_n2.value)
+      var total = n1 - n2
+
+      elem_result.innerHTML = "Resultado = " + total;
+
+      if (total > 10) {
+        elem_result.style.background = `green`; //trocar cor do fundo background para verde
+        elem_result.style.width = `300px`; //trocar tamanho da div width para 300
+        elem_result.style.font = `normal 15pt Arial` //trocar a font para "normal 15pt Arial";
+      } else {
+        elem_result.style.background = `aqua`; //trocar cor do fundo background para azul
+        elem_result.style.width = `200px`; //trocar tamanho da div width para 200
+        elem_result.style.font = `normal 10px Arial` //trocar a font para "normal 10pt Arial";
+      }
+    }
+
+    function multiplicar() {
+      var elem_n1 = document.getElementById("multiplicar1_Id")
+      var elem_n2 = document.getElementById("multiplicar2_Id")
+      var elem_result = document.getElementById("divResultMultiplicar")
+
+      //converter para number para somar e não concatenar
+      var n1 = Number(elem_n1.value)
+      var n2 = Number(elem_n2.value)
+      var total = n1 * n2
+
+      elem_result.innerHTML = "Resultado = " + total;
+
+      if (total > 10) {
+        elem_result.style.background = `green`; //trocar cor do fundo background para verde
+        elem_result.style.width = `300px`; //trocar tamanho da div width para 300
+        elem_result.style.font = `normal 15pt Arial` //trocar a font para "normal 15pt Arial";
+      } else {
+        elem_result.style.background = `aqua`; //trocar cor do fundo background para azul
+        elem_result.style.width = `200px`; //trocar tamanho da div width para 200
+        elem_result.style.font = `normal 10px Arial` //trocar a font para "normal 10pt Arial";
+      }
+    }
+
+    function comparar() {
+      var elem_n1 = document.getElementById("compara1_Id")
+      var elem_n2 = document.getElementById("compara2_Id")
+      var elem_result = document.getElementById("divResultComparar")
+
+      //converter para number para somar e não concatenar
+      var n1 = Number(elem_n1.value)
+      var n2 = Number(elem_n2.value)
+      var total = n1 === n2
+
+      elem_result.innerHTML = "Resultado = " + total;
+
+      if (total === true) {
+        elem_result.style.background = `green`; //trocar cor do fundo background para verde
+        elem_result.style.width = `300px`; //trocar tamanho da div width para 300
+        elem_result.style.font = `normal 15pt Arial` //trocar a font para "normal 15pt Arial";
+      } else {
+        elem_result.style.background = `aqua`; //trocar cor do fundo background para azul
+        elem_result.style.width = `200px`; //trocar tamanho da div width para 200
+        elem_result.style.font = `normal 10px Arial` //trocar a font para "normal 10pt Arial";
+      }
+    }
+  </script>
+</body>
+</html>

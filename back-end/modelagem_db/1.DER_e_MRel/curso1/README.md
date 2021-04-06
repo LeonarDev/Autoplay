@@ -1,7 +1,7 @@
 # Modelagem de banco de dados relacional: Entidades, relacionamentos e atributos
-Repositório de exercícios propostos pelo [Curso 1](https://cursos.alura.com.br/course/modelagem-banco-relacional-entidade-relacionamento-atributo) da Formação "Modelagem de dados" da [Alura](https://www.alura.com.br?raw=true).
+Repositório de exercícios propostos pelo **[Curso 1](https://cursos.alura.com.br/course/modelagem-banco-relacional-entidade-relacionamento-atributo)** da Formação "Modelagem de dados" da **[Alura](https://www.alura.com.br/)**.
 
-**Software utilizado**: [brModelo](http://www.sis4.com/brModelo/download.html)
+Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)**.
 
 <br>
 

@@ -19,14 +19,14 @@ Repositório de exercícios propostos pelo [Curso 1](https://cursos.alura.com.br
 <hr>
 <br>
 
-## [Exercício 3] Adicionando cardinalidade.
+## [Exercício 3] Identificando entidade associativa e adicionando cardinalidade.
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicio3.png?raw=true">
 
 <hr>
 <br>
 
-## [Exercício 4] Identificando entidade associativa, adicionando atributo de especialização e atributo multivalorado.
+## [Exercício 4] Adicionando atributo de especialização e atributo multivalorado.
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicio4.png?raw=true">
 

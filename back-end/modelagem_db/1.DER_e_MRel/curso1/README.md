@@ -7,32 +7,32 @@ Repositório de exercícios propostos pelo [Curso 1](https://cursos.alura.com.br
 
 ## [Exercício 1] Desenhando as entidades.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercico1.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicio1.png?raw=true">
 
 <hr>
 <br>
 
 ## [Exercício 2] Identificando entidades fortes/fracas e relacionamentos.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercico2.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicio2.png?raw=true">
 
 <hr>
 <br>
 
 ## [Exercício 3] Adicionando cardinalidade.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercico3.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicio3.png?raw=true">
 
 <hr>
 <br>
 
 ## [Exercício 4] Identificando entidade associativa, adicionando atributo de especialização e atributo multivalorado.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercico4.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicio4.png?raw=true">
 
 <hr>
 <br>
 
 ## [Exercício 5] Adicionando mais atributos, alinhando relações e finalizando diagrama.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicoFinal.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso1/imagens/exercicioFinal.png?raw=true">

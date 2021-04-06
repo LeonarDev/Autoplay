@@ -6,7 +6,7 @@ Repositório de exercícios propostos pelo [Curso 2](https://cursos.alura.com.br
 <br>
 
 ### Desafios realizados com base nas relações abaixo:
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso2/imagens/relations.png?raw=true"> <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso2/imagens/rel_empresa4.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/curso2/imagens/relations.png?raw=true"> 
 
 <hr>
 <br>

@@ -1,12 +1,12 @@
 # Modelagem de banco de dados relacional: Modelo e Álgebra Relacional
-Repositório de exercícios resolvidos propostos pelo [Curso 2](https://cursos.alura.com.br/course/modelagem-banco-relacional-algebra-relacional-sql) da Formação "Modelagem de dados" da [Alura](https://www.alura.com.br/).
+Repositório de exercícios propostos pelo [Curso 2](https://cursos.alura.com.br/course/modelagem-banco-relacional-algebra-relacional-sql) da Formação "Modelagem de dados" da [Alura](https://www.alura.com.br/).
 
 **Software utilizado**: [Relational](https://ltworf.github.io/relational/)
 
 <br>
 
-### Realizar as atividades com base nas relações abaixo:
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/2.empresa/imagens/relations.png?raw=true">
+### Desafios realizados com base nas relações abaixo:
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/2.empresa/imagens/relations.png?raw=true"> <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/2.empresa/imagens/rel_empresa4.png?raw=true">
 
 <hr>
 <br>

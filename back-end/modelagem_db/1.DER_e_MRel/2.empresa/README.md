@@ -1,9 +1,13 @@
 # Modelagem de banco de dados relacional: Modelo e Álgebra Relacional
-[Curso 2](https://cursos.alura.com.br/course/modelagem-banco-relacional-algebra-relacional-sql) da [Formação "Modelagem de dados"](https://cursos.alura.com.br/formacao-modelagem-dados) proposto pela [Alura](https://www.alura.com.br/).
+**Repositório de exercícios sobre o [Curso 2](https://cursos.alura.com.br/course/modelagem-banco-relacional-algebra-relacional-sql) da Formação "Modelagem de dados" proposta pela [Alura](https://www.alura.com.br/).**
 
 **Software utilizado**: [Relational](https://ltworf.github.io/relational/)
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/2.empresa/relations.png?raw=true">
+### Realizar as atividades com base nas relações abaixo:
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/2.empresa/imagens/relations.png?raw=true">
+
+<hr>
+<br>
 
 ### Desafio 1
 Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento 'Pesquisa'.

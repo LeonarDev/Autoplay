@@ -14,16 +14,11 @@ Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)**.
 <br>
 
 ## [Exercício 2] Locadora de Veículo
-**Elaborar o M.E.R., bem como identificar os atributos de cada entidade e
-relacionamentos, para uma Locadora de Automóveis, sabendo-se que:**
-- 􀀀Para cada veículo locado é necessário saber, a marca, modelo, descrição, cor, placa
-e outros;
-- Para cada contrato é necessário saber, data, preço da diária, o veículo, o cliente e o
-valor do seguro;
-- Para cada cliente é necessário saber, o nome, endereço, cpf e outros dados
-pessoais;
-- Para as manutenções dos veículos é necessário saber, por modelo o custo médio
-mensal.
+**Elaborar o M.E.R., bem como identificar os atributos de cada entidade e relacionamentos, para uma Locadora de Automóveis, sabendo-se que:**
+- Para cada veículo locado é necessário saber, a marca, modelo, descrição, cor, placa e outros;
+- Para cada contrato é necessário saber, data, preço da diária, o veículo, o cliente e o valor do seguro;
+- Para cada cliente é necessário saber, o nome, endereço, cpf e outros dados pessoais;
+- Para as manutenções dos veículos é necessário saber, por modelo o custo médio mensal.
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/02.png?raw=true">
 
@@ -32,14 +27,10 @@ mensal.
 
 ## [Exercício 3] Ambiente Corporativo
 **Elaborar o M.E.R., bem como identificar os atributos de cada entidade e relacionamentos, para um ambiente corporativo, composto de departamentos, sabendo-se que:**
-- Cada departamento possui um código, nome, sigla e um chefe;􀀀
-- Os chefes de departamento estão divididos em categorias e, para a empresa, é
-importante saber a data em que foi assumida cada chefia; 􀀀
-- Os empregados da empresa estão ligados a um departamento e a cada um deles
-está associado matrícula, nome, sexo, telefone, dependentes, data de admissão e
-cargo;
-- Os empregados são alocados em projetos e a informação data de alocação deve
-ser mantida; e
+- Cada departamento possui um código, nome, sigla e um chefe;
+- Os chefes de departamento estão divididos em categorias e, para a empresa, é importante saber a data em que foi assumida cada chefia; 
+- Os empregados da empresa estão ligados a um departamento e a cada um deles está associado matrícula, nome, sexo, telefone, dependentes, data de admissão e cargo;
+- Os empregados são alocados em projetos e a informação data de alocação deve ser mantida;
 - Cada projeto é caracterizado por um número, nome e horas previstas.
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/03.png?raw=true">
@@ -49,15 +40,11 @@ ser mantida; e
 
 ## [Exercício 4] Comercial
 **Uma empresa deseja informatizar sua Área Comercial. Após levantamento junto às áreas envolvidas, as seguintes necessidades foram identificadas:**
-- Para os produtos comercializados pela empresa é necessário saber o seu código,
-nome, custo, preço e a família de produtos a que pertence, bem como os preços e
-quantidades por pedido de venda. Para estes é necessário ter informações como
-número, data, cliente e as faturas
-- 􀀀Para os clientes é necessário ter o código, nome, endereço, pedidos de venda,
-faturas e duplicatas; e
-- Para as faturas o número, data, duplicatas geradas e a transportadora dos
-produtos constantes na mesma. Quanto às duplicatas, necessita-se o número, data
-de vencimento, cliente e o portador (banco).
+- Para os produtos comercializados pela empresa é necessário saber o seu código, nome, custo, preço e a família de produtos a que pertence, bem como os preços e
+quantidades por pedido de venda. Para estes é necessário ter informações como número, data, cliente e as faturas;
+- Para os clientes é necessário ter o código, nome, endereço, pedidos de venda, faturas e duplicatas;
+- Para as faturas o número, data, duplicatas geradas e a transportadora dos produtos constantes na mesma. Quanto às duplicatas, necessita-se o número, data de vencimento, cliente e o portador (banco).
+
 **Fazer o diagrama entidade relacionamento e identificar os atributos de cada entidade e de cada relacionamento**
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/04.png?raw=true">
@@ -95,7 +82,7 @@ de vencimento, cliente e o portador (banco).
 ## [Exercício 7] Companhia aérea
 **Considere a descrição de um sistema de venda de passagens aéreas dada abaixo e desenhe um diagrama ER de acordo com as seguintes informações:**
 - Para um passageiro são registrados o número do documento de identidade e o seu nome.
-- Um avião é caracterizado por um número de série único e por um modelo. 􀀀
+- Um avião é caracterizado por um número de série único e por um modelo.
 - Um assento é uma posição única em um avião, identificada por um código.
 - Um assento é da classe econômica ou executiva.
 - Um avião possui vários assentos e pode ser usado em vários vôos.

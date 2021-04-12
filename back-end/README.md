@@ -1,6 +1,8 @@
 # Back-end
 <br>
 
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/db.png?raw=true">
+
 ### Tópicos estudados:
 - Diagrama Entidade-Relacionamento e Modelo Relacional
 - Transformação do Diagrama ER para Modelo Relacional

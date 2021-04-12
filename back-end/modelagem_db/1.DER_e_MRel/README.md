@@ -11,6 +11,6 @@
 
 ### [2. Modelo e Álgebra Relacional](https://github.com/LeonarDev/Autoplay/tree/main/back-end/modelagem_db/1.DER_e_MRel/curso2)
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/der_corporativo.png?raw=true" />
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/1.DER_e_MRel/algebra_relacional.jpg?raw=true" />
 
-##### Diagrama Entidade Relacionamento - Corporativo
+##### Operadores - Algebra relacional

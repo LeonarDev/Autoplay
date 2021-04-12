@@ -1,7 +1,7 @@
 # Back-end
 <br>
 
-### Tópicos estuydados:
+### Tópicos estudados:
 - Diagrama Entidade-Relacionamento e Modelo Relacional
 - Transformação do Diagrama ER para Modelo Relacional
 - MySQL

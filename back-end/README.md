@@ -1,5 +1,4 @@
 # Back-end
-<br>
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/db.png?raw=true">
 

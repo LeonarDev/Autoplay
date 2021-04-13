@@ -4,7 +4,7 @@
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_MRel/curso3/imagens/exercicio3.png?raw=true" />
 
-##### Diagrama Entidade Relacionamento - Livraria
+// ##### Diagrama Entidade Relacionamento - Livraria
 
 <hr>
 <br>
@@ -13,4 +13,4 @@
 
 <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_MRel/curso3/imagens/exercicio3.png?raw=true" />
 
-##### Diagrama Entidade Relacionamento - Corporativo
+// ##### Diagrama Entidade Relacionamento - Corporativo

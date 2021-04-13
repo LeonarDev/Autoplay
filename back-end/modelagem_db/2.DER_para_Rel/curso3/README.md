@@ -49,4 +49,6 @@ Softwares utilizados: **[brModelo](http://www.sis4.com/brModelo/download.html)**
 
 ## [EXEMPLO] DER e MRel de companhia aérea.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_Rel/curso3/imagens/der_companhia_aerea.png?raw=true"><img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_Rel/curso3/imagens/mrel_companhia_aerea.png?raw=true">
+<p align="center">
+  <img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_Rel/curso3/imagens/der_companhia_aerea.png?raw=true"><img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_Rel/curso3/imagens/mrel_companhia_aerea.png?raw=true">
+</p>

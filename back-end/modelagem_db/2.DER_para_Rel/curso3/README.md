@@ -1,7 +1,7 @@
 # Modelagem de banco de dados relacional: Diagrama ER e Modelo Relacional
 Repositório de exercícios propostos pelo **[Curso 3](https://cursos.alura.com.br/course/modelagem-banco-relacional-entidade-relacionamento-modelo-relacional)** da Formação "Modelagem de dados" da **[Alura](https://www.alura.com.br/)**.
 
-Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)** e **[SQL Power Architect](http://www.bestofbi.com/page/architect_download_os)**.
+Softwares utilizados: **[brModelo](http://www.sis4.com/brModelo/download.html)** e **[SQL Power Architect](http://www.bestofbi.com/page/architect_download_os)**.
 
 <br>
 

@@ -7,7 +7,7 @@
 <hr>
 <br>
 
-### [2. Transformação do Diagrama de ER para Modelo Relacional](https://github.com/LeonarDev/Autoplay/tree/main/back-end/modelagem_db/2.DER_para_Rel)
+### [2. Transformação do Diagrama Entidade Relacionamento para Modelo Relacional](https://github.com/LeonarDev/Autoplay/tree/main/back-end/modelagem_db/2.DER_para_Rel)
 - Mapear os relacionamentos
 - Transformar um DER em MRel
 - Trabalhar com normalização (reduzir a redundância)

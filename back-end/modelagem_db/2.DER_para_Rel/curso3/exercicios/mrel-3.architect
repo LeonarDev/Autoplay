@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <architect-project version="1.0" appversion="1.0.9">
- <project-name>mrel-2</project-name>
+ <project-name>mrel-3</project-name>
  <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
  <project-data-sources>
   <data-source id="DS0">
@@ -150,12 +150,34 @@
     </index>
    </folder>
   </table>
+  <table id="TAB41" populated="true" UUID="57e87ced-0d80-44c9-9082-02f19aad5f26" name="ESTOQUE" objectType="TABLE" physicalName="TB_ESTOQUE" >
+   <remarks></remarks>
+   <folder id="FOLTAB411" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL42" populated="true" UUID="78be552a-7d2d-4f5a-8aaa-94aebfc9f765" autoIncrement="false" autoIncrementSequenceName="TB_ESTOQUE_QTD_ESTOQUE_seq" defaultValue="" name="QTD_ESTOQUE" nullable="0" physicalName="QTD_ESTOQUE" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL43" populated="true" UUID="9a6319ef-3835-42de-a5cf-73637b66b4a3" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_COD_LIVRO_seq" defaultValue="" name="COD_LIVRO" nullable="0" physicalName="COD_LIVRO" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
+    </folder>
+    <folder id="FOLTAB413" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    </folder>
+    <folder id="FOLTAB412" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    </folder>
+    <folder id="FOLTAB414" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX44" populated="true" UUID="63b29a70-23c5-4afa-a326-8353062e8f5f" clustered="false" name="TB_ESTOQUE_pk" physicalName="TB_ESTOQUE_pk" primaryKeyIndex="true" unique="false" >
+    </index>
+   </folder>
+  </table>
   <relationships>
-   <relationship id="REL41" populated="true" UUID="9f12d0c1-dc67-424b-8f9f-194924842191" deferrability="7" deleteRule="3" fk-table-ref="TAB23" fkCardinality="6" identifying="false" name="TB_CLIENTE_TB_PEDIDO_fk" physicalName="TB_CLIENTE_TB_PEDIDO_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP42" populated="true" UUID="690c9513-a364-4538-a8fc-6b7785d68bf8" fk-column-ref="COL27" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   <relationship id="REL45" populated="true" UUID="9f12d0c1-dc67-424b-8f9f-194924842191" deferrability="7" deleteRule="3" fk-table-ref="TAB23" fkCardinality="6" identifying="false" name="TB_CLIENTE_TB_PEDIDO_fk" physicalName="TB_CLIENTE_TB_PEDIDO_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP46" populated="true" UUID="690c9513-a364-4538-a8fc-6b7785d68bf8" fk-column-ref="COL27" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
    </relationship>
-   <relationship id="REL43" populated="true" UUID="a96ca041-a1c2-445a-bdb6-98930ee82220" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="6" identifying="false" name="TB_EDITORA_TB_LIVRO_fk" physicalName="TB_EDITORA_TB_LIVRO_fk" pk-table-ref="TAB14" pkCardinality="2" updateRule="3" >
-    <column-mapping id="CMP44" populated="true" UUID="19f22fcf-c5d5-496e-8cf3-cb051bdc459c" fk-column-ref="COL38" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL15" />
+   <relationship id="REL47" populated="true" UUID="a96ca041-a1c2-445a-bdb6-98930ee82220" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="6" identifying="false" name="TB_EDITORA_TB_LIVRO_fk" physicalName="TB_EDITORA_TB_LIVRO_fk" pk-table-ref="TAB14" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP48" populated="true" UUID="19f22fcf-c5d5-496e-8cf3-cb051bdc459c" fk-column-ref="COL38" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL15" />
+   </relationship>
+   <relationship id="REL49" populated="true" UUID="f1545796-dba9-40bb-8460-3855f7840c75" deferrability="7" deleteRule="3" fk-table-ref="TAB41" fkCardinality="7" identifying="false" name="TB_LIVRO_TB_ESTOQUE_fk" physicalName="TB_LIVRO_TB_ESTOQUE_fk" pk-table-ref="TAB30" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP50" populated="true" UUID="5c9ae9f9-de4f-4836-ad7e-e875dcfacfe5" fk-column-ref="COL43" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL31" />
    </relationship>
   </relationships>
  </target-database>
@@ -165,10 +187,12 @@
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
   <table-pane table-ref="TAB1" x="29" y="20" bgColor="0xbfd6ff" fgColor="0x0000cc" rounded="false" dashed="false"/>
   <table-pane table-ref="TAB14" x="294" y="20" bgColor="0xbfd6ff" fgColor="0x0000cc" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB23" x="29" y="246" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB30" x="294" y="204" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-link relationship-ref="REL41" pkConnection="0.4978902953586498" fkConnection="0.4978902953586498" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
-  <table-link relationship-ref="REL43" pkConnection="0.4979253112033195" fkConnection="0.4979253112033195" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-pane table-ref="TAB23" x="29" y="242" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB30" x="294" y="186" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB41" x="301" y="380" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL45" pkConnection="0.4978902953586498" fkConnection="0.4978902953586498" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL47" pkConnection="0.4979253112033195" fkConnection="0.4979253112033195" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL49" pkConnection="0.4896265560165975" fkConnection="0.4911504424778761" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">

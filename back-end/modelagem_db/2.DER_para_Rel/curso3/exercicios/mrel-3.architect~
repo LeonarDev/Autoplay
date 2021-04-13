@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <architect-project version="1.0" appversion="1.0.9">
- <project-name>mrel-2</project-name>
+ <project-name>mrel-3</project-name>
  <print-settings numCopies="1" zoom="1.0" pageNumbersPrinted="true" orientation="1" paperWidth="612.0" paperHeight="792.0" leftBorder="50.0" rightBorder="50.0" topBorder="50.0" bottomBorder="50.0" />
  <project-data-sources>
   <data-source id="DS0">
@@ -98,63 +98,77 @@
     <column id="COL26" populated="true" UUID="54bd6a29-1625-4e7c-9f50-3299e049ab00" autoIncrement="false" autoIncrementSequenceName="TB_PEDIDO_VALOR_PEDIDO_seq" defaultValue="" name="VALOR_PEDIDO" nullable="0" physicalName="VALOR_PEDIDO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="8" userDefinedTypeUUID="4fc90970-b2e5-41dd-911c-cc605d87e7a8" >
      <remarks></remarks>
     </column>
+    <column id="COL27" populated="true" UUID="4bcaaa31-46b3-42e8-b9ba-7d5567861046" autoIncrement="false" autoIncrementSequenceName="TB_CLIENTE_COD_CLIENTE_seq" defaultValue="" name="COD_CLIENTE" nullable="0" physicalName="COD_CLIENTE" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+     <remarks></remarks>
+    </column>
     </folder>
     <folder id="FOLTAB233" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
     <folder id="FOLTAB232" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
     <folder id="FOLTAB234" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX27" populated="true" UUID="6b986629-dd69-42a5-b2eb-31bc04f2f21f" clustered="false" name="TB_PEDIDO_pk" physicalName="TB_PEDIDO_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC28" populated="true" UUID="27be54e7-c4bc-4102-8e45-e3414644d878" ascendingOrDescending="UNSPECIFIED" column-ref="COL24" name="NUM_PEDIDO" physicalName="NUM_PEDIDO" />
+    <index id="IDX28" populated="true" UUID="6b986629-dd69-42a5-b2eb-31bc04f2f21f" clustered="false" name="TB_PEDIDO_pk" physicalName="TB_PEDIDO_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC29" populated="true" UUID="27be54e7-c4bc-4102-8e45-e3414644d878" ascendingOrDescending="UNSPECIFIED" column-ref="COL24" name="NUM_PEDIDO" physicalName="NUM_PEDIDO" />
     </index>
    </folder>
   </table>
-  <table id="TAB29" populated="true" UUID="daffc37b-5a8b-484b-a261-bbcba635c5fc" name="LIVRO" objectType="TABLE" physicalName="TB_LIVRO" >
+  <table id="TAB30" populated="true" UUID="daffc37b-5a8b-484b-a261-bbcba635c5fc" name="LIVRO" objectType="TABLE" physicalName="TB_LIVRO" >
    <remarks></remarks>
-   <folder id="FOLTAB291" populated="true" name="Columns" physicalName="Columns" type="1">
-    <column id="COL30" populated="true" UUID="7c3d8775-0e09-49e3-8bc5-17f882583841" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_COD_LIVRO_seq" defaultValue="" name="COD_LIVRO" nullable="0" physicalName="COD_LIVRO" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+   <folder id="FOLTAB301" populated="true" name="Columns" physicalName="Columns" type="1">
+    <column id="COL31" populated="true" UUID="7c3d8775-0e09-49e3-8bc5-17f882583841" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_COD_LIVRO_seq" defaultValue="" name="COD_LIVRO" nullable="0" physicalName="COD_LIVRO" precision="10" primaryKeySeq="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL31" populated="true" UUID="0c4d1a87-cbb3-4252-bdd7-8846f76ea169" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_NOME_LIVRO_seq" defaultValue="" name="NOME_LIVRO" nullable="0" physicalName="NOME_LIVRO" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL32" populated="true" UUID="0c4d1a87-cbb3-4252-bdd7-8846f76ea169" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_NOME_LIVRO_seq" defaultValue="" name="NOME_LIVRO" nullable="0" physicalName="NOME_LIVRO" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL32" populated="true" UUID="624a3a0c-1075-4e13-bc8c-cd411253b32b" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_AUTOR_seq" defaultValue="" name="AUTOR" nullable="0" physicalName="AUTOR" precision="150" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL33" populated="true" UUID="624a3a0c-1075-4e13-bc8c-cd411253b32b" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_AUTOR_seq" defaultValue="" name="AUTOR" nullable="0" physicalName="AUTOR" precision="150" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL33" populated="true" UUID="9b2ffade-5d64-4543-912d-4083f50d19a9" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_VALOR_seq" defaultValue="" name="VALOR" nullable="0" physicalName="VALOR" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="8" userDefinedTypeUUID="4fc90970-b2e5-41dd-911c-cc605d87e7a8" >
+    <column id="COL34" populated="true" UUID="9b2ffade-5d64-4543-912d-4083f50d19a9" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_VALOR_seq" defaultValue="" name="VALOR" nullable="0" physicalName="VALOR" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="8" userDefinedTypeUUID="4fc90970-b2e5-41dd-911c-cc605d87e7a8" >
      <remarks></remarks>
     </column>
-    <column id="COL34" populated="true" UUID="135a1117-1a23-480c-bc3c-6137821fe86d" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_CATEGORIA_seq" defaultValue="" name="CATEGORIA" nullable="0" physicalName="CATEGORIA" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL35" populated="true" UUID="135a1117-1a23-480c-bc3c-6137821fe86d" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_CATEGORIA_seq" defaultValue="" name="CATEGORIA" nullable="0" physicalName="CATEGORIA" precision="50" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL35" populated="true" UUID="7983fe1a-4f4a-4794-9a64-5d2561673537" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_ISBN_seq" defaultValue="" name="ISBN" nullable="0" physicalName="ISBN" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
+    <column id="COL36" populated="true" UUID="7983fe1a-4f4a-4794-9a64-5d2561673537" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_ISBN_seq" defaultValue="" name="ISBN" nullable="0" physicalName="ISBN" precision="15" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
-    <column id="COL36" populated="true" UUID="a53e35d4-1143-441d-a2f7-7330d4fdcb01" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_ANO_seq" defaultValue="" name="ANO" nullable="0" physicalName="ANO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+    <column id="COL37" populated="true" UUID="a53e35d4-1143-441d-a2f7-7330d4fdcb01" autoIncrement="false" autoIncrementSequenceName="TB_LIVRO_ANO_seq" defaultValue="" name="ANO" nullable="0" physicalName="ANO" precision="0" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="4" userDefinedTypeUUID="63b011c7-c81f-4c75-8271-632b3c87f727" >
+     <remarks></remarks>
+    </column>
+    <column id="COL38" populated="true" UUID="54606063-4d91-42cb-9c6b-2bf18c8ea71b" autoIncrement="false" autoIncrementSequenceName="TB_EDITORA_COD_EDITORA_seq" defaultValue="" name="COD_EDITORA" nullable="0" physicalName="COD_EDITORA" precision="10" referenceCount="1" scale="0" sourceDataTypeName="UserDefinedSQLType" type="12" userDefinedTypeUUID="831ac2d4-0e65-47ec-a0b7-62b7f6b8760a" >
      <remarks></remarks>
     </column>
     </folder>
-    <folder id="FOLTAB293" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
+    <folder id="FOLTAB303" populated="true" name="Exported Keys" physicalName="Exported Keys" type="3">
     </folder>
-    <folder id="FOLTAB292" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
+    <folder id="FOLTAB302" populated="true" name="Imported Keys" physicalName="Imported Keys" type="2">
     </folder>
-    <folder id="FOLTAB294" populated="true" name="Indices" physicalName="Indices" type="4">
-    <index id="IDX37" populated="true" UUID="20a37eec-9dd6-48b7-8f4a-24bca9ef951b" clustered="false" name="TB_LIVRO_pk" physicalName="TB_LIVRO_pk" primaryKeyIndex="true" unique="false" >
-     <index-column id="IDC38" populated="true" UUID="edf1e464-08c4-4566-82bb-37a6cd95c88f" ascendingOrDescending="UNSPECIFIED" column-ref="COL30" name="COD_LIVRO" physicalName="COD_LIVRO" />
+    <folder id="FOLTAB304" populated="true" name="Indices" physicalName="Indices" type="4">
+    <index id="IDX39" populated="true" UUID="20a37eec-9dd6-48b7-8f4a-24bca9ef951b" clustered="false" name="TB_LIVRO_pk" physicalName="TB_LIVRO_pk" primaryKeyIndex="true" unique="false" >
+     <index-column id="IDC40" populated="true" UUID="edf1e464-08c4-4566-82bb-37a6cd95c88f" ascendingOrDescending="UNSPECIFIED" column-ref="COL31" name="COD_LIVRO" physicalName="COD_LIVRO" />
     </index>
    </folder>
   </table>
   <relationships>
+   <relationship id="REL41" populated="true" UUID="9f12d0c1-dc67-424b-8f9f-194924842191" deferrability="7" deleteRule="3" fk-table-ref="TAB23" fkCardinality="6" identifying="false" name="TB_CLIENTE_TB_PEDIDO_fk" physicalName="TB_CLIENTE_TB_PEDIDO_fk" pk-table-ref="TAB1" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP42" populated="true" UUID="690c9513-a364-4538-a8fc-6b7785d68bf8" fk-column-ref="COL27" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL2" />
+   </relationship>
+   <relationship id="REL43" populated="true" UUID="a96ca041-a1c2-445a-bdb6-98930ee82220" deferrability="7" deleteRule="3" fk-table-ref="TAB30" fkCardinality="6" identifying="false" name="TB_EDITORA_TB_LIVRO_fk" physicalName="TB_EDITORA_TB_LIVRO_fk" pk-table-ref="TAB14" pkCardinality="2" updateRule="3" >
+    <column-mapping id="CMP44" populated="true" UUID="19f22fcf-c5d5-496e-8cf3-cb051bdc459c" fk-column-ref="COL38" name="Column Mapping" physicalName="Column Mapping" pk-column-ref="COL15" />
+   </relationship>
   </relationships>
  </target-database>
  <ddl-generator type="ca.sqlpower.architect.ddl.GenericDDLGenerator" allow-connection="true"> </ddl-generator>
  <liquibase-settings useSeparateChangeSets="false" generateId="false" idStart="1"/>
  <create-kettle-job-settings filePath="" jobName="" schemaName="" kettleJoinType="0" savingToFile="true" />
  <play-pen zoom="1.0" viewportX="0" viewportY="0" relationship-style="rectilinear" names-displayLogicalNames="true" showPrimaryTag="true" showForeignTag="true" showAlternateTag="true" columnVisibility="ALL" relationshipLabelVisibility="true">
-  <table-pane table-ref="TAB1" x="20" y="12" bgColor="0xbfd6ff" fgColor="0x0000cc" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB14" x="292" y="12" bgColor="0xbfd6ff" fgColor="0x0000cc" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB23" x="20" y="216" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
-  <table-pane table-ref="TAB29" x="291" y="216" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB1" x="29" y="20" bgColor="0xbfd6ff" fgColor="0x0000cc" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB14" x="294" y="20" bgColor="0xbfd6ff" fgColor="0x0000cc" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB23" x="29" y="246" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-pane table-ref="TAB30" x="294" y="189" bgColor="0xeeeeee" fgColor="0x000000" rounded="false" dashed="false"/>
+  <table-link relationship-ref="REL41" pkConnection="0.4978902953586498" fkConnection="0.4978902953586498" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
+  <table-link relationship-ref="REL43" pkConnection="0.4979253112033195" fkConnection="0.4979253112033195" rLineColor="0x000000" pkLabelText="" fkLabelText="" orientation="132"/>
  </play-pen>
  <critic-manager>
   <critic-grouping platformType="Generic" enabled="true">

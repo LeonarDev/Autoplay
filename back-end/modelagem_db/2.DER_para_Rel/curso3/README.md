@@ -6,6 +6,8 @@ Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)**.
 <br>
 
 Proposta: **Transformar um diagrama entidade-relacionamento em um modelo relacional.**
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/2.DER_para_Rel/curso3/imagens/DER_Livraria.png?raw=true">
+
 
 <br>
 

@@ -1,4 +1,4 @@
-# Transformação diagrama ER para Relacional
+# Transformando Diagrama ER para Relacional
 
 ### [3. Diagrama ER e Modelo Relacional](https://github.com/LeonarDev/Autoplay/tree/main/back-end/modelagem_db/2.DER_para_Rel/curso3)
 

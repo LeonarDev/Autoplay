@@ -116,13 +116,14 @@ SHOW tables;
 ## EXERCÍCIOS
 
 **Realizar as operações no MySQL conforme as tabelas apresentadas abaixo.**
+
 ![Tabelas](./img/tabelas.png)
 
 <hr>
 <br>
 
 ### [Exercício 1]
-#### Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento "Pesquisa".
+**Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento "Pesquisa".**
 
 ![Exercicio 1](./img/exercicio-1.png)
 
@@ -138,7 +139,7 @@ SHOW tables;
 <br>
 
 ### [EXERCÍCIO 3] 
-#### Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento 5.
+**Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento 5.**
 
 ![Exercicio 3](./img/exercicio-3.png)
 
@@ -146,7 +147,7 @@ SHOW tables;
 <br>
 
 ### [EXERCÍCIO 4] 
-#### Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.
+**Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.**
 
 ![Exercicio 4](./img/exercicio-4.png)
 
@@ -154,7 +155,7 @@ SHOW tables;
 <br>
 
 ### [EXERCÍCIO 5] 
-#### Recuperar os nomes dos funcionários que não possuem dependentes.
+**Recuperar os nomes dos funcionários que não possuem dependentes.**
 
 ![Exercicio 5](./img/exercicio-5.png)
 
@@ -162,7 +163,7 @@ SHOW tables;
 <br>
 
 ### [EXERCÍCIO 6] 
-#### Listar o nome dos gerentes que possuem pelo menos um dependente.
+**Listar o nome dos gerentes que possuem pelo menos um dependente.**
 
 ![Exercicio 6](./img/exercicio-6.png)
 

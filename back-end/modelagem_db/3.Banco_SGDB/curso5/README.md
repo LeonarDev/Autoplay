@@ -12,7 +12,7 @@ Software utilizado: **[MySQL Workbench](https://www.mysql.com/products/workbench
 
 ## Resumo de comandos
 
-### Criar um banco de dados:
+#### Criar um banco de dados:
 
 ```sql
 CREATE DATABASE nome-do-banco;
@@ -20,7 +20,7 @@ CREATE DATABASE nome-do-banco;
 
 <br>
 
-### Mostrar todos os bancos de dados:
+#### Mostrar todos os bancos de dados:
 
 ```sql
 SHOW DATABASES;
@@ -28,7 +28,7 @@ SHOW DATABASES;
 
 <br>
 
-### Antes de criar uma tabela ou realizar qualquer operação, é necessário selecionar o banco que será usado:
+#### Antes de criar uma tabela ou realizar qualquer operação, é necessário selecionar o banco que será usado:
 
 ```sql
 USE nome-do-banco;
@@ -36,7 +36,7 @@ USE nome-do-banco;
 
 <br>
 
-### Exemplo prático:
+#### Exemplo prático:
 
 ```sql
 CREATE DATABASE banco_clientes;
@@ -55,7 +55,7 @@ CREATE TABLE tabela_clientes (
 
 <br>
 
-### Exibir todas as tabelas do banco selecionado:
+#### Exibir todas as tabelas do banco selecionado:
 
 ```sql
 SHOW tables;
@@ -63,7 +63,7 @@ SHOW tables;
 
 <br>
 
-### Obter informações sobre uma tabela:
+#### Obter informações sobre uma tabela:
 
 ```sql
 
@@ -71,42 +71,42 @@ SHOW tables;
 
 <br>
 
-### 
+#### 
 ```sql
 
 ```
 
 <br>
 
-### 
+#### 
 ```sql
 
 ```
 
 <br>
 
-### 
+#### 
 ```sql
 
 ```
 
 <br>
 
-### 
+#### 
 ```sql
 
 ```
 
 <br>
 
-### 
+#### 
 ```sql
 
 ```
 
 <br>
 
-### 
+#### 
 ```sql
 
 ```
@@ -121,7 +121,8 @@ SHOW tables;
 
 <br>
 
-### [Exercício 1] Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento "Pesquisa".
+### [Exercício 1]
+#### Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento "Pesquisa".
 
 ![Exercicio 1](./img/exercicio-1.png)
 
@@ -129,7 +130,8 @@ SHOW tables;
 <hr>
 <br>
 
-### [EXERCÍCIO 2] Para cada projeto localizado em "Mauá", liste o número do projeto, o número do departamento que o controla, o último nome, endereço e data de nascimento do gerente do departamento.
+### [EXERCÍCIO 2] 
+#### Para cada projeto localizado em "Mauá", liste o número do projeto, o número do departamento que o controla, o último nome, endereço e data de nascimento do gerente do departamento.
 
 ![Exercicio 2](./img/exercicio-2.png)
 
@@ -137,7 +139,8 @@ SHOW tables;
 <hr>
 <br>
 
-### [EXERCÍCIO 3] Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento 5.
+### [EXERCÍCIO 3] 
+#### Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento 5.
 
 ![Exercicio 3](./img/exercicio-3.png)
 
@@ -145,7 +148,8 @@ SHOW tables;
 <hr>
 <br>
 
-### [EXERCÍCIO 4] Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.
+### [EXERCÍCIO 4] 
+#### Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.
 
 
 ![Exercicio 4](./img/exercicio-4.png)
@@ -153,14 +157,16 @@ SHOW tables;
 <hr>
 <br>
 
-### [EXERCÍCIO 5] Recuperar os nomes dos funcionários que não possuem dependentes.
+### [EXERCÍCIO 5] 
+#### Recuperar os nomes dos funcionários que não possuem dependentes.
 
 ![Exercicio 5](./img/exercicio-5.png)
 
 <hr>
 <br>
 
-### [EXERCÍCIO 6] Listar o nome dos gerentes que possuem pelo menos um dependente.
+### [EXERCÍCIO 6] 
+#### Listar o nome dos gerentes que possuem pelo menos um dependente.
 
 ![Exercicio 6](./img/exercicio-6.png)
 

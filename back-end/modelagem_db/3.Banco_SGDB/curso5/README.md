@@ -118,7 +118,7 @@ SHOW tables;
 **Realizar as operações no MySQL conforme as tabelas apresentadas abaixo.**
 ![Tabelas](./img/tabelas.png)
 
-
+<hr>
 <br>
 
 ### [Exercício 1]
@@ -126,15 +126,13 @@ SHOW tables;
 
 ![Exercicio 1](./img/exercicio-1.png)
 
-
 <hr>
 <br>
 
 ### [EXERCÍCIO 2] 
-#### Para cada projeto localizado em "Mauá", liste o número do projeto, o número do departamento que o controla, o último nome, endereço e data de nascimento do gerente do departamento.
+**Para cada projeto localizado em "Mauá", liste o número do projeto, o número do departamento que o controla, o último nome, endereço e data de nascimento do gerente do departamento.**
 
 ![Exercicio 2](./img/exercicio-2.png)
-
 
 <hr>
 <br>
@@ -144,13 +142,11 @@ SHOW tables;
 
 ![Exercicio 3](./img/exercicio-3.png)
 
-
 <hr>
 <br>
 
 ### [EXERCÍCIO 4] 
 #### Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.
-
 
 ![Exercicio 4](./img/exercicio-4.png)
 

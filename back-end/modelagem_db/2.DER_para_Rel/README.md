@@ -14,5 +14,4 @@
 
 <p align="center">
   <img src="./curso4/imagens/normalization-database.png">
-  <b>Normalização</b>
 </p>

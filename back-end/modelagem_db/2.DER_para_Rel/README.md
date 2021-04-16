@@ -13,6 +13,6 @@
 ### [4. Normalização](https://github.com/LeonarDev/Autoplay/tree/main/back-end/modelagem_db/2.DER_para_Rel/curso4)
 
 <p align="center">
-<src="./curso4/imagens/normalization-database.png">
+<img src="./curso4/imagens/normalization-database.png">
   <b>Normalização</b>
 </p>

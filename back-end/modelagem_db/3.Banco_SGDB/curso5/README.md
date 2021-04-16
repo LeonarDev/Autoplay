@@ -10,6 +10,7 @@ Software utilizado: **[MySQL Workbench](https://www.mysql.com/products/workbench
 
 <br>
 
+<!-- 
 ## Resumo de comandos
 
 #### Criar um banco de dados:
@@ -111,7 +112,7 @@ SHOW tables;
 
 ```
 
-<br>
+<br> -->
 
 ## EXERCÍCIOS
 

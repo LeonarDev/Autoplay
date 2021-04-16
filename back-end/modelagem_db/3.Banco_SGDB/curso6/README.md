@@ -186,7 +186,6 @@ SHOW tables;
 
 **Queremos saber quais departamentos possuem gerentes cujo ano de início da gerência foi em 2005. Apresentar apenas o nome do departamento.**
 
-### [RESPOSTA]
 ```sql
 SELECT
   JSON_EXTRACT(JSONVALUE, "$.Nome_Departamento") 
@@ -214,7 +213,6 @@ WHERE
 
 **Construa a consulta SQL para obter a média de horas trabalhadas por projeto. (Nome da tabela tb_object_trabalha_em e nome do campo JSONVALUE).**
 
-### [RESPOSTA]
 ```sql
 SELECT
   JSON_EXTRACT(JSONVALUE, "$.Numero_Projeto"), 

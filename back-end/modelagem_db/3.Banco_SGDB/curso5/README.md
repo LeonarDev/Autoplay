@@ -6,7 +6,7 @@ Software utilizado: **[MySQL Workbench](https://www.mysql.com/products/workbench
 
 <br>
 
-![MySQL](./img/mysql.jpg)
+![MySQL](./img/sql.jpg)
 
 <br>
 

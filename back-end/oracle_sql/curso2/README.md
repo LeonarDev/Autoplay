@@ -119,7 +119,7 @@ SHOW tables;
 
 ```
 
-<br> -->
+<br>
 
 ## EXERCÍCIOS
 
@@ -177,3 +177,5 @@ SHOW tables;
 
 <hr>
 <br>
+
+ -->

@@ -1,5 +1,9 @@
 # SQL com Oracle Database
 
+<img src="./plsql.jpg">
+
+<br>
+
 ### [1. Introdução ao SQL com Oracle: Manipule e consulte dados](https://github.com/LeonarDev/Autoplay/tree/main/back-end/modelagem_db/2.DER_para_Rel/curso3)
 
 <hr>

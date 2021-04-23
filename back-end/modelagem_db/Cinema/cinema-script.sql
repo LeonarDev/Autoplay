@@ -1,5 +1,7 @@
 CREATE SCHEMA `cinema`;
 
+USE `cinema`;
+
 CREATE TABLE TB_FILME (
                 ID_FILME VARCHAR(10) NOT NULL,
                 TITULO_BR VARCHAR(200) NOT NULL,

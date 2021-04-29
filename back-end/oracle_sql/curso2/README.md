@@ -13,169 +13,83 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 - Views no banco de dados
 - Funções principais no Oracle
 
-<!-- 
-![MySQL](./img/sql.jpg)
-
-<br>
-
-## Resumo de comandos
-
-#### Criar um banco de dados:
-
-```sql
-CREATE DATABASE nome-do-banco;
-```
-
-<br>
-
-#### Mostrar todos os bancos de dados:
-
-```sql
-SHOW DATABASES;
-```
-
-<br>
-
-#### Antes de criar uma tabela ou realizar qualquer operação, é necessário selecionar o banco que será usado:
-
-```sql
-USE nome-do-banco;
-```
-
-<br>
-
-#### Exemplo prático:
-
-```sql
-CREATE DATABASE banco_clientes;
-
-USE banco_clientes;
-
-CREATE TABLE tabela_clientes (
-  idCliente int NOT NULL auto_increment,
-  nomeEmpresa varchar(255) not null,
-  nomeDiretor varchar(255) default NULL,
-  numEmpregados mediumint default NULL,
-  PRIMARY KEY (idCliente)
-) ;
-
-```
-
-<br>
-
-#### Exibir todas as tabelas do banco selecionado:
-
-```sql
-SHOW tables;
-```
-
-<br>
-
-#### Obter informações sobre uma tabela:
-
-```sql
-
-```
-
-<br>
-
-#### 
-```sql
-
-```
-
-<br>
-
-#### 
-```sql
-
-```
-
-<br>
-
-#### 
-```sql
-
-```
-
-<br>
-
-#### 
-```sql
-
-```
-
-<br>
-
-#### 
-```sql
-
-```
-
-<br>
-
-#### 
-```sql
-
-```
-
-<br>
-
 ## EXERCÍCIOS
 
-**Realizar as operações no MySQL conforme as tabelas apresentadas abaixo.**
-
-![Tabelas](./img/tabelas.png)
-
-<hr>
-<br>
-
 ### [Exercício 1]
-**Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento "Pesquisa".**
+**Quantos clientes possuem o último sobrenome Mattos?**
 
-![Exercicio 1](./img/exercicio-1.png)
+![Exercicio 1](./exercicios/Screenshot_1.png)
 
 <hr>
 <br>
 
 ### [EXERCÍCIO 2] 
-**Para cada projeto localizado em "Mauá", liste o número do projeto, o número do departamento que o controla, o último nome, endereço e data de nascimento do gerente do departamento.**
+**Quantos bairros diferentes da cidade do Rio de Janeiro possuem clientes?**
 
-![Exercicio 2](./img/exercicio-2.png)
+![Exercicio 2](./exercicios/Screenshot_2.png)
+
 
 <hr>
 <br>
 
 ### [EXERCÍCIO 3] 
-**Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento 5.**
+**Queremos obter as 10 primeiras vendas do dia 01/01/2017. Qual seria o comando SQL para obter este resultado?**
 
-![Exercicio 3](./img/exercicio-3.png)
+![Exercicio 3](./exercicios/Screenshot_3.png)
 
 <hr>
 <br>
 
 ### [EXERCÍCIO 4] 
-**Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.**
+**Utilizando duas querys SQL, qual foi a maior venda do produto "Linha Refrescante - 1 Litro - Morango/Limao", em quantidade?**
 
-![Exercicio 4](./img/exercicio-4.png)
+![Exercicio 4](./exercicios/Screenshot_4.png)
 
 <hr>
 <br>
 
 ### [EXERCÍCIO 5] 
-**Recuperar os nomes dos funcionários que não possuem dependentes.**
+**Aproveitando o exercício do vídeo anterior, quantos itens existem com a maior quantidade de venda para o produto '1101035'?**
 
-![Exercicio 5](./img/exercicio-5.png)
+![Exercicio 5](./exercicios/Screenshot_5.png)
 
 <hr>
 <br>
 
 ### [EXERCÍCIO 6] 
-**Listar o nome dos gerentes que possuem pelo menos um dependente.**
+**Veja o ano de nascimento dos clientes e classifique-os como:**
 
-![Exercicio 6](./img/exercicio-6.png)
+- **Nascidos antes de 1990 são velhos**
+- **Nascidos entre 1990 e 1995 são jovens**
+- **Nascidos depois de 1995 são crianças**
+
+**Liste o nome dos clientes e suas classificações.**
+
+![Exercicio 6](./exercicios/Screenshot_6.png)
 
 <hr>
 <br>
 
- -->
+### [EXERCÍCIO 7] 
+**Como agrupar os produtos por embalagem, pegar a média de preço para cada tipo de embalagem e conferir o status de preço para cada embalagem (caro/em conta/barato)?**
+
+![Exercicio 7](./exercicios/Screenshot_7.png)
+
+<hr>
+<br>
+
+### [EXERCÍCIO 8] 
+**Quais os clientes que fizeram mais de 2000 compras em 2016?**
+
+![Exercicio 8](./exercicios/Screenshot_8.png)
+
+<hr>
+<br>
+
+### [EXERCÍCIO 9] 
+**Levando em consideração que o valor financeiro das vendas consiste em multiplicar a quantidade pelo preço, obtenha o faturamento anual da empresa.**
+
+![Exercicio 9](./exercicios/Screenshot_9.png)
+
+<hr>
+<br>

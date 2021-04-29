@@ -12,12 +12,17 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 - Lidando com COMMIT e ROLLBACK
 - Trabalhando com triggers e definindo sequências
 
-<!-- 
 <br>
 
 ## EXERCÍCIOS
 
-**[01] Quantos clientes possuem o último sobrenome Mattos?**
+**[01] Baseado na definição da tabela CLIENTE, como mostrado abaixo:**
+
+![Tabela Cliente](./img/cliente.png)
+
+**Como é a definição da tabela, os nomes dos campos estão em linguagem natural. Por exemplo, o campo Endereço, no banco de dados, deve ser ENDERECO, e o campo Limite Crédito deve ser LIMITE_CREDITO.**
+
+**Como seria o comando SQL para a criação dessa tabela CLIENTE?**
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -29,7 +34,7 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 <hr>
 <br>
 
-**[02] Quantos bairros diferentes da cidade do Rio de Janeiro possuem clientes?**
+**[02] Através da linha de comando, como seriam os comandos para criar uma chave estrangeira ligando a tabela de PRODUTOS com a tabela de ITENS_NOTA, através do campo CODIGO, e outra ligação entre a tabela NOTAS e ITENS_NOTA, através do campo NUMERO?**
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -41,6 +46,7 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 <hr>
 <br>
 
+<!-- 
 **[03] Queremos obter as 10 primeiras vendas do dia 01/01/2017. Qual seria o comando SQL para obter este resultado?**
 
 <details>

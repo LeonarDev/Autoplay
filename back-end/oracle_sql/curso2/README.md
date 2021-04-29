@@ -186,3 +186,80 @@ HAVING COUNT(*) > 2000
 
 <hr>
 <br>
+
+**[14] Com SQL, queremos que cada cliente tenha como saída:**
+
+- *"O cliente **João da Silva** faturou **120000** no ano de **2016**".*
+
+**OBS.: Faça isso somente para o ano de 2016.**
+
+<details>
+<summary>Mostrar resposta</summary>
+  
+![Exercicio 14](./exercicios/Screenshot_14.png)
+
+</details>
+
+<hr>
+<br>
+
+**[15]  Monte uma seleção que determina se as vendas mensais por cliente são válidas ou não. Considere como válidas as vendas abaixo da quantidade limite, e não válidas as vendas acima da quantidade limite existente no cadastro do cliente.**
+
+<details>
+<summary>Mostrar resposta</summary>
+  
+![Exercicio 15](./exercicios/Screenshot_15.png)
+
+</details>
+
+<hr>
+<br>
+
+**[16]  No exercício anterior, construímos um relatório que apresentou os clientes que tiveram vendas inválidas. Complemente este relatório, listando somente os que tiveram vendas inválidas e calculando a diferença entre o limite de venda máximo e o realizado, em percentuais. Dica:**
+
+- Filtre somente as linhas onde:
+```sql
+(X.QUANTIDADE_LIMITE - X.QUANTIDADE_VENDAS) < 0
+```
+
+<br>
+
+- Liste a coluna de X.QUANTIDADE_LIMITE
+- Crie uma nova coluna, fazendo a fórmula:
+```sql
+(1 - (X.QUANTIDADE_LIMITE/X.QUANTIDADE_VENDAS)) * 100
+```
+
+<details>
+<summary>Mostrar resposta</summary>
+  
+![Exercicio 16](./exercicios/Screenshot_16.png)
+
+</details>
+
+<hr>
+<br>
+
+**[17] Determine a venda por sabores de sucos, para o ano de 2016, apresentando o percentual de participação de cada um destes sabores, ordenados:**
+
+<details>
+<summary>Mostrar resposta</summary>
+  
+![Exercicio 17](./exercicios/Screenshot_17.png)
+
+</details>
+
+<hr>
+<br>
+
+**[18] Modifique o relatório de cima para ver o ranking das vendas por tamanho.**
+
+<details>
+<summary>Mostrar resposta</summary>
+  
+![Exercicio 18](./exercicios/Screenshot_18.png)
+
+</details>
+
+<hr>
+<br>

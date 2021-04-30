@@ -46,8 +46,23 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 <hr>
 <br>
 
-<!-- 
-**[03] Queremos obter as 10 primeiras vendas do dia 01/01/2017. Qual seria o comando SQL para obter este resultado?**
+**[03] Analise o seguinte cliente:**
+
+- CPF: 1478662710
+- NOME: Érica Carvalho
+- ENDEREÇO: R. Iriquitia
+- BAIRRO: Jardins
+- CIDADE: São Paulo
+- ESTADO: SP
+- CEP: 80012212
+- DATA DE NASCIMENTO: 01/09/1990
+- IDADE: 27
+- SEXO: F
+- LIMITE DE CRÉDITO: 170000
+- VOLUME DE COMPRA: 24500
+- PRIMEIRA COMPRA: Não
+
+**Como seria o comando SQL para inserir o cliente acima na tabela CLIENTES?**
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -59,6 +74,7 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 <hr>
 <br>
 
+<!-- 
 **[04] Utilizando duas querys SQL, qual foi a maior venda do produto "Linha Refrescante - 1 Litro - Morango/Limao", em quantidade?**
 
 <details>

@@ -89,7 +89,7 @@ END;
 ALTER USER cursoplsql
     QUOTA UNLIMITED ON users;
 ```
-*Obs.: Utilizar o comando acima na conexão padrão (na conexão de instalação).*
+*Obs.: Utilizar o comando acima como script da conexão padrão (na conexão de instalação).*
 <br>
 
 #### Execução de comandos SQL em blocos PL/SQL:

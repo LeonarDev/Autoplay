@@ -12,8 +12,6 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 - Recuperar registros com o Cursor
 - Tratar e definir exceções
 
-![MySQL](./img/sql.jpg)
-
 <br>
 
 ## Resumo
@@ -36,6 +34,8 @@ GRANT connect, resource TO cursoplsql;
 ```sql
 SHOW DATABASES;
 ```
+![Conexão](./img/nova_conexao.png)
+![Conexão](./img/nova_conexao-2.png)
 
 <br>
 

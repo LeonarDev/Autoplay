@@ -31,9 +31,6 @@ GRANT connect, resource TO cursoplsql;
 
 #### Criando uma conexão e conectando o usuário nela
 
-```sql
-SHOW DATABASES;
-```
 ![Conexão](./img/nova_conexao.png)
 ![Conexão](./img/nova_conexao-2.png)
 

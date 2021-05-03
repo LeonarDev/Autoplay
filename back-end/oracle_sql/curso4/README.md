@@ -12,22 +12,26 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 - Recuperar registros com o Cursor
 - Tratar e definir exceções
 
-<!-- 
 ![MySQL](./img/sql.jpg)
 
 <br>
 
-## Resumo de comandos
+## Resumo
 
-#### Criar um banco de dados:
+#### Criando um novo usuário e concedendo privilégios de acesso ao usuário no ambiente:
 
 ```sql
-CREATE DATABASE nome-do-banco;
+ALTER SESSION SET "_oracle_script" = true;
+
+CREATE USER cursoplsql IDENTIFIED BY cursoplsql
+    DEFAULT TABLESPACE users;
+
+GRANT connect, resource TO cursoplsql;
 ```
 
 <br>
 
-#### Mostrar todos os bancos de dados:
+#### Criando uma conexão e conectando o usuário nela
 
 ```sql
 SHOW DATABASES;
@@ -35,70 +39,279 @@ SHOW DATABASES;
 
 <br>
 
-#### Antes de criar uma tabela ou realizar qualquer operação, é necessário selecionar o banco que será usado:
+#### Criando o esquema:
 
 ```sql
-USE nome-do-banco;
+CREATE TABLE segmercado (
+    id         NUMBER(5),
+    descricao  VARCHAR2(100)
+);
+
+CREATE TABLE cliente (
+    id                    NUMBER(5),
+    razao_social          VARCHAR2(100),
+    cnpj                  VARCHAR2(20),
+    segmercado_id         NUMBER(5),
+    data_inclusao         DATE,
+    faturamento_previsto  NUMBER(10, 2),
+    categoria             VARCHAR2(20)
+);
+
+ALTER TABLE segmercado ADD CONSTRAINT segmercado_id_pk PRIMARY KEY ( id );
+
+ALTER TABLE cliente ADD CONSTRAINT cliente_id_pk PRIMARY KEY ( id );
+
+ALTER TABLE cliente
+  ADD CONSTRAINT cliente_segmercado_fk FOREIGN KEY ( segmercado_id )
+    REFERENCES segmercado ( id );
 ```
 
 <br>
 
-#### Exemplo prático:
+#### Exemplo de um bloco PL/SQL:
 
 ```sql
-CREATE DATABASE banco_clientes;
+SET SERVEROUTPUT ON;
 
-USE banco_clientes;
-
-CREATE TABLE tabela_clientes (
-  idCliente int NOT NULL auto_increment,
-  nomeEmpresa varchar(255) not null,
-  nomeDiretor varchar(255) default NULL,
-  numEmpregados mediumint default NULL,
-  PRIMARY KEY (idCliente)
-) ;
-
+DECLARE
+    v_id NUMBER(5) := 1;
+BEGIN
+    v_ID := 2;
+    dbms_output.put_line(v_id);
+END;
 ```
 
 <br>
 
-#### Exibir todas as tabelas do banco selecionado:
+#### Concedendo mais privilégios de acesso ao usuário "cursoplsql" / quota ilimitada para armazenar dados no tablespace:
 
 ```sql
-SHOW tables;
+ALTER USER cursoplsql
+    QUOTA UNLIMITED ON users;
+```
+*Obs.: Utilizar o comando acima na conexão padrão (na conexão de instalação).*
+<br>
+
+#### Execução de comandos SQL em blocos PL/SQL:
+
+SQL
+```sql
+INSERT INTO segmercado (
+    id,
+    descricao
+) VALUES (
+    1,
+    'Varejo'
+);
 ```
 
 <br>
 
-#### Obter informações sobre uma tabela:
-
+PL/SQL
 ```sql
+DECLARE
+    v_id         NUMBER(5) := 1;
+    v_descricao  VARCHAR2(100) := 'Varejo';
+BEGIN
+    INSERT INTO segmercado (
+        id,
+        descricao
+    ) VALUES (
+        v_id,
+        v_descricao
+    );
 
+    COMMIT;
+END
 ```
 
 <br>
 
-#### 
+#### Usando Percent Type (Se houver mudanças na estrutura do banco de dados, o programa não apresentará problemas)
 ```sql
+DECLARE
+    v_id         NUMBER(5) := 1;
+    v_descricao  VARCHAR2(100) := 'Varejo';
+BEGIN
+    INSERT INTO segmercado (
+        id,
+        descricao
+    ) VALUES (
+        v_id,
+        upper(v_descricao)
+    );
 
+    COMMIT;
+END;
 ```
 
 <br>
 
-#### 
+#### Usando vários comandos em bloco:
 ```sql
+DECLARE
+    v_ID         segmercado.id%TYPE := 2;
+    v_DESCRICAO  segmercado.descricao%TYPE := 'Atacadista';
+BEGIN
+    UPDATE segmercado SET descricao = upper(v_DESCRICAO) WHERE id = v_ID;
+    
+    v_ID := 1;
+    v_DESCRICAO := 'Varejista';
+    UPDATE segmercado SET descricao = upper(v_DESCRICAO) WHERE id = v_ID;
 
+    COMMIT;
+END;
 ```
 
 <br>
 
-#### 
+#### Removendo registros com PL/SQL:
 ```sql
+DECLARE
+    v_id segmercado.id%TYPE := 3;
+BEGIN
+    DELETE FROM segmercado WHERE id = v_id;
 
+    COMMIT;
+END;
 ```
 
 <br>
 
+#### Criando procedures
+```sql
+-- cria a procedure
+CREATE PROCEDURE incluir_segmercado (
+    p_id         IN  NUMBER,
+    p_descricao  IN  VARCHAR2
+) IS
+BEGIN
+    INSERT INTO segmercado (
+        id,
+        descricao
+    ) VALUES (
+        p_id,
+        upper(p_descricao)
+    );
+
+    COMMIT;
+END;
+
+-- executa a procedura criada
+EXECUTE incluir_segmercado(3, 'Farmaceuticos');
+
+-- outra forma de executar a procedura criada
+BEGIN
+    incluir_segmercado(4, 'Industrial');
+END;
+```
+
+<br>
+
+#### Alterando procedures 
+```sql
+CREATE OR REPLACE PROCEDURE incluir_segmercado (
+    p_id         IN  segmercado.id%TYPE,
+    p_descricao  IN  segmercado.descricao%TYPE
+) IS
+BEGIN
+    INSERT INTO segmercado (
+        id,
+        descricao
+    ) VALUES (
+        p_id,
+        upper(p_descricao)
+    );
+
+    COMMIT;
+END;
+```
+
+<br>
+
+#### Retornando o descritor do segmento
+```sql
+SET SERVEROUTPUT ON;
+
+DECLARE
+    v_id         segmercado.id%TYPE := 1;
+    v_descricao  segmercado.descricao%TYPE;
+BEGIN
+    SELECT
+        descricao
+    INTO v_descricao
+    FROM
+        segmercado
+    WHERE
+        id = v_id;
+
+    dbms_output.put_line(v_descricao);
+END;
+```
+
+<br>
+
+#### Criando uma função
+```sql
+CREATE OR REPLACE FUNCTION obter_descricao_segmercado (
+    p_id IN segmercado.id%TYPE
+) RETURN segmercado.descricao%TYPE 
+IS
+    v_descricao segmercado.descricao%TYPE;
+BEGIN
+    SELECT
+        descricao
+    INTO v_descricao
+    FROM
+        segmercado
+    WHERE
+        id = p_id;
+
+    RETURN v_descricao;
+END;
+```
+
+<br>
+
+#### Executando uma função
+```sql
+-- Utilizando SQL Puro
+VARIABLE g_descricao VARCHAR2(100);
+
+EXECUTE :g_descricao := obter_descricao_segmercado(1);
+
+PRINT g_descricao;
+/*
+OUTPUT:
+Procedimento PL/SQL concluído com sucesso.
+
+
+G_DESCRICAO
+--------------------------------------------------------------------------------
+VAREJISTA
+*/
+
+-- Utilizando PL/SQL
+SET SERVEROUTPUT ON;
+
+DECLARE
+    v_descricao segmercado.descricao%TYPE;
+BEGIN
+    v_descricao := obter_descricao_segmercado(2);
+    dbms_output.put_line('A descrição do Segmento de Mercado é ' || v_descricao);
+END;
+/*
+OUTPUT:
+A descrição do Segmento de Mercado é ATACADISTA
+
+
+Procedimento PL/SQL concluído com sucesso.
+*/
+```
+
+<br>
+
+<!-- 
 #### 
 ```sql
 

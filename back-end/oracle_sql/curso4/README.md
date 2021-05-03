@@ -127,7 +127,7 @@ END
 
 <br>
 
-#### Usando Percent Type (Se houver mudanças na estrutura do banco de dados, o programa não apresentará problemas)
+#### Usando upper (para evitar erros de case sensitive no select) e usando Percent Type (caso houver mudança na estrutura do banco de dados, o programa não apresentará problemas)
 ```sql
 DECLARE
     v_id         NUMBER(5) := 1;

@@ -308,83 +308,416 @@ Procedimento PL/SQL concluído com sucesso.
 
 <br>
 
-<!-- 
-#### 
+#### Manipulando tabela "clientes":
 ```sql
+CREATE OR REPLACE PROCEDURE incluir_cliente (
+    p_id                    IN  cliente.id%TYPE,
+    p_razao_social          IN  cliente.razao_social%TYPE,
+    p_cnpj                  IN  cliente.cnpj%TYPE,
+    p_segmercado_id         IN  cliente.segmercado_id%TYPE,
+    p_faturamento_previsto  IN  cliente.faturamento_previsto%TYPE
+) IS
+BEGIN
+    INSERT INTO cliente (
+        id,
+        razao_social,
+        cnpj,
+        segmercado_id,
+        data_inclusao,
+        faturamento_previsto,
+        categoria
+    ) VALUES (
+        p_id,
+        p_razao_social,
+        p_cnpj,
+        p_segmercado_id,
+        sysdate,
+        p_faturamento_previsto,
+        '00000'
+    );
+
+    COMMIT;
+END;
+
+EXECUTE incluir_cliente(2, 'supermercado ijk', '67890', 1, 90000);
+```
+
+<br>
+
+#### Obtendo a categoria com IF ELSIF ELSE
+```sql
+SET SERVEROUTPUT ON;
+
+DECLARE
+    v_faturamento_previsto  cliente.faturamento_previsto%TYPE := 65000;
+    v_categoria             cliente.categoria%TYPE;
+BEGIN
+    IF v_faturamento_previsto < 10000 THEN
+        v_categoria := 'PEQUENO';
+    ELSIF v_faturamento_previsto < 50000 THEN
+        v_categoria := 'MÉDIO';
+    ELSIF v_faturamento_previsto < 100000 THEN
+        v_categoria := 'MÉDIO GRANDE';
+    ELSE
+        v_categoria := 'GRANDE';
+    END IF;
+
+    dbms_output.put_line('A Categoria é ' || v_categoria);
+END;
+```
+
+<br>
+
+#### Criando a função de obter categoria (conforme procedure acima)
+```sql
+CREATE OR REPLACE FUNCTION categoria_cliente (
+    p_faturamento_previsto IN cliente.faturamento_previsto%TYPE
+) RETURN cliente.categoria%TYPE IS
+    v_categoria cliente.categoria%TYPE;
+BEGIN
+    IF p_faturamento_previsto < 10000 THEN
+        v_categoria := 'PEQUENO';
+    ELSIF p_faturamento_previsto < 50000 THEN
+        v_categoria := 'MÉDIO';
+    ELSIF p_faturamento_previsto < 100000 THEN
+        v_categoria := 'MÉDIO GRANDE';
+    ELSE
+        v_categoria := 'GRANDE';
+    END IF;
+
+    RETURN v_categoria;
+END;
+```
+
+<br>
+
+### Editando a função incluir_cliente recebendo a categoria correta:
+```sql
+CREATE OR REPLACE PROCEDURE incluir_cliente (
+    p_id                    IN  cliente.id%TYPE,
+    p_razao_social          IN  cliente.razao_social%TYPE,
+    p_cnpj                  IN  cliente.cnpj%TYPE,
+    p_segmercado_id         IN  cliente.segmercado_id%TYPE,
+    p_faturamento_previsto  IN  cliente.faturamento_previsto%TYPE
+) IS
+    v_categoria cliente.categoria%TYPE;
+BEGIN
+    v_categoria := categoria_cliente(p_faturamento_previsto);
+    INSERT INTO cliente (
+        id,
+        razao_social,
+        cnpj,
+        segmercado_id,
+        data_inclusao,
+        faturamento_previsto,
+        categoria
+    ) VALUES (
+        p_id,
+        p_razao_social,
+        p_cnpj,
+        p_segmercado_id,
+        sysdate,
+        p_faturamento_previsto,
+        v_categoria
+    );
+
+    COMMIT;
+END;
+```
+
+<br>
+
+### Criando uma procedure para formatar a saída do campo CNPJ:
+```sql
+CREATE OR REPLACE PROCEDURE formata_cnpj (
+    p_cnpj IN OUT cliente.cnpj%TYPE
+) IS
+BEGIN
+    p_cnpj := substr(p_cnpj, 1, 3)
+              || '/'
+              || substr(p_cnpj, 4, 2);
+END;
+
 
 ```
 
 <br>
 
-#### 
+### Usando a procedure `formata_cnpj` dentro de `incluir_cliente` para incluir o cnpj formatado:
 ```sql
+CREATE OR REPLACE PROCEDURE incluir_cliente (
+    p_id                    IN  cliente.id%TYPE,
+    p_razao_social          IN  cliente.razao_social%TYPE,
+    p_cnpj                  IN  cliente.cnpj%TYPE,
+    p_segmercado_id         IN  cliente.segmercado_id%TYPE,
+    p_faturamento_previsto  IN  cliente.faturamento_previsto%TYPE
+) IS
+    v_categoria  cliente.categoria%TYPE;
+    v_cnpj       cliente.cnpj%TYPE := p_cnpj;
+BEGIN
+    formata_cnpj(v_cnpj);
+    v_categoria := categoria_cliente(p_faturamento_previsto);
+    INSERT INTO cliente (
+        id,
+        razao_social,
+        cnpj,
+        segmercado_id,
+        data_inclusao,
+        faturamento_previsto,
+        categoria
+    ) VALUES (
+        p_id,
+        p_razao_social,
+        v_cnpj,
+        p_segmercado_id,
+        sysdate,
+        p_faturamento_previsto,
+        v_categoria
+    );
 
+    COMMIT;
+END;
 ```
 
 <br>
 
-#### 
+### Procedure para atualizar o segmento de mercado de um cliente:
 ```sql
+CREATE OR REPLACE PROCEDURE atualizar_cli_seg_mercado (
+    p_id             cliente.id%TYPE,
+    p_segmercado_id  cliente.segmercado_id%TYPE
+) IS
+BEGIN
+    UPDATE cliente
+    SET
+        segmercado_id = p_segmercado_id
+    WHERE
+        id = p_id;
 
+    COMMIT;
+END;
 ```
 
 <br>
 
-## EXERCÍCIOS
+### Criando um Loop para atualizar o segmento de mercado dos clientes:
+```sql
+DECLARE
+    v_segmercado_id cliente.segmercado_id%TYPE := 3;
+BEGIN
+    FOR v_id IN 1..6 LOOP
+        atualizar_cli_seg_mercado(p_id => v_id, p_segmercado_id => v_segmercado_id);
+    END LOOP;
+END;
+```
 
-**Realizar as operações no MySQL conforme as tabelas apresentadas abaixo.**
-
-![Tabelas](./img/tabelas.png)
-
-<hr>
 <br>
 
-### [Exercício 1]
-**Recuperar o nome e o endereço de todos os funcionários que trabalham para o departamento "Pesquisa".**
+### Criando um CURSOR:
+```sql
+SET SERVEROUTPUT ON;
 
-![Exercicio 1](./img/exercicio-1.png)
+DECLARE
+    CURSOR cur_cliente IS
+    SELECT
+        id,
+        razao_social
+    FROM
+        cliente;
 
-<hr>
+    v_id            cliente.id%TYPE;
+    v_razao_social  cliente.razao_social%TYPE;
+BEGIN
+    OPEN cur_cliente;
+    LOOP
+        FETCH cur_cliente INTO
+            v_id,
+            v_razao_social;
+        EXIT WHEN cur_cliente%notfound;
+        dbms_output.put_line('ID = ' || v_id);
+        dbms_output.put_line(v_razao_social);
+    END LOOP;
+
+    CLOSE cur_cliente;
+END;
+```
+
 <br>
 
-### [EXERCÍCIO 2] 
-**Para cada projeto localizado em "Mauá", liste o número do projeto, o número do departamento que o controla, o último nome, endereço e data de nascimento do gerente do departamento.**
+### Simplificando um cursor com FOR:
+```sql
+DECLARE
+    CURSOR cur_cliente IS
+    SELECT
+        id
+    FROM
+        cliente;
 
-![Exercicio 2](./img/exercicio-2.png)
+    v_segmercado_id cliente.segmercado_id%TYPE := 1;
+BEGIN
+    FOR cli_rec IN cur_cliente LOOP
+        atualizar_cli_seg_mercado(p_segmercado_id => v_segmercado_id, p_id => cli_rec.id);
+    END LOOP;
+END;
+```
 
-<hr>
 <br>
 
-### [EXERCÍCIO 3] 
-**Descobrir os nomes dos funcionários que trabalham em todos os projetos controlados pelo departamento 5.**
+### Introduzindo exceções:
+```sql
+CREATE OR REPLACE PROCEDURE incluir_cliente (
+    p_id                    IN  cliente.id%TYPE,
+    p_razao_social          IN  cliente.razao_social%TYPE,
+    p_cnpj                  IN  cliente.cnpj%TYPE,
+    p_segmercado_id         IN  cliente.segmercado_id%TYPE,
+    p_faturamento_previsto  IN  cliente.faturamento_previsto%TYPE
+) IS
+    v_categoria  cliente.categoria%TYPE;
+    v_cnpj       cliente.cnpj%TYPE := p_cnpj;
+BEGIN
+    formata_cnpj(v_cnpj);
+    v_categoria := categoria_cliente(p_faturamento_previsto);
+    INSERT INTO cliente (
+        id,
+        razao_social,
+        cnpj,
+        segmercado_id,
+        data_inclusao,
+        faturamento_previsto,
+        categoria
+    ) VALUES (
+        p_id,
+        p_razao_social,
+        v_cnpj,
+        p_segmercado_id,
+        sysdate,
+        p_faturamento_previsto,
+        v_categoria
+    );
 
-![Exercicio 3](./img/exercicio-3.png)
+    COMMIT;
+EXCEPTION
+    WHEN dup_val_on_index THEN
+        dbms_output.put_line('CLIENTE JÁ CADASTRADO!');
+END;
+```
 
-<hr>
 <br>
 
-### [EXERCÍCIO 4] 
-**Fazer uma lista dos números de projetos para aqueles que envolvem um funcionário cujo último nome é 'Souza'. Seja como trabalhador, seja como gerente do departamento que controla o projeto.**
+### Lançando exceção não prevista. E agora com "raise_application_error" (ao invés de "dbms_output.put_line"):
+```sql
+CREATE OR REPLACE PROCEDURE incluir_cliente (
+    p_id                    IN  cliente.id%TYPE,
+    p_razao_social          IN  cliente.razao_social%TYPE,
+    p_cnpj                  IN  cliente.cnpj%TYPE,
+    p_segmercado_id         IN  cliente.segmercado_id%TYPE,
+    p_faturamento_previsto  IN  cliente.faturamento_previsto%TYPE
+) IS
 
-![Exercicio 4](./img/exercicio-4.png)
+    v_categoria  cliente.categoria%TYPE;
+    v_cnpj       cliente.cnpj%TYPE := p_cnpj;
+    e_null EXCEPTION;
+    PRAGMA exception_init ( e_null, -1400 );
+BEGIN
+    formata_cnpj(v_cnpj);
+    v_categoria := categoria_cliente(p_faturamento_previsto);
+    INSERT INTO cliente (
+        id,
+        razao_social,
+        cnpj,
+        segmercado_id,
+        data_inclusao,
+        faturamento_previsto,
+        categoria
+    ) VALUES (
+        p_id,
+        p_razao_social,
+        v_cnpj,
+        p_segmercado_id,
+        sysdate,
+        p_faturamento_previsto,
+        v_categoria
+    );
 
-<hr>
+    COMMIT;
+EXCEPTION
+    WHEN dup_val_on_index THEN
+        raise_application_error(-20010, 'Cliente já cadastrado !!!!');
+    WHEN e_null THEN
+        raise_application_error(-20015, 'A coluna ID não pode receber valores nulos ou vazios !!!!');
+END;
+```
+
 <br>
 
-### [EXERCÍCIO 5] 
-**Recuperar os nomes dos funcionários que não possuem dependentes.**
+### Lançando exceções não cadastradas (erro genérico):
+```sql
+CREATE OR REPLACE PROCEDURE incluir_cliente (
+    p_id                    IN  cliente.id%TYPE,
+    p_razao_social          IN  cliente.razao_social%TYPE,
+    p_cnpj                  IN  cliente.cnpj%TYPE,
+    p_segmercado_id         IN  cliente.segmercado_id%TYPE,
+    p_faturamento_previsto  IN  cliente.faturamento_previsto%TYPE
+) IS
 
-![Exercicio 5](./img/exercicio-5.png)
+    v_categoria  cliente.categoria%TYPE;
+    v_cnpj       cliente.cnpj%TYPE := p_cnpj;
+    e_null EXCEPTION;
+    PRAGMA exception_init ( e_null, -1400 );
+BEGIN
+    formata_cnpj(v_cnpj);
+    v_categoria := categoria_cliente(p_faturamento_previsto);
+    INSERT INTO cliente (
+        id,
+        razao_social,
+        cnpj,
+        segmercado_id,
+        data_inclusao,
+        faturamento_previsto,
+        categoria
+    ) VALUES (
+        p_id,
+        p_razao_social,
+        v_cnpj,
+        p_segmercado_id,
+        sysdate,
+        p_faturamento_previsto,
+        v_categoria
+    );
 
-<hr>
+    COMMIT;
+EXCEPTION
+    WHEN dup_val_on_index THEN
+        raise_application_error(-20010, 'Cliente já cadastrado !!!!');
+    WHEN e_null THEN
+        raise_application_error(-20015, 'A coluna ID não pode receber valores nulos ou vazios !!!!');
+    WHEN OTHERS THEN
+        raise_application_error(-20020, 'Erro genérico : ' || sqlerrm());
+END;
+```
+
 <br>
 
-### [EXERCÍCIO 6] 
-**Listar o nome dos gerentes que possuem pelo menos um dependente.**
+### Erros de usuário (exemplo: update em uma linha inexistente):
+```sql
+CREATE OR REPLACE PROCEDURE atualizar_cli_seg_mercado (
+    p_id             cliente.id%TYPE,
+    p_segmercado_id  cliente.segmercado_id%TYPE
+) IS
+    e_cliente_id_inexistente EXCEPTION;
+BEGIN
+    UPDATE cliente
+    SET
+        segmercado_id = p_segmercado_id
+    WHERE
+        id = p_id;
 
-![Exercicio 6](./img/exercicio-6.png)
-
-<hr>
-<br>
-
- -->
+    IF SQL%notfound THEN
+        RAISE e_cliente_id_inexistente;
+    END IF;
+    COMMIT;
+EXCEPTION
+    WHEN e_cliente_id_inexistente THEN
+        raise_application_error(-20100, 'Cliente inexistente !!!!');
+END;
+```

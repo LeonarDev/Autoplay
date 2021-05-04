@@ -12,7 +12,7 @@
 ### [Aplicação "Períodos do Dia"](https://github.com/LeonarDev/Autoplay/tree/main/projeto_datas)
 <hr>
 
-### [Aplicação "Lista de Tarefas"](https://github.com/LeonarDev/Autoplay/tree/main/projeto_lista_de_tarefas)
+### [Aplicação "Lista de Tarefas"](https://github.com/LeonarDev/Autoplay/tree/main/front-end/projeto_lista_de_tarefas)
 <hr>
 
 ### [Aplicação "Idades"](https://github.com/LeonarDev/Autoplay/tree/main/projeto_idades)

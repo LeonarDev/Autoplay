@@ -15,7 +15,7 @@ Software utilizado: **[SQL Developer](https://www.oracle.com/tools/downloads/sql
 
 <br>
 
-#### Começando:
+### Começando:
 
 01) No menu superior, clique em Arquivo e depois em Abrir. Abra o script 01_Criar_Usuarios.sql.
 
@@ -84,6 +84,7 @@ GRANT EXECUTE ON incluir_cliente TO user_app;
 ```sql
 EXECUTE user_dev.incluir_cliente(5, 'Primeiro Cliente incluido por user_app', '23456', 2, 100000);
 ```
+
 21) Para visualizar a tabela, digite e execute o seguinte:
 
 ```sql
@@ -96,12 +97,14 @@ SELECT * FROM user_dev.CLIENTE;
 
 23) Note que o cliente 5 foi incluído com sucesso pelo usuário user_app.
 
-
-<!-- 
 <br>
 
-#### Antes de criar uma tabela ou realizar qualquer operação, é necessário selecionar o banco que será usado:
 
+### Exercícios
+
+#### Criando sinônimos públicos para compartilhar objetos mais facilmente:
+...CONTINUA
+<!-- 
 ```sql
 USE nome-do-banco;
 ```

@@ -29,7 +29,7 @@ ALTER SESSION SET "_ORACLE_SCRIPT"=true;
 
 04) Crie agora uma nova conexão no SQL developer. Para isso, clique no sinal de adição +, na aba Conexões, no lado esquerdo da tela.
 
-[1]('./imgs/image1.png')
+[1](imgs/image1.png)
 
 05) Nos campos Name, Nome do Usuário e Senha, digite user_dev. Em seguida, clique em Salvar.
 
@@ -39,7 +39,7 @@ ALTER SESSION SET "_ORACLE_SCRIPT"=true;
 
 08) Agora, na aba Conexões, clique na conexão user_dev:
 
-[2]('./imgs/image2.png')
+[2](imgs/image2.png)
 
 9) Preencha a senha e clique em OK.
 
@@ -92,7 +92,7 @@ SELECT * FROM user_dev.CLIENTE;
 
 22) A tabela é apresentada abaixo:
 
-[3]('./imgs/image3.png')
+[3](imgs/image3.png)
 
 23) Note que o cliente 5 foi incluído com sucesso pelo usuário user_app.
 

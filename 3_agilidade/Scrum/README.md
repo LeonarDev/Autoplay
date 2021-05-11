@@ -1,6 +1,6 @@
 # Scrum
 
-
+![Scrum](./scrum.png)
 
 ## ÍNDICE
 - [Review Meeting](#review-meeting)
@@ -22,8 +22,6 @@
   - [Refinamento do backlog](#refinamento-do-backlog)
   - [Um pessoa só](#uma-pessoa-só)
 - [Desenvolvedor](#desenvolvedor)
-  - [Desenvolvedores devem](#desenvolvedores-devem)
-  - [Desenvolvedores não devem](#desenvolvedores-não-devem)
 - [Papeis do time todo](#papeis-do-time-todo)
   - [Uma única restrição](#uma-única-restrição)
 - [Exercícios](#exercícios)
@@ -324,7 +322,8 @@ Tanto P.O. quanto Scrum Master, contudo, podem ser também desenvolvedores, já 
 <br>
 <hr>
 
-## Exercícios
+# Exercícios
+![exercises](../crack_fingers.gif)
 
 ### O que é Scrum? Qual é a principal diferença entre ele e outros métodos ágeis?
 

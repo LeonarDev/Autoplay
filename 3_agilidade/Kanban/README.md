@@ -1,7 +1,7 @@
 <h1 align="center">Kanban</h1>
 
 <p align="center">
-  <img src='./kanban.jpg'>
+  <img src='./kanban2.jpg'>
 </p>
 
 ## ÍNDICE

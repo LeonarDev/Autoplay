@@ -13,7 +13,7 @@
   - Aprenda a divisão de tarefas dentro da equipe
   - Saiba quais são as responsabilidades do Product Owner e do Scrum Master
 
-- [Scrum]()
+- [Scrum](https://github.com/LeonarDev/Autoplay/tree/main/3_agilidade/Scrum)
   - Aprenda o processo ágil mais popular do mercado.
   - Aplique esse processo em seu projeto
   - Veja como práticar uma Retrospectiva

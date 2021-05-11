@@ -7,7 +7,7 @@
 - [Definição de Pronto](#-definição-de-pronto)
 - [Retrospectiva](#-retrospectiva)
 - [Ações](#-ações)
-- [Daily Scrum](#-daily-scrum)
+- [Daily Scrum](#daily-scrum)
 - [Planning Meeting](#-planning-meeting)
 - [Product e Sprint Backlogs](#-product-e-sprint-backlogs)
 - [Histórias e tarefas](#-histórias-e-tarefas)
@@ -84,6 +84,7 @@ O resultado de uma retrospectiva é uma lista, preferencialmente curta, de açõ
 
 <br>
 
+<!-- <a name="daily-scrum"></a> -->
 ### Daily Scrum
 Na sessão anterior de Retrospectiva você aprendeu sobre essa importante ferramenta para promover melhoria contínua, mas esperar o fim da Sprint para resolver probleminhas do dia-a-dia seria um grande desperdício de tempo.
 

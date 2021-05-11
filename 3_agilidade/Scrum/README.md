@@ -3,10 +3,22 @@
 
 
 ## ÍNDICE
-<a href="review-meeting">Review Meeting</a>
+[Review Meeting](#-review-meeting)
+[Definição de Pronto](#-definição-de-pronto)
+[Retrospectiva](#-retrospectiva)
+[Ações](#-ações)
+[Daily Scrum](#-daily-scrum)
+[Planning Meeting](#-planning-meeting)
+[Product e Sprint Backlogs](#-product-e-sprint-backlogs)
+[Histórias e tarefas](#-histórias-e-tarefas)
+[Scrum Master](#-scrum-master)
+[Product Owner](#-product-owner)
+[Desenvolvedor](#-desenvolvedor)
+[Papeis do time todo](#-papeis-do-time-todo)
+[Exercícios](#-exercícios)
 
-### <a name="review-meeting">Review Meeting</a>
 
+### Review Meeting
 Mesmo com o feedback que o PO dá ao longo da Sprint, tudo o que foi produzido pode ainda não ser bem o que o usuário final quer. Pensando nisso e na construção de um relacionamento pessoal entre time e cliente ou usuário, temos um momento na Sprint em que ambas as partes participam: a Review Meeting.
 
 Na reunião de Review, mostra-se para o cliente e, se possível, o usuário homologa tudo o que ficou pronto na Sprint. Além de cliente e usuários convidados, todos os membros do time participam dessa reunião: desenvolvedores, Scrum Master e Product Owner.
@@ -280,7 +292,7 @@ Em resumo, no dia-a-dia dos desenvolvedores em times ágeis...
 
 <br>
 
-### Papeis to time todo
+### Papeis do time todo
 Vimos anteriormente que há atividades e responsabilidades que são específicas para P.O., Scrum Master ou desenvolvedores. Há também as que são responsabilidade do time como um todo.
 
 Poderíamos citar aqui diversos itens: participar das reuniões, definir e executar ações das retrospectivas, criar e manter uma definição de pronto clara para todos, definir a duração da Sprint, manter o ambiente do time organizado e informativo, identificar necessidades de estudo, contratação, etc.

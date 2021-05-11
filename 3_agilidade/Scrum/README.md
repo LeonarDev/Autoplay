@@ -3,19 +3,19 @@
 
 
 ## ÍNDICE
-- [Review Meeting](#-review-meeting)
-- [Definição de Pronto](#-definição-de-pronto)
-- [Retrospectiva](#-retrospectiva)
-- [Ações](#-ações)
+- [Review Meeting](#review-meeting)
+- [Definição de Pronto](#definição-de-pronto)
+- [Retrospectiva](#retrospectiva)
+- [Ações](#ações)
 - [Daily Scrum](#daily-scrum)
-- [Planning Meeting](#-planning-meeting)
-- [Product e Sprint Backlogs](#-product-e-sprint-backlogs)
-- [Histórias e tarefas](#-histórias-e-tarefas)
-- [Scrum Master](#-scrum-master)
-- [Product Owner](#-product-owner)
-- [Desenvolvedor](#-desenvolvedor)
-- [Papeis do time todo](#-papeis-do-time-todo)
-- [Exercícios](#-exercícios)
+- [Planning Meeting](#planning-meeting)
+- [Product e Sprint Backlogs](#product-e-sprint-backlogs)
+- [Histórias e tarefas](#histórias-e-tarefas)
+- [Scrum Master](#scrum-master)
+- [Product Owner](#product-owner)
+- [Desenvolvedor](#desenvolvedor)
+- [Papeis do time todo](#papeis-do-time-todo)
+- [Exercícios](#exercícios)
 
 
 ### Review Meeting

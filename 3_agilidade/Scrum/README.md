@@ -28,6 +28,8 @@
   - [Uma única restrição](#uma-única-restrição)
 - [Exercícios](#exercícios)
 
+<br>
+<hr>
 
 ### Review Meeting
 Mesmo com o feedback que o PO dá ao longo da Sprint, tudo o que foi produzido pode ainda não ser bem o que o usuário final quer. Pensando nisso e na construção de um relacionamento pessoal entre time e cliente ou usuário, temos um momento na Sprint em que ambas as partes participam: a Review Meeting.

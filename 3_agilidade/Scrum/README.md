@@ -206,7 +206,7 @@ Assim, lembre-se que Scrum Master não é a pessoa que vai resolver problemas t�
 
 <br>
 
-### Product Owner (P.O.)
+### Product Owner
 
 Agora que já vimos os timeboxes e artefatos do Scrum, também já falamos um bocado da atuação de cada um dos três papéis que pessoas desenvolvem no Scrum. Nessa e nas próximas sessões, faremos uma grande revisão e consolidação do conhecimento já visto até agora, focando nos papéis do Scrum.
 

@@ -11,7 +11,7 @@
 - [Planning Meeting](#planning-meeting)
 - [Product e Sprint Backlogs](#product-e-sprint-backlogs)
   - [Product Backlog](#product-backlog)
-  - [Spring Backlog](#spring-backlog)
+  - [Sprint Backlog](#sprint-backlog)
   - [Histórias e tarefas](#histórias-e-tarefas)
 - [Scrum Master](#scrum-master)
   - [O dia a dia de um Scrum Master](#o-dia-a-dia-de-um-scrum-master)

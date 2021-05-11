@@ -622,6 +622,8 @@ O que ela diz?
 <details>
 <summary>Mostrar resposta</summary>
 
+<br>
+
 >
 >O time todo (todos os desenvolvedores, Product Owner e Scrum Master) participam dessa reunião. Convidar clientes para essa reunião é pouco frequente, já que muitas vezes uma Sprint atenderá pedidos de vários clientes/usuários com perfis diferentes.
 >
@@ -778,8 +780,12 @@ O que ela diz?
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-O Scrum Master age para manter a reunião produtiva e dentro do timebox combinado. Ele não coordena reuniões como faria um chefe tradicional, apenas ajuda o time a manter o foco!
+   
+<br>
+
+> 
+>O Scrum Master age para manter a reunião produtiva e dentro do timebox combinado. Ele não coordena reuniões como faria um chefe tradicional, apenas ajuda o time a manter o foco!
+> 
 
 </details>
 

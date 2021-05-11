@@ -1,6 +1,8 @@
-# Scrum
+<h1 align="center">Scrum</h1>
 
-![Scrum](./scrum.png)
+<p align="center">
+  <img src='./scrum.png'>
+</p>
 
 ## ÍNDICE
 - [Review Meeting](#review-meeting)
@@ -153,22 +155,22 @@ Esses itens podem ter o formato que você quiser -- por exemplo, um conjuntinho 
 
 Uma história é um formato criado em eXtreme Programming (XP) para representar um item que agrega valor a usuários e agrega, de uma forma bastante simples, três informações importantíssimas para a priorização e posterior desenvolvimento da funcionalidade: por que é importante, para quem é importante e, só então, o que a pessoa quer, em si. O modelo que costumamos preencher é o seguinte:
 
-```
-[TÍTULO]
-
-**Para...** [por que o pedido é importante]
-**No papel de...** [para quem é importante]
-**Quero...** [o pedido em si]
-```
+>     [TÍTULO]
+> 
+> **Para...** [por que o pedido é importante]
+> 
+> **No papel de...** [para quem é importante]
+> 
+> **Quero...** [o pedido em si]
 
 Em um sistema de vagas online como o OndeTrabalhar.com, por exemplo, poderíamos ter a história:
 
-```
-            VAGAS POR LOCALIDADE
-**Para...** não perder tempo olhando cada vaga para descobrir se é na minha cidade
-**No papel de...** pessoa procurando trabalho
-**Quero...** ter a opção de filtrar as vagas de trabalho por cidade
-```
+>      VAGAS POR LOCALIDADE
+> **Para...** não perder tempo olhando cada vaga para descobrir se é na minha cidade
+> 
+> **No papel de...** pessoa procurando trabalho
+> 
+> **Quero...** ter a opção de filtrar as vagas de trabalho por cidade
 
 Durante o Planning é comum verificarmos o entendimento da história quebrando ela em itens menores, técnicos, que não necessariamente agregam valor ao usuário individualmente. Esses sub-itens técnicos de histórias são chamados tarefas. A história acima poderia ser quebrada nas seguintes tarefas:
 
@@ -190,12 +192,12 @@ O Scrum Master não é, contudo, chefe do time e não deve agir como tal. Um bom
 #### O dia-a-dia de um Scrum Master
 Durante o andamento do projeto que usa Scrum, o Scrum Master deve:
 
-Facilitar as reuniões, quando necessário;
-Atentar para o cumprimento dos time-boxes e explicar o porquê deles;
-Educar desenvolvedores, product owner e clientes sobre o processo;
-Remover ou reduzir impedimentos (não problemas!);
-Buscar continuamente ferramentas para ajudar o time a evoluir.
-E no que pode estar impedindo o time de melhorar sua performance.
+- Facilitar as reuniões, quando necessário;
+- Atentar para o cumprimento dos time-boxes e explicar o porquê deles;
+- Educar desenvolvedores, product owner e clientes sobre o processo;
+- Remover ou reduzir impedimentos (não problemas!);
+- Buscar continuamente ferramentas para ajudar o time a evoluir.
+- E no que pode estar impedindo o time de melhorar sua performance.
 
 #### Evolução do papel
 Note que performance é um termo muito mais abrangente que produtividade. Produzir vários incrementos é interessante, claro, mas a performance do time está, também, em decidir quais funcionalidades agregam mais valor, em evitar reuniões desnecessárias, em melhorar a qualidade da comunicação, etc.
@@ -242,33 +244,36 @@ Vimos que, para que o planejamento de uma Sprint caiba nos 5% da duração da Sp
 
 Pense que a segunda história mais importante de nosso Backlog é a seguinte:
 
-```
-Opção de boleto
-
-**Para...** atender aos pedidos de 15 pessoas que foram na conferência ano passado
-**No papel de...** organização da Agile Brazil
-**Quero...** oferecer a opção de pagamento em boleto no site e controlar as inscrições feitas com essa forma de pagamento no sistema.
-```
+> Opção de boleto
+> 
+> **Para...** atender aos pedidos de 15 pessoas que foram na conferência ano passado
+> 
+> **No papel de...** organização da Agile Brazil
+> 
+> **Quero...** oferecer a opção de pagamento em boleto no site e controlar as inscrições feitas com essa forma de pagamento no sistema.
 
 Essa simples história já poderia ser quebrada em pelo menos duas menores, que individualmente já agregam valor para papéis diferentes e nem mesmo precisam ser feitos no mesmo Sprint!
 
-```
-Inscrição em boleto
+> Inscrição em boleto
+> 
+> **Para...** conseguir pagar minha inscrição no caixa eletrônico do meu banco
+> 
+> **No papel de...** participante da Agile Brazil
+> 
+> **Quero...** escolher pagar minha inscrição em boleto e emití-lo direto da próxima página
 
-**Para...** conseguir pagar minha inscrição no caixa eletrônico do meu banco
-**No papel de...** participante da Agile Brazil
-**Quero...** escolher pagar minha inscrição em boleto e emití-lo direto da próxima página
-```
 
 E, também:
 
-```
-Pagamentos de boleto
 
-**Para...** não vender mais ingressos do que devia, nem menos do que podia
-**No papel de...** organizador da Agile Brazil
-**Quero...** reservar vagas na conferência quando alguém gerar um boleto e, ou criar a inscrição quando receber a confirmação do pagamento do gateway, ou abrir a vaga para vendas novamente, quando o boleto vencer sem ser pago.
-```
+> Pagamentos de boleto
+> 
+> **Para...** não vender mais ingressos do que devia, nem menos do que podia
+> 
+> **No papel de...** organizador da Agile Brazil
+> 
+> **Quero...** reservar vagas na conferência quando alguém gerar um boleto e, ou criar a inscrição quando receber a confirmação do pagamento do gateway, ou abrir a > vaga para vendas novamente, quando o boleto vencer sem ser pago.
+
 
 Note que, graças ao refinamento, foi preciso perguntar melhor os porquês daquela história original e o que exatamente está sendo pedido. Assim, será mais fácil gerenciar essas histórias no Planning Meeting que está por vir.
 
@@ -322,15 +327,21 @@ Tanto P.O. quanto Scrum Master, contudo, podem ser também desenvolvedores, já 
 <br>
 <hr>
 
-# Exercícios
-![exercises](../crack_fingers.gif)
+<h1 align="center">Exercícios</h1>
+<p align="center" >
+  <img src='../crack_fingers.gif'>
+</p>
 
 ### O que é Scrum? Qual é a principal diferença entre ele e outros métodos ágeis?
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-O Scrum é um framework ágil e sua principal característica é trabalhar com time-boxes: caixas de tempo cujo tamanho, uma vez definido, não muda durante a Sprint atual.
+
+<br>
+
+> 
+> O Scrum é um framework ágil e sua principal característica é trabalhar com time-boxes: caixas de tempo cujo tamanho, uma vez definido, não muda durante a Sprint atual.
+> 
 
 </details>
 
@@ -341,8 +352,12 @@ O Scrum é um framework ágil e sua principal característica é trabalhar com t
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Sprint é a time-box básica do Scrum. Ela é o tempo que o time tem para agregar valor para o usuário do projeto.
+
+<br>
+
+> 
+> Sprint é a time-box básica do Scrum. Ela é o tempo que o time tem para agregar valor para o usuário do projeto.
+> 
 
 </details>
 
@@ -353,8 +368,12 @@ Sprint é a time-box básica do Scrum. Ela é o tempo que o time tem para agrega
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Quanto maior o Sprint, menos chances de feedback temos e, portanto, maior o risco de errarmos o que precisa ser feito.
+
+<br>
+
+> 
+> Quanto maior o Sprint, menos chances de feedback temos e, portanto, maior o risco de errarmos o que precisa ser feito.
+> 
 
 </details>
 
@@ -365,10 +384,14 @@ Quanto maior o Sprint, menos chances de feedback temos e, portanto, maior o risc
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-A Review Meeting é uma reunião para mostrar o que o time produziu nessa Sprint para o cliente ou usuário.
+ 
+<br>
 
-Participam dessa reunião o time todo (desenvolvedores, Product Owner e Scrum Master) e mais o cliente e/ou usuários interessados nos itens desenvolvidos nessa Sprint.
+> 
+> A Review Meeting é uma reunião para mostrar o que o time produziu nessa Sprint para o cliente ou usuário.
+> 
+> Participam dessa reunião o time todo (desenvolvedores, Product Owner e Scrum Master) e mais o cliente e/ou usuários interessados nos itens desenvolvidos nessa Sprint.
+> 
 
 </details>
 
@@ -379,8 +402,12 @@ Participam dessa reunião o time todo (desenvolvedores, Product Owner e Scrum Ma
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-O Product Owner deve anotar as modificações que serão necessárias, transformá-las em histórias e adicionar ao Product Backlog, na prioridade que couber a elas.
+
+<br>
+
+>
+> O Product Owner deve anotar as modificações que serão necessárias, transformá-las em histórias e adicionar ao Product Backlog, na prioridade que couber a elas.
+>
 
 </details>
 
@@ -391,10 +418,14 @@ O Product Owner deve anotar as modificações que serão necessárias, transform
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Não deve.
 
-Isso desfoca a reunião, pode consumir todo o time-box, frequentemente esqueceremos de fazer os testes para evitar que esse bug volte e ainda passa a impressão para o cliente de que tudo pode ser resolvido na própria reunião, o que pode não ser verdade no próximo bug encontrado.
+<br>
+
+>
+> Não deve.
+>
+>Isso desfoca a reunião, pode consumir todo o time-box, frequentemente esqueceremos de fazer os testes para evitar que esse bug volte e ainda passa a impressão para o cliente de que tudo pode ser resolvido na própria reunião, o que pode não ser verdade no próximo bug encontrado.
+>
 
 </details>
 
@@ -405,8 +436,12 @@ Isso desfoca a reunião, pode consumir todo o time-box, frequentemente esquecere
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Trazendo o usuário para a reunião, podemos vê-lo utilizar o sistema e, assim, aprender a pensar mais como ele. Além disso, ainda que um cliente dê ok para uma funcionalidade, ele também pode ter algum problema de comunicação com seu usuário. Isto é, o que está certo para o cliente pode não atender quem realmente interessa: o usuário do projeto.
+ 
+<br>
+
+> 
+>Trazendo o usuário para a reunião, podemos vê-lo utilizar o sistema e, assim, aprender a pensar mais como ele. Além disso, ainda que um cliente dê ok para uma funcionalidade, ele também pode ter algum problema de comunicação com seu usuário. Isto é, o que está certo para o cliente pode não atender quem realmente interessa: o usuário do projeto.
+>
 
 </details>
 
@@ -417,12 +452,16 @@ Trazendo o usuário para a reunião, podemos vê-lo utilizar o sistema e, assim,
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-A Definição de Pronto é uma sequência de passos pelos quais cada história (item de desenvolvimento) precisa passar para sair de "A fazer" e ser considerada "Pronta", isto é, mostrável para o cliente.
+ 
+<br>
 
-Um exemplo é:
-
-Testes de aceitação => Desenvolvimento => Code Review => Aprovando => Pronto
+> 
+> A Definição de Pronto é uma sequência de passos pelos quais cada história (item de desenvolvimento) precisa passar para sair de "A fazer" e ser considerada "Pronta", isto é, mostrável para o cliente.
+>
+> Um exemplo é:
+>
+> Testes de aceitação => Desenvolvimento => Code Review => Aprovando => Pronto
+>
 
 </details>
 
@@ -433,8 +472,12 @@ Testes de aceitação => Desenvolvimento => Code Review => Aprovando => Pronto
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-A retrospectiva é a maior oportunidade, em cada Sprint, de promovermos melhorias no processo, no time e no andamento do projeto que está sendo desenvolvido.
+
+<br>
+
+> 
+>A retrospectiva é a maior oportunidade, em cada Sprint, de promovermos melhorias no processo, no time e no andamento do projeto que está sendo desenvolvido.
+>
 
 </details>
 
@@ -443,17 +486,21 @@ A retrospectiva é a maior oportunidade, em cada Sprint, de promovermos melhoria
 
 ### Esperamos obter ações de melhoria ao final de cada retrospectiva. Dê dois exemplos de ação para resolver ou reduzir o seguinte problema:
 
-> Existe uma área na empresa, externa ao time, responsável pelos deploys e o time precisa de mais rapidez nos deploys de homologação para conseguir passar a fase de "Aprovação em Homologação" de seu Critério de Pronto.
+**Existe uma área na empresa, externa ao time, responsável pelos deploys e o time precisa de mais rapidez nos deploys de homologação para conseguir passar a fase de "Aprovação em Homologação" de seu Critério de Pronto.**
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Ações possíveis seriam:
 
-- Automatizar o processo de deploy para homologação e conversar com o pessoal de deploy para que o script seja rodado automaticamente;
-- Remover a Aprovação em Homologação do critério de pronto do time.
+<br>
 
-A primeira ação precisa de convencimento de outra equipe. A segunda, potencialmente, causará mais problemas na Review. Ambas, no entanto, são ações válidas já que dependem da ação do time, não de outras pessoas. Devemos tomar cuidado para não cairmos em *wishful thinking*: desejos de que, por exemplo, o time de deploy vá magicamente começar a fazer deploys mais rápido.
+> 
+>Ações possíveis seriam:
+>
+>- Automatizar o processo de deploy para homologação e conversar com o pessoal de deploy para que o script seja rodado automaticamente;
+>- Remover a Aprovação em Homologação do critério de pronto do time.
+>
+>A primeira ação precisa de convencimento de outra equipe. A segunda, potencialmente, causará mais problemas na Review. Ambas, no entanto, são ações válidas já que dependem da ação do time, não de outras pessoas. Devemos tomar cuidado para não cairmos em *wishful thinking*: desejos de que, por exemplo, o time de deploy vá magicamente começar a fazer deploys mais rápido.
+>
 
 </details>
 
@@ -464,10 +511,14 @@ A primeira ação precisa de convencimento de outra equipe. A segunda, potencial
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Pessoalmente, uma das minhas formas favoritas de começar uma retrospectiva com um time que não está acostumado a trabalhar juntos ainda é recitando a Retrospective Prime Directive do Norm Kerth:
+ 
+<br>
 
+> 
+>Pessoalmente, uma das minhas formas favoritas de começar uma retrospectiva com um time que não está acostumado a trabalhar juntos ainda é recitando a Retrospective Prime Directive do Norm Kerth:
+>
 > Independentemente do que descubramos, nós entendemos e realmente acreditamos que todos fizeram o melhor trabalho que podiam, dado o conhecimento na época, suas habilidades, os recursos disponíveis e a situação em jogo.
+>
 
 </details>
 
@@ -480,12 +531,16 @@ O que ela diz?
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand." -- Prime Directive by Norm Keith
+ 
+<br>
 
-Em tradução livre:
-
-Independentemente do que descobrirmos, nós entendemos e acreditamos de verdade que todos fizeram o melhor trabalho que puderam, dado o que eles sabiam no momento, suas habilidades e perícia, os recursos disponíveis e a situação que enfrentaram.
+> 
+>"Regardless of what we discover, we understand and truly believe that everyone did the best job they could, given what they knew at the time, their skills and abilities, the resources available, and the situation at hand." -- Prime Directive by Norm Keith
+>
+>Em tradução livre:
+>
+>Independentemente do que descobrirmos, nós entendemos e acreditamos de verdade que todos fizeram o melhor trabalho que puderam, dado o que eles sabiam no momento, suas habilidades e perícia, os recursos disponíveis e a situação que enfrentaram.
+>
 
 </details>
 
@@ -496,10 +551,14 @@ Independentemente do que descobrirmos, nós entendemos e acreditamos de verdade 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-- O que fiz desde o último Daily Scrum?
-- O que pretendo fazer até o próximo?
-- Quais problemas me atrapalharam?
+ 
+<br>
+
+> 
+>- O que fiz desde o último Daily Scrum?
+>- O que pretendo fazer até o próximo?
+>- Quais problemas me atrapalharam?
+>
 
 </details>
 
@@ -510,8 +569,12 @@ Independentemente do que descobrirmos, nós entendemos e acreditamos de verdade 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Para todos saberem como está o andamento das tarefas e histórias nessa Sprint, evitando retrabalho e ajudando uns aos outros. A Timebox é de 15 minutos.
+ 
+<br>
+
+> 
+>Para todos saberem como está o andamento das tarefas e histórias nessa Sprint, evitando retrabalho e ajudando uns aos outros. A Timebox é de 15 minutos.
+>
 
 </details>
 
@@ -522,12 +585,16 @@ Para todos saberem como está o andamento das tarefas e histórias nessa Sprint,
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Durante a DM, a pessoa que sabe ajudar com o problema indica que pode ter a solução e então, se direciona para ajudar nesta resolução depois da DM. 
+ 
+<br>
 
-Para conseguirmos respeitar o timebox de 15 minutos, é importante que essa reunião contenha apenas informações que interessam a todos os membros do time, inclusive PO e especialistas de alguma área que estiverem no time (Testers, UX, DBA, etc).
-
-A solução de um problema frequentemente interessa a um sub-grupo do time e, em respeito ao tempo dos outros e para não ultrapassar o timebox do Daily, deixamos para discutí-las após o daily -- e apenas com quem tem a acrescentar na solução.
+> 
+>Durante a DM, a pessoa que sabe ajudar com o problema indica que pode ter a solução e então, se direciona para ajudar nesta resolução depois da DM. 
+>
+>Para conseguirmos respeitar o timebox de 15 minutos, é importante que essa reunião contenha apenas informações que interessam a todos os membros do time, inclusive PO e especialistas de alguma área que estiverem no time (Testers, UX, DBA, etc).
+>
+>A solução de um problema frequentemente interessa a um sub-grupo do time e, em respeito ao tempo dos outros e para não ultrapassar o timebox do Daily, deixamos para discutí-las após o daily -- e apenas com quem tem a acrescentar na solução.
+>
 
 </details>
 
@@ -538,8 +605,12 @@ A solução de um problema frequentemente interessa a um sub-grupo do time e, em
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-No Scrum, toda Sprint começa com uma reunião para entendermos os itens a serem feitos, planejarmos o que cabe no tempo disponível e definirmos a meta para o time nessa Sprint. A reunião consome 5% do tempo da Sprint então, para Sprint de uma semana, a reunião dura no máximo 2 horas.
+ 
+<br>
+
+> 
+>No Scrum, toda Sprint começa com uma reunião para entendermos os itens a serem feitos, planejarmos o que cabe no tempo disponível e definirmos a meta para o time nessa Sprint. A reunião consome 5% do tempo da Sprint então, para Sprint de uma semana, a reunião dura no máximo 2 horas.
+>
 
 </details>
 
@@ -550,8 +621,10 @@ No Scrum, toda Sprint começa com uma reunião para entendermos os itens a serem
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-O time todo (todos os desenvolvedores, Product Owner e Scrum Master) participam dessa reunião. Convidar clientes para essa reunião é pouco frequente, já que muitas vezes uma Sprint atenderá pedidos de vários clientes/usuários com perfis diferentes.
+
+>
+>O time todo (todos os desenvolvedores, Product Owner e Scrum Master) participam dessa reunião. Convidar clientes para essa reunião é pouco frequente, já que muitas vezes uma Sprint atenderá pedidos de vários clientes/usuários com perfis diferentes.
+>
 
 </details>
 
@@ -562,10 +635,14 @@ O time todo (todos os desenvolvedores, Product Owner e Scrum Master) participam 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Em preparação para essa reunião, o P.O. já deve ter olhado as histórias mais prioritárias do projeto, confirmando o entendimento delas com o cliente, melhorando sua clareza, quebrando grandes funcionalidades em partes menores que já agreguem valor para o cliente, etc.
+ 
+<br>
 
-Esse processo é conhecido como grooming, ou refinamento, do topo do Product Backlog.
+> 
+>Em preparação para essa reunião, o P.O. já deve ter olhado as histórias mais prioritárias do projeto, confirmando o entendimento delas com o cliente, melhorando sua clareza, quebrando grandes funcionalidades em partes menores que já agreguem valor para o cliente, etc.
+>
+>Esse processo é conhecido como grooming, ou refinamento, do topo do Product Backlog.
+>
 
 </details>
 
@@ -577,13 +654,17 @@ Esse processo é conhecido como grooming, ou refinamento, do topo do Product Bac
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-- Enquanto não passar um pouco do que o time consegue fazer na Sprint:
-  - P.O. explicando o item de maior prioridade da visão de negócios;
-  - Desenvolvedores tiram dúvidas de entendimento e o discutem tecnicamente;
-  - Desenvolvedores atribuem uma estimativa de esforço à história.
-- Desenvolvedores e P.O. negociam o Sprint Backlog
-- Time todo monta uma meta para a Sprint
+ 
+<br>
+
+> 
+>- Enquanto não passar um pouco do que o time consegue fazer na Sprint:
+>  - P.O. explicando o item de maior prioridade da visão de negócios;
+>  - Desenvolvedores tiram dúvidas de entendimento e o discutem tecnicamente;
+>  - Desenvolvedores atribuem uma estimativa de esforço à história.
+>- Desenvolvedores e P.O. negociam o Sprint Backlog
+>- Time todo monta uma meta para a Sprint
+>
 
 </details>
 
@@ -603,14 +684,18 @@ Esse processo é conhecido como grooming, ou refinamento, do topo do Product Bac
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-A *meta* é uma frase que exprime o maior valor que esse Sprint vai trazer para o usuário! Vale qualquer frase que mostre para os desenvolvedores o que está em jogo e como um Sprint bem sucedido vai impactar positivamente na vida dos usuários da aplicação, mas frases que não consideram o valor para o usuário não são válidas aqui.
+ 
+<br>
 
-Qualquer uma das frases abaixo é muito vaga e, assim, corre um risco bem maior de ser desnecessária ou não ser cumprida:
-
-- Fazer 80% dos pontos estimados para essa Sprint;
-- Não causar mais bugs no projeto
-- Fazer um deploy todo dia
+> 
+>A *meta* é uma frase que exprime o maior valor que esse Sprint vai trazer para o usuário! Vale qualquer frase que mostre para os desenvolvedores o que está em jogo e como um Sprint bem sucedido vai impactar positivamente na vida dos usuários da aplicação, mas frases que não consideram o valor para o usuário não são válidas aqui.
+>
+>Qualquer uma das frases abaixo é muito vaga e, assim, corre um risco bem maior de ser desnecessária ou não ser cumprida:
+>
+>- Fazer 80% dos pontos estimados para essa Sprint;
+>- Não causar mais bugs no projeto
+>- Fazer um deploy todo dia
+>
 
 </details>
 
@@ -622,8 +707,12 @@ Qualquer uma das frases abaixo é muito vaga e, assim, corre um risco bem maior 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Uma história representa algo que agrega valor para o usuário da aplicação. Seja no Product Backlog, como um item a fazer, ou no nosso histórico do que foi feito no projeto, histórias representam o valor que agrega(re)mos para o usuário!
+   
+<br>
+
+> 
+>Uma história representa algo que agrega valor para o usuário da aplicação. Seja no Product Backlog, como um item a fazer, ou no nosso histórico do que foi feito no projeto, histórias representam o valor que agrega(re)mos para o usuário!
+>
 
 </details>
 
@@ -635,10 +724,14 @@ Uma história representa algo que agrega valor para o usuário da aplicação. S
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Tarefas são subitens de uma história, mais focados na parte técnica. Eles servem para conseguirmos trabalhar paralelamente sobre uma história e, assim, aumentar a velocidade de produção de valor para o usuário!
+   
+<br>
 
-Afinal... se tenho 3 desenvolvedores no meu time e cada um puder contribuir com a mesma história, terminaremos ela mais rapidamente e antes de atacar um próximo problema de negócios.
+> 
+>Tarefas são subitens de uma história, mais focados na parte técnica. Eles servem para conseguirmos trabalhar paralelamente sobre uma história e, assim, aumentar a velocidade de produção de valor para o usuário!
+>
+>Afinal... se tenho 3 desenvolvedores no meu time e cada um puder contribuir com a mesma história, terminaremos ela mais rapidamente e antes de atacar um próximo problema de negócios.
+>
 
 </details>
 
@@ -652,24 +745,28 @@ Afinal... se tenho 3 desenvolvedores no meu time e cada um puder contribuir com 
 
 ```
 **Sala de Estar**
-
+ 
 **Para...** [por que você precisa dessa sala]
-
+ 
 **Eu, como...** morador
-
+ 
 **Quero...** [o pedido em si]
 ```
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Sala de Estar
+   
+<br>
 
-Para... receber meus amigos para degustar queijos e vinhos com conforto
-
-Eu, como... morador
-
-Quero... uma sala de estar de 20m², com carpete de madeira, grandes almofadas soltas pelo chão, uma mesinha central retrátil, uma mini adega para 6 vinhos e sistema de som ambiente.
+> 
+>Sala de Estar
+>
+>Para... receber meus amigos para degustar queijos e vinhos com conforto
+>
+>Eu, como... morador
+>
+>Quero... uma sala de estar de 20m², com carpete de madeira, grandes almofadas soltas pelo chão, uma mesinha central retrátil, uma mini adega para 6 vinhos e sistema de som ambiente.
+>
 
 </details>
 
@@ -694,13 +791,17 @@ O Scrum Master age para manter a reunião produtiva e dentro do timebox combinad
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Enquanto problemas são feitos de qualquer coisa que atrapalhe o time, eles só se tornam impedimentos quando o time tentou resolvê-lo e não conseguiu.
+   
+<br>
 
-[Exemplos]
-Problema: estamos há 3 sprints sem bater a meta por bugs que aparecem no meio do caminho.
-
-Impedimento: o setor de infra não responde nossos pedidos (tentamos e-mail e conversa cara-a-cara) e precisamos de acesso ao serviço xpto pra prosseguir.
+> 
+>Enquanto problemas são feitos de qualquer coisa que atrapalhe o time, eles só se tornam impedimentos quando o time tentou resolvê-lo e não conseguiu.
+>
+>[Exemplos]
+>Problema: estamos há 3 sprints sem bater a meta por bugs que aparecem no meio do caminho.
+>
+>Impedimento: o setor de infra não responde nossos pedidos (tentamos e-mail e conversa cara-a-cara) e precisamos de acesso ao serviço xpto pra prosseguir.
+>
 
 </details>
 
@@ -712,24 +813,29 @@ Impedimento: o setor de infra não responde nossos pedidos (tentamos e-mail e co
 
 ```
 **Mesinha retrátil**
-
+ 
 **Para...** ter onde colocar petiscos sem medo de que alguém vá pisar neles
-
+ 
 **Eu, como...** morador que gosta de receber visitas
-
-**Quero...** uma mesinha central que fica escondida na maior parte do tempo, mas emerge do chão quando necessário.
+ 
+**Quero...** uma mesinha central que fica escondida na maior parte do tempo,
+mas emerge do chão quando necessário.
 ```
 
 Lembrando que tarefas são subitens técnicos de uma história, quebre essa história em tarefas que poderiam ser desenvolvidas preferencialmente paralelamente por membros do time.
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Tarefas poderiam ser:
+ 
+<br>
 
-1. mesa em si;
-2. mecanismo de esconder a mesa;
-3. ligação do botão para expor a mesa.
+> 
+>Tarefas poderiam ser:
+>
+>1. mesa em si;
+>2. mecanismo de esconder a mesa;
+>3. ligação do botão para expor a mesa.
+> 
 
 </details>
 
@@ -741,8 +847,12 @@ Tarefas poderiam ser:
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Enquanto o Product Backlog foca no que agrega valor para o usuário (histórias), o Sprint Backlog acrescenta a isso as subdivisões técnicas das histórias (tarefas), já que ele foca no planejamento para execução das histórias!
+   
+<br>
+
+> 
+>Enquanto o Product Backlog foca no que agrega valor para o usuário (histórias), o Sprint Backlog acrescenta a isso as subdivisões técnicas das histórias (tarefas), já que ele foca no planejamento para execução das histórias!
+> 
 
 </details>
 
@@ -755,10 +865,14 @@ Enquanto o Product Backlog foca no que agrega valor para o usuário (histórias)
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Product Backlog: apenas o P.O. altera, mas todos podem influenciá-lo, tanto desenvolvedores, scrum master e clientes
+   
+<br>
 
-Sprint Backlog: o cliente não pode alterá-lo ou influenciá-lo. Apenas o time altera esse backlog, renegociando internamente o escopo quando necessário, quebrando melhor as histórias em tarefas, etc.
+> 
+>Product Backlog: apenas o P.O. altera, mas todos podem influenciá-lo, tanto desenvolvedores, scrum master e clientes
+> 
+>Sprint Backlog: o cliente não pode alterá-lo ou influenciá-lo. Apenas o time altera esse backlog, renegociando internamente o escopo quando necessário, quebrando melhor as histórias em tarefas, etc.
+> 
 
 </details>
 
@@ -771,9 +885,12 @@ Sprint Backlog: o cliente não pode alterá-lo ou influenciá-lo. Apenas o time 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Talvez um Scrum Master possa estabelecer um acordo (algo semelhante a um Acordo de Nível de Serviço - SLA - Service Level Agreement) de como serão as comunicações entre projeto e infra para que, na próxima ocasião que for aberta uma solicitação, fique claro para ambos os times como fazer o pedido, com qual antecedência, e quais seriam os prazos de resposta esperados para cada solicitação feita.
+   
+<br>
 
+> 
+>Talvez um Scrum Master possa estabelecer um acordo (algo semelhante a um Acordo de Nível de Serviço - SLA - Service Level Agreement) de como serão as comunicações entre projeto e infra para que, na próxima ocasião que for aberta uma solicitação, fique claro para ambos os times como fazer o pedido, com qual antecedência, e quais seriam os prazos de resposta esperados para cada solicitação feita.
+> 
 </details>
 
 <hr>
@@ -783,8 +900,12 @@ Talvez um Scrum Master possa estabelecer um acordo (algo semelhante a um Acordo 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Diferentemente de clientes/usuários, o P.O. é uma pessoa só e trabalha diariamente com o time no decorrer do projeto. Product Owner é uma pessoa que faz parte do time e está disponível para ajudá-lo a produzir o maior valor possível para os clientes.
+   
+<br>
+
+> 
+>Diferentemente de clientes/usuários, o P.O. é uma pessoa só e trabalha diariamente com o time no decorrer do projeto. Product Owner é uma pessoa que faz parte do time e está disponível para ajudá-lo a produzir o maior valor possível para os clientes.
+> 
 
 </details>
 
@@ -795,10 +916,14 @@ Diferentemente de clientes/usuários, o P.O. é uma pessoa só e trabalha diaria
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Leva o cliente até o P.O. e eles conversarão para adicionar o pedido ao Product Backlog se fizer sentido.
+   
+<br>
 
-O Product Owner mantem o Product Backlog atualizado com o objetivo de agregar o maior valor possível a cada momento. Se esse pedido não foi priorizado, pode haver excelentes razões para isso e deixar o cliente se intrometer sem passar pelo P.O. pode ser prejudicial para a entrega de valor do projeto.
+> 
+>Leva o cliente até o P.O. e eles conversarão para adicionar o pedido ao Product Backlog se fizer sentido.
+> 
+>O Product Owner mantem o Product Backlog atualizado com o objetivo de agregar o maior valor possível a cada momento. Se esse pedido não foi priorizado, pode haver excelentes razões para isso e deixar o cliente se intrometer sem passar pelo P.O. pode ser prejudicial para a entrega de valor do projeto.
+> 
 
 </details>
 
@@ -809,10 +934,14 @@ O Product Owner mantem o Product Backlog atualizado com o objetivo de agregar o 
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-O P.O. adiciona novos itens, remove itens que não fazem mais sentido e, muito frequentemente, reprioriza as histórias para aumentar o valor a ser agregado pelo time.
+   
+<br>
 
-Outra atividade é o refinamento das histórias mais prioritárias do Product Backlog em histórias menores que ainda agreguem valor para o cliente.
+> 
+>O P.O. adiciona novos itens, remove itens que não fazem mais sentido e, muito frequentemente, reprioriza as histórias para aumentar o valor a ser agregado pelo time.
+> 
+>Outra atividade é o refinamento das histórias mais prioritárias do Product Backlog em histórias menores que ainda agreguem valor para o cliente.
+> 
 
 </details>
 
@@ -823,26 +952,32 @@ Outra atividade é o refinamento das histórias mais prioritárias do Product Ba
 
 ```
 **Sala de Estar**
-
+ 
 **Para...** receber meus amigos para degustar queijos e vinhos com conforto
-
+ 
 **Eu, como...** morador
-
-**Quero...** uma sala de estar de 20m², com carpete de madeira, grandes almofadas soltas pelo chão, uma mesinha central retrátil, uma mini adega para 6 vinhos e sistema de som ambiente.
+ 
+**Quero...** uma sala de estar de 20m², com carpete de madeira, grandes almofadas soltas pelo chão, 
+uma mesinha central retrátil, uma mini adega para 6 vinhos e sistema de som ambiente.
 ```
+
 **Um bom Product Owner quebraria o épico, antes do planning, em histórias menores e mais fáceis de estimar!**
 
 **Escreva os títulos das histórias menores que conseguimos tirar do épico acima.**
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Derivando do épico da Sala de Estar, conseguimos as seguintes histórias que já agregam valor:
+   
+<br>
 
-Sala básica com almofadas
-Mesinha central retrátil
-Mini adega
-Sistema de som ambiente
+> 
+>Derivando do épico da Sala de Estar, conseguimos as seguintes histórias que já agregam valor:
+>
+>Sala básica com almofadas
+>Mesinha central retrátil
+>Mini adega
+>Sistema de som ambiente
+> 
 
 </details>
 
@@ -853,8 +988,12 @@ Sistema de som ambiente
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Programadores, arquitetos, DBAs, analistas, testers, pessoas de usabilidade e quaisquer outros papéis que ajudem o produto a evoluir.
+   
+<br>
+
+> 
+>Programadores, arquitetos, DBAs, analistas, testers, pessoas de usabilidade e quaisquer outros papéis que ajudem o produto a evoluir.
+> 
 
 </details>
 
@@ -865,10 +1004,14 @@ Programadores, arquitetos, DBAs, analistas, testers, pessoas de usabilidade e qu
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Há muitas responsabilidades focadas na entrega de valor que são dos Product Owners. Há muitas responsabilidades focadas em processos que são do Scrum Master.
+   
+<br>
 
-Juntar ambos os papéis é um acúmulo muito grande de responsabilidades e frequentemente leva ao abandono de um dos lados, desbalanceando o equilíbrio do Scrum.
+> 
+>Há muitas responsabilidades focadas na entrega de valor que são dos Product Owners. Há muitas responsabilidades focadas em processos que são do Scrum Master.
+> 
+>Juntar ambos os papéis é um acúmulo muito grande de responsabilidades e frequentemente leva ao abandono de um dos lados, desbalanceando o equilíbrio do Scrum.
+> 
 
 </details>
 
@@ -879,9 +1022,13 @@ Juntar ambos os papéis é um acúmulo muito grande de responsabilidades e frequ
 
 <details>
 <summary>Mostrar resposta</summary>
-  
-Qualquer ponto que causa dor ao time no momento é uma oportunidade de melhoria para o futuro -- e é um treino contínuo enxergar problemas como oportunidades.
+   
+<br>
 
-Melhoria contínua é também, na minha opinião, uma forma de pensar que nos torna mais responsáveis pelo estado em que nos encontramos no momento. É uma responsabilização que ajuda a sair do hábito de reclamar e procurar culpados. E é algo que pode ser levado para outros aspectos da vida facilmente.
+> 
+>Qualquer ponto que causa dor ao time no momento é uma oportunidade de melhoria para o futuro -- e é um treino contínuo enxergar problemas como oportunidades.
+> 
+>Melhoria contínua é também, na minha opinião, uma forma de pensar que nos torna mais responsáveis pelo estado em que nos encontramos no momento. É uma responsabilização que ajuda a sair do hábito de reclamar e procurar culpados. E é algo que pode ser levado para outros aspectos da vida facilmente.
+> 
 
 </details>

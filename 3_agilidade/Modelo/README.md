@@ -33,8 +33,6 @@
 <br>
 <hr>
 
-### Exemplo de Kanban para devs: https://trello.com/b/5EjisOHa/projeto-app-de-receitas
-
 ### História da Toyota 
 
 Taiichi Ohno, um dos criadores do Sistema de Produção Toyota, “os dois pilares do Sistema de Produção Toyota são just-in-time e automação com um toque humano, ou autonomação. A ferramenta usada para operar o sistema é kanban”. Em outras palavras, kanban é fundamental para o processo de kaizen (“melhoria contínua”) usado na Toyota. É o mecanismo que faz com que ele funcione.
@@ -78,71 +76,17 @@ O principal limite é o WIP que indica quando o trabalho pode andar
 <br>
 <hr>
 
-### Como visualizar o trabalho na forma de fluxo
-
-- Reunindo o time e pedindo para que todos listem em post-its em que estão trabalhando atualmente.
-- Opcionalmente os itens podem depois ser priorizados em uma coluna.
-- Entendemos os desafios de uso das ferramentas eletrônicas neste acompanhamento do Kanban, pois a informação não está acessível a todos em tempo real, além de gerar a demanda de que todos dominem o uso de um software para aplicar o Kanban
-- Observamos o conceito de information refrigerator e information radiator.
-
-**Identificamos as vantagens de visualizar o trabalho, para:**
-- Fazer o trabalho que está “escondido” aparecer
-- Tornar o trabalho visível faz com que a informação esteja disponível para todos os interessados
-- Auxiliar ao time a ver: Quem está fazendo o que, e a quantidade de trabalho em que o time está envolvido
-
-**Dicas e principais vantagens de mapear o fluxo de trabalho:**
-- Começar organizando o trabalho em colunas por onde o trabalho começa
-- O nome das colunas pode ser alterado depois
-- O melhor modelo é o criado pelo time
-- Trabalho pronto é o que gera valor para o cliente
-- O Kanban expõe os problemas no processo
-- O primeiro quadro não é final, é só o melhor possível
-- Identificar todos os estágios do trabalho, do início até o trabalho deixar o time
-- Não busque a perfeição, inspecione e adapte o trabalho tendo como premissa que ele não pode ser considerado completo enquanto não estiver entregando valor para o cliente
-- Observamos que por meio do mapeamento visual do fluxo de trabalho, você vê: o status do trabalho, e os potenciais problemas como trabalho não progredindo e acumulando em um estágio
-
-**Como são e como fazer cartões do quadro Kanban:**
-- O quadro precisa ser compreendido pelo time
-- Os cartões servem para mostrar status dos trabalhos e apresentam os seguintes atributos comuns nos quadros de Kanban:
-    - Descrição do item de trabalho
-    - ID do sistema eletrônico
-    - Prazos e datas
-    - Quem está trabalhando naquele cartão através de avatar
-    - Tipo de trabalho (bug ou normal, por exemplo) Bugs muitas vezes diferenciados por cor
+### 
 
 <br>
 <hr>
 
-### Dinâmica Virar Moedas
-[Video](https://www.youtube.com/watch?v=HW2DEZLRAhw)
-
-**Primeira rodada**. Os participantes passam 12 moedas por vez e para completarem os grupos demoram de 29 a 34 segundos. A primeira entrega, ou seja, a primeira sequência de 12 moedas, chega no final em 27 segundos.
-
-**Segunda rodada**. O instrutor pede para reduzir pela metade, ou seja, de 12 passar para 6 moedas. O time mais lento reduziu 5 segundos, completando em 29 segundos e o time mais rápido fez em 23 segundos. Redução de 20% e 26% respectivamente no tempo.
-
-**Terceira rodada**. Todas as moedas levam apenas 20 segundos para passar. Da primeira rodada para a última houve uma melhoria entre 45%, de 29 para 20 segundos, até 70%, de 34 para 20 segundos.
-
-**A última entrega**, fazendo sequências de 2 em 2 moedas, demorou apenas 12 segundos!
+### 
 
 <br>
 <hr>
 
-### Work in Progress
-Sobre o WIP (Work in Progress):
-- Pare de começar e comece a terminar!
-- Trabalhar em menos itens entrega valor mais rápido
-- O WIP Pode ser definido inicialmente por número de pessoas em cada atividade
-- O time é a melhor fonte para definir seu limite de WIP
-- Podemos criar uma Coluna de “buffer” - para atividades que envolvem apenas uma aprovação por exemplo
-- Limitar o WIP (work in progress) vai mostrar oportunidades de melhoria
-- Agir sobre estas oportunidades vai melhor o fluxo do trabalho
-- Não existe um WIP “correto” para um time
-- Em termos de limites de WIP, observamos que: limites muito ALTOS deixam o trabalho parado, já os limites muito BAIXOS deixam as pessoas paradas sem trabalho.
-
-**Como lidar com itens urgentes, considerando que:**
-- O time cria uma política para definir o que é urgente
-- A urgência é criada no quadro e é tratada como uma raia separada
-- A importância de lembrarmos que a linha de itens de urgência criada mostra o impacto no fluxo de trabalho aumentando o WIP.
+### 
 
 <br>
 <hr>
@@ -215,7 +159,7 @@ Sobre o WIP (Work in Progress):
 <hr>
 <br>
 
-### O que você recomendaria a um time que está desejando começar a usar Kanban?
+### PERGUNTA
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -223,8 +167,7 @@ Sobre o WIP (Work in Progress):
 <br>
 
 > 
-> A primeira etapa ao adotar Kanban é visualizar o trabalho de forma simples.
-> Portanto, a recomendação inicial seria reunir o grupo e pedir que anotem em pedaços de papel, cada atividade em que estão trabalhando e colocam os papéis em um mural para que todos possam ver.
+> RESPOSTA
 > 
 
 </details>
@@ -232,7 +175,7 @@ Sobre o WIP (Work in Progress):
 <hr>
 <br>
 
-### Quais são as suas recomendações caso o seu time opte por utilizar o quadro Kanban em ferramentas eletrônicas?
+### PERGUNTA
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -240,8 +183,7 @@ Sobre o WIP (Work in Progress):
 <br>
 
 > 
-> Garantir que a ferramenta possa ser conectada a alguma TV ou board visual para que o quadro esteja sempre disponível e visível para todo o time, que ela seja fácil de ser aprendida, intuitiva e que a maior parte do time esteja envolvida na escolha da ferramenta.
-> Ferramentas eletrônicas possuem vantagens e desvantagens e para garantir que elas funcionem é preciso zelar que o quadro Kanban esteja visível 100% do tempo para todo o time.
+> RESPOSTA
 > 
 
 </details>
@@ -249,9 +191,7 @@ Sobre o WIP (Work in Progress):
 <hr>
 <br>
 
-### *Cartões do quadro Kanban contém todas as informações necessárias ao desenvolvimento daquela parte do Software. Baseando-se apenas na descrição os desenvolvedores são capazes de desenvolver e os testadores de testar. Esta é a grande utilidade dos Cartões.*
-
-**Esta informação é verdadeira ou falsa? Justifique.**
+### PERGUNTA
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -259,20 +199,7 @@ Sobre o WIP (Work in Progress):
 <br>
 
 > 
-> FALSA. 
-> Os cartões do quadro Kanban são apenas uma referência de marcação e contém algumas informações relevantes mas não todas as informações. Por isso é comum os cartões conterem o SYSTEM ID (referência a algum software/aplicação), onde mais documentação poderá ser incluída sobre aquele item. Eles servem para lembrar e para marcar o WIP no quadro.
-> 
-> Atributos comuns são:
-> 
-> -- Descrição do item de trabalho
-> 
-> -- ID do sistema eletrônico
-> 
-> -- Prazos
-> 
-> -- Quem está trabalhando naquele cartão
-> 
-> -- Tipo de trabalho ( bug ou normal, por exemplo)
+> RESPOSTA
 > 
 
 </details>
@@ -280,7 +207,7 @@ Sobre o WIP (Work in Progress):
 <hr>
 <br>
 
-### Quais são as melhores práticas quando algo urgente ocorre e o time Kanban precisa incluir este item na rotina do trabalho?
+### PERGUNTA
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -288,15 +215,7 @@ Sobre o WIP (Work in Progress):
 <br>
 
 > 
-> O time inclui no quadro uma swinlane, ou raia, que é usada para tratar de itens urgentes. Esta raia possui uma política de urgência que é claramente fixada e conhecida por todos os interessados e precisa ser respeitada.
-> 
-> Políticas sobre esta linha podem ser:
-> 
-> -- Apenas um item pode estar na linha por vez
-> 
-> -- Apenas um item pode ser "acelerado” por semana
-> 
-> -- Não contar o item urgente no limite do WIP
+> RESPOSTA
 > 
 
 </details>
@@ -304,7 +223,7 @@ Sobre o WIP (Work in Progress):
 <hr>
 <br>
 
-### Sobre a métrica de lead time. Que dados você recomendaria incluir nos cartões do quadro Kanban para implementar tal métrica?
+### PERGUNTA
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -312,10 +231,8 @@ Sobre o WIP (Work in Progress):
 <br>
 
 > 
-> Data da entrada na primeira coluna de trabalho e 
-> data de tarefa completa.
-> A métrica lead time mede o tempo que um item de trabalho leva para percorrer todo o fluxo, para tal, precisamos monitorar o dia que o item entrou no fluxo e o dia que o item saiu do fluxo.
->
+> RESPOSTA
+> 
 
 </details>
 

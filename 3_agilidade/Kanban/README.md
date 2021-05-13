@@ -33,7 +33,15 @@
 <br>
 <hr>
 
-### Exemplo de Kanban para devs: https://trello.com/b/5EjisOHa/projeto-app-de-receitas
+### Exemplo de Kanban para devs
+[Organização de projeto no Trello](https://trello.com/b/5EjisOHa/projeto-app-de-receitas)
+
+<br>
+
+### Kazen - Melhoria Contínua
+[Video Método Kaizen](https://www.youtube.com/watch?v=4878_jOpPT4)
+
+<br>
 
 ### História da Toyota 
 
@@ -147,22 +155,60 @@ Sobre o WIP (Work in Progress):
 <br>
 <hr>
 
-### 
+### Fluxo de Trabalho x Pessoas
+[Video](https://www.youtube.com/watch?v=CostXs2p6r0)
 
 <br>
 <hr>
 
-### 
+### Principais métricas do Kanban
+Lead time – o tempo para todo o fluxo do trabalho
+
+Cycle time – o tempo que o trabalho demora para passar por parte do fluxo.
+
+Throughtput – quantos itens o time completa em um período de tempo, pode ser chamado de vazão.
+
+- As métricas existem para ajudar o time a melhorar
+- É recomendável que se deixe o time escolher as suas próprias métricas.
+- Não devemos usar as métricas do Kanban para avaliação de performance da equipe.
+- É importante que os cartões tenham datas para ser possível extrair as métricas desejadas.
+- Na dúvida de qual métrica usar, como ponto de análise inicial usar a Lead time, porque é o tempo que a sua entrega leva para gerar valor para seu cliente
+- As métricas devem ser escolhidas pela realidade de cada time.
+- As métricas ajudam o time a começar a ver a média dos seus resultados, a fazer previsões e planejar prazos de entrega.
+
+Na questão da urgência é importante sempre monitorar no fluxo de trabalho do quadro Kanban o que é urgente tendo em vista que isso impacta o resultado como um todo da entrega.
 
 <br>
 <hr>
 
-### 
+### Scrum vs Kanban
 
+[Blog Miro: Kanban vs Scrum Side by Side Comparison](https://miro.com/blog/scrum-kanban-boards-differences/)
 <br>
 <hr>
 
-### 
+### Cuidados na implantação do Kanban
+
+- Deixarmos as políticas explícitas com foco em buscar a melhoria contínua e colaborativa;
+
+- Realização de reuniões periódicas de melhoria baseadas no quadro Kanban, onde o time decide sua frequência. O importante é que ela seja focada nos post-its, não nas pessoas, e que os post-its sejam trabalhados priorizados da direita para a esquerda, o que possibilitará o término de alguns trabalhos antes de se iniciarem outros;
+
+- É relevante nos certificarmos que todo o time entende no que trabalha;
+
+- O Kanban não faz mágica, quem faz a mágica é o time. Na verdade, o Kanban expõe os problemas no processo. Neste contexto, cabe ao time abordar os problemas para poder obter os benefícios do Kanban e com isto obter a verdadeira magia que é o time sempre estar se auto ajustando para poder estar continuamente melhorando;
+
+- A adoção do Kanban é um investimento de longo prazo em capacidade, maturidade e cultura da sua organização.Não se destina a uma solução rápida!
+
+- Focar no que “cheira mal” e nos desvios;
+
+Os erros mais comuns no quadro Kanban são:
+a- Andar contra o sentido do fluxo.
+b- Ter uma coluna para “on hold” ou espera.
+c- Não ter limite ou não respeitar o WIP.
+d- Não mapear todos os itens de trabalho ou o post-it “fantasma”
+e- Não usar métricas de forma consistente ou relevante.
+f- Não deixar a métrica ser imposta, o time precisa estar envolvido na decisão!
+g- Punir o time caso o resultado piore, premiar caso o resultado melhore
 
 <br>
 <hr>
@@ -322,7 +368,19 @@ Sobre o WIP (Work in Progress):
 <hr>
 <br>
 
-### PERGUNTA
+### Considerando seus conhecimentos sobre lead time, cycle time e throughput leia atentamente o caso abaixo e selecione a opção correta.
+
+**Como dica para você refletir sobre a questão vale destacar que no exemplo deste exercício, estamos aplicando métricas Kanban num sistema sem termos feito medições in loco, além dos valores descritos abaixo.****
+
+**Marcos precisava encher o maior número de baldes possível porque ele sabia que iria faltar água na casa dele no próximo final de semana. Para isso ele pegou uma mangueira e conectou-a a uma torneira. A mangueira tem 2 metros de comprimento. Desde que ele abriu a torneira até cair a primeira gota d'água no balde o tempo foi de 3 segundos.**
+
+**A cada 1 minutos Marcos conseguiu encher um balde de água. Marcos encheu 60 baldes em uma hora e ficou satisfeito.**
+
+**ou**
+
+**A cada 5 minutos Marcos conseguiu encher um balde de água. Marcos encheu 12 baldes em uma hora e ficou satisfeito.**
+
+**Considerando que o sistema é desde a água sair da torneira até sair da mangueira.**
 
 <details>
 <summary>Mostrar resposta</summary>
@@ -330,7 +388,15 @@ Sobre o WIP (Work in Progress):
 <br>
 
 > 
-> RESPOSTA
+> O **lead time é de 3 segundos** e o **throughput é de 60 baldes por hora**, ou 1 balde a cada 5 minutos, não temos como estimar cycle time pois não há particionamento do sistema.
+> 
+> Cycle time poderia ser estimado caso houvesse alguma etapa a mais, entre a saída da torneira até a saída da mangueira.
+> 
+> Este caso é como se houvesse apenas duas colunas no quadro Kanban. O leadtime é o tempo total, ou seja, o tempo que a água leva para percorrer a mangueira, o throughput é quantos itens o Marcos completa por período de tempo, ou seja, 60 baldes por hora, ou 1 balde a cada 5 minutos.
+> 
+> Assim, neste exemplo, citado não está claro pela ausência do cycle time a existência de etapas para recolhimento de água em mais de um balde ao mesmo tempo quantas mangueiras, quantos baldes e quantas torneiras são usadas.
+> 
+> Vale destacar que na prática num sistema Kanban todas as 3 métricas citadas devem ser coletadas em campo, devido a acontecimentos no sistema que só entendemos durante o processo/operação, os quais a lógica matemática isolada sem todas as variáveis não nos dá todas as respostas.
 > 
 
 </details>

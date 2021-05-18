@@ -8,7 +8,7 @@ Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)**.
 ## [Exercício 1] Clínica Veterinária
 **O objetivo é desenvolver um modelo de dados para um hospital veterinário. Cada cliente pode possuir um ou vários animais em tratamento. Cada animal pode estar sofrendo de uma ou várias enfermidades. Os casos mais simples são resolvidos, geralmente, por um único veterinário, entretanto podem ocorrer casos em que um animal é atendido por mais de um veterinário.**
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/01.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/01.png?raw=true">
 
 <hr>
 <br>
@@ -20,7 +20,7 @@ Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)**.
 - Para cada cliente é necessário saber, o nome, endereço, cpf e outros dados pessoais;
 - Para as manutenções dos veículos é necessário saber, por modelo o custo médio mensal.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/02.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/02.png?raw=true">
 
 <hr>
 <br>
@@ -33,7 +33,7 @@ Software utilizado: **[brModelo](http://www.sis4.com/brModelo/download.html)**.
 - Os empregados são alocados em projetos e a informação data de alocação deve ser mantida;
 - Cada projeto é caracterizado por um número, nome e horas previstas.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/03.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/03.png?raw=true">
 
 <hr>
 <br>
@@ -47,7 +47,7 @@ quantidades por pedido de venda. Para estes é necessário ter informações com
 
 **Fazer o diagrama entidade relacionamento e identificar os atributos de cada entidade e de cada relacionamento**
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/04.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/04.png?raw=true">
 
 <hr>
 <br>
@@ -60,7 +60,7 @@ quantidades por pedido de venda. Para estes é necessário ter informações com
 - A empresa definiu a necessidade de manter-se um histórico dos preços praticados pelos seus fornecedores;
 - Para uma melhor administração das obras, foi definido que semanalmente deveria ser emitido um relatório, demonstrando por obra o seu custo orçado e o real até a data, bem como o cronograma de execução, apontando os desvios existentes, se for o caso.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/05.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/05.png?raw=true">
 
 <hr>
 <br>
@@ -74,7 +74,7 @@ quantidades por pedido de venda. Para estes é necessário ter informações com
 
 **Fazer o diagrama entidade relacionamento e identificar os atributos de cada entidade e de cada relacionamento, sinalize também os atributos identificadores (chaves).**
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/06.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/06.png?raw=true">
 
 <hr>
 <br>
@@ -89,4 +89,4 @@ quantidades por pedido de venda. Para estes é necessário ter informações com
 - Um voo é identificado por um número e utiliza: um avião, um piloto, um aeroporto de partida e outro de chegada.
 - Um passageiro pode reservar um assento em um voo.
 
-<img src="https://github.com/LeonarDev/Autoplay/blob/main/back-end/modelagem_db/Aulas_Autoplay/Exercicios/07.png?raw=true">
+<img src="https://github.com/LeonarDev/Autoplay/blob/main/2_back-end/modelagem_db/Aulas_Autoplay/Exercicios/07.png?raw=true">

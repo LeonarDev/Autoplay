@@ -9,14 +9,16 @@
 ##### [Código do Jogo](https://editor.p5js.org/LeonarDev/sketches/UFaV1WJ4l)
 <hr>
 
-### [Aplicação "Períodos do Dia"](https://github.com/LeonarDev/Autoplay/tree/main/front-end/projeto_datas)
+<!--
+### [Aplicação "Períodos do Dia"](https://github.com/LeonarDev/Autoplay/tree/main/1_front-end/projeto_datas)
 <hr>
 
-### [Aplicação "Lista de Tarefas"](https://github.com/LeonarDev/Autoplay/tree/main/front-end/projeto_lista_de_tarefas)
+### [Aplicação "Lista de Tarefas"](https://github.com/LeonarDev/Autoplay/tree/main/1_front-end/projeto_lista_de_tarefas)
 <hr>
 
-### [Aplicação "Idades"](https://github.com/LeonarDev/Autoplay/tree/main/front-end/projeto_idades)
+### [Aplicação "Idades"](https://github.com/LeonarDev/Autoplay/tree/main/1_front-end/projeto_idades)
 <hr>
+-->
 
 <br>
 

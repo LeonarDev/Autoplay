@@ -1,0 +1,45 @@
+.blog {
+  display: block;
+  position: relative;
+}
+
+.blog::after {
+  background-size: 25px 25px;
+  background: url(../imagens/fundo.png);
+  bottom: 0;
+  content: "";
+  left: 0;
+  opacity: .15;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.post-destaque,
+.posts-antigos {
+  display: inline-block;
+  vertical-align: top;
+  width: 48%;
+}
+
+.post-destaque {
+  margin-right: 2em;
+}
+
+.post-destaque img {
+  width: 100%;
+}
+
+.posts-antigos a {
+  background: url(../imagens/icone-relogio.png) left center no-repeat;
+  color: black;
+  display: block;
+  height: 1.7em;
+  padding-left: 2.5em;
+  text-decoration: none;
+}
+
+.posts-antigos a:hover {
+  text-decoration: underline;
+}

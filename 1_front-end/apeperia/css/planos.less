@@ -1,0 +1,82 @@
+.planos {
+  background: #1e2c35;
+}
+
+.planos h2 {
+  color: #fff;
+}
+
+.plano {
+  background: white;
+  display: inline-block;
+  margin: 1em 0 0 1.4em;
+  padding-bottom: 2em;
+  width: 18em;
+
+  &:hover {
+    background: #dedede;
+  }
+
+  h3 {
+    background: @cor-padrao;
+    color: #fff;
+    font-size: 1.8em;
+    height: 2em;
+    margin-top: 0;
+    padding-top: .6em;
+    text-align: center;
+  }
+
+  div {
+    color: @cor-padrao;
+    font-size: 2.75em;
+    text-align: center;
+  }
+}
+
+.itens-plano {
+  padding-left: 1.2em;
+
+  li {
+    border-bottom: 1px solid #acacac;
+    font-size: 1em;
+    list-style: none;
+    padding: .5em;
+    width: 14.8em;
+
+    &:last-child {
+      border: 0;
+    }
+  }
+
+  span {
+    float: right;
+  }
+}
+
+.plano button {
+  .borda-arredondada;
+  &:extend(.sombra-padrao);
+  background: @cor-padrao;
+  border: 0;
+  color: #fff;
+  font-size: 1.2em;
+  height: 38px;
+  margin-left: 2em;
+  width: 210px;
+}
+
+.icone-check,
+.icone-x {
+  background: url(../imagens/sprite.png) no-repeat;
+  height: 18px;
+  width: 18px;
+}
+
+.icone-check {
+  background-position: -5px -5px;
+}
+
+.icone-x {
+  background-position: -33px -5px;
+}

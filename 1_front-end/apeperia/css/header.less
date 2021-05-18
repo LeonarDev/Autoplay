@@ -1,0 +1,65 @@
+header {
+  background: fade(@cor-auxiliar, 80%);
+  border-top: 5px solid @cor-padrao;
+  height: 90px;
+  position: absolute;
+  width: 100%;
+
+  @media @mobile {
+    height: auto;
+    h1 {
+      margin: 0 auto;
+      max-width: 50%;
+
+      img {
+        display: block;
+        margin: .5em auto;
+        max-width: 100%;
+      }
+    }
+  }
+}
+
+header .container {
+  position: relative;
+
+  @media @mobile {
+    position: static;
+  }
+}
+
+.menu-principal {
+  font-size: 1.2em;
+  font-weight: lighter;
+  position: absolute;
+  right: 0;
+  top: -0.5em;
+
+  @media @mobile {
+    display: block;
+    position: static;
+    text-align: center;
+  }
+
+  a {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    display: inline-block;
+    width: 5em;
+
+    @media @mobile {
+      margin: .4em;
+    }
+  }
+}

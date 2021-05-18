@@ -1,0 +1,30 @@
+.contato button,
+.contato input {
+  display: block;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.contato input,
+textarea {
+  .borda-arredondada;
+  border: 2px solid #ccc;
+  margin-bottom: .8em;
+  padding: 4px 8px;
+  width: 100%;
+}
+
+.contato button {
+  .borda-arredondada;
+  &:extend(.sombra-padrao);
+  background: @cor-padrao;
+  border: 0;
+  color: #fff;
+  font-size: 1.2em;
+  height: 38px;
+  margin: 0 auto;
+  width: 210px;
+}

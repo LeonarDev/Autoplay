@@ -1,9 +1,9 @@
 .cabecalho {
 	font-size: 1rem;
-	padding-top: .5eme;
-	padding-bottom: .5eme;
+	padding-top: .5em;
+	padding-bottom: .5em;
 	text-align: center;
-	display: fex;
+	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;

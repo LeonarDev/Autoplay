@@ -4,19 +4,19 @@
 
 <br>
 
-<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/front-end/cinema/readme-img/home.PNG">
+<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/1_front-end/cinema/readme-img/home.PNG">
 
 <br>
 
-<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/front-end/cinema/readme-img/ingressos.PNG">
+<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/1_front-end/cinema/readme-img/ingressos.PNG">
 
 <br>
 
-<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/front-end/cinema/readme-img/filmes.PNG">
+<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/1_front-end/cinema/readme-img/filmes.PNG">
 
 <br>
 
-<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/front-end/cinema/readme-img/comprar.PNG">
+<img src="https://raw.githubusercontent.com/LeonarDev/Autoplay/main/1_front-end/cinema/readme-img/comprar.PNG">
 
 <br>
 

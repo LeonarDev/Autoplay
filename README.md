@@ -1,6 +1,9 @@
-# Autoplay Links
+# Autoplay
 <br>
 
+### Repositório de estudos e projetos realizados durante o programa de capacitação da Autoglass
+
+<!--
 ### [Link do Jogo "Pong"](https://editor.p5js.org/LeonarDev/present/AVdhVQ8ro)
 ##### [Código do Jogo](https://editor.p5js.org/LeonarDev/sketches/AVdhVQ8ro)
 <hr>
@@ -9,7 +12,7 @@
 ##### [Código do Jogo](https://editor.p5js.org/LeonarDev/sketches/UFaV1WJ4l)
 <hr>
 
-<!--
+
 ### [Aplicação "Períodos do Dia"](https://github.com/LeonarDev/Autoplay/tree/main/1_front-end/projeto_datas)
 <hr>
 

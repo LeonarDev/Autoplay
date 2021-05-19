@@ -75,16 +75,16 @@ var criaOpcoesDoCartao = (function(){
 	return function(idNovoCartao){
 
 		var botaoRemove = $("<button>").addClass("opcoesDoCartao-remove")
-																		.addClass("opcoesDoCartao-opcao")
-																		.attr("data-id", idNovoCartao)
-																		.text("Remover")
-																		.click(removeCartao)
+                                       .addClass("opcoesDoCartao-opcao")
+		                               .attr("data-id", idNovoCartao)
+                                       .text("Remover")
+                                       .click(removeCartao)
 
 		var botaoEdita = $("<button>").addClass("opcoesDoCartao-edita")
-																	.addClass("opcoesDoCartao-opcao")
+                                      .addClass("opcoesDoCartao-opcao")
 		                              .attr("data-id", idNovoCartao)
-																	.text("Editar")
-																	.click(toggleEdicao);
+                                      .text("Editar")
+                                      .click(toggleEdicao);
 
 		var opcoesDeCor = opcoesDeCoresDoCartao(idNovoCartao);
 

@@ -1,6 +1,8 @@
 (function(){
 	"use strict"
 
+	var usuario = 'meuemail@email.com';
+
 	$.getJSON(
 		"https://ceep.herokuapp.com/cartoes/carregar",
 		{usuario: usuario},

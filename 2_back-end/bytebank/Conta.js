@@ -1,8 +1,13 @@
+// Classe abstrata:
 export default class Conta {
   static numeroDeContas = 0;
   _numero;
-
+  
   constructor(saldoInicial, agencia, cliente) {
+    if (this.constructor == Conta) {
+      throw new Error(`Você não deveria instanciar diretamente um objeto do tipo 'Conta'`);
+    }
+    
     Conta.numeroDeContas += 1
     this._numero = Conta.numeroDeContas;
     this._agencia = agencia;
@@ -41,8 +46,6 @@ export default class Conta {
   }
 
   depositar(valor) {
-    // valor <= 0 ? console.log(`Não é possível depositar ${valor}: valor negativo`) : this._saldo += valor;
-
     if (valor >= 0){
       this._saldo += valor;
       console.log(`Depósito realizado com sucesso no valor de R$ ${valor},00`);

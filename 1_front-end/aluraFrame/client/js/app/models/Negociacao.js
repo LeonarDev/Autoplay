@@ -1,4 +1,4 @@
-export default class Negociacao {
+class Negociacao {
   constructor(data, quantidade, valor) {
     this._data = new Date(data.getTime());
     this._quantidade = quantidade;

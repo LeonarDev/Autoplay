@@ -1,0 +1,52 @@
+body {
+  background: url(../img/destaque.jpeg) no-repeat;
+  background-size: cover;
+}
+
+.main-content-top {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  text-transform: uppercase;
+}
+
+.main-content-top h1 {
+  color: aliceblue;
+  font-size: 60px;
+  padding: 10px 0;
+  text-shadow: 3px 3px 6px black;
+}
+
+.main-content-top h2 {
+  color: #48ff00;
+  font-size: 40px;
+  padding-bottom: 30px;
+  text-shadow: 3px 3px 6px black;
+}
+
+.main-content-top a {
+  background-color: #3D979B;
+  border-radius: 5px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: aliceblue;
+  padding: 20px 40px;
+  text-decoration: none;
+  transition: 500ms;
+}
+
+.main-content-top a:hover {
+  background-color: #3D979B;
+  font-size: 20px;
+  padding: 25px 45px ;
+}
+
+@media(max-width: 390px) {
+  .main-content-top h1 {
+    font-size: 35px;
+  }
+
+  .main-content-top h2 {
+    font-size: 30px;
+  }
+}

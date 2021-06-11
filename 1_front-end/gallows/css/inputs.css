@@ -1,0 +1,12 @@
+.divPalavra {
+  visibility: visible;
+}
+
+.divChute {
+  display: none;
+  visibility: hidden;
+}
+
+.reset-game {
+  margin-top: 15px;
+}

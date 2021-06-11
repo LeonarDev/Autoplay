@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/sprite.css">
     <link rel="stylesheet" href="css/lacuna.css">
+    <link rel="stylesheet" href="css/inputs.css">
     <title>Jogo da Forca</title>
 </head>
 <body>
@@ -19,14 +20,30 @@
         
         <ul class="lacunas text-center"></ul>
 
-        <div class="text-center">
-        <input id="entrada" 
-            class="entrada"
-            placeholder="Palavra secreta" autofocus>
+        <div class="text-center divPalavra">
+            <input 
+                id="entradaPalavra" 
+                class="entrada"
+                placeholder="Palavra secreta"
+                autofocus
+                type="password"
+            >
+            <button class="botaoConfirmaPalavra">Confirma</button>
         </div>
-    </div>
 
-    <div class="text-center">
+        <div class="text-center divChute">
+            <input 
+                id="entradaChute" 
+                class="entrada"
+                placeholder="Chute uma letra"
+                autofocus
+                maxlength="1"
+            >
+            <button class="botaoConfirmaChute">Confirma</button>
+            </div>
+        </div>
+
+    <div class="text-center reset-game">
         <button id="reset-game">Reiniciar Jogo</button>
     </div>
 

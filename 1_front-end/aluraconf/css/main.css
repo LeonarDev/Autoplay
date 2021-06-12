@@ -2,31 +2,142 @@
   align-items: center;
   display: flex;
   flex-direction: column;
+  line-height: 25px;
   text-align: center;
 }
 
 .main-content h3 {
   font-size: 28px;
   font-weight: bolder;
-  margin: 10px;
+  margin: 14px 0;
 }
 
 .main-content h4 {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px;
+  margin: 14px 0;
 }
 
 .main-content p {
-  margin: 10px 70px;
+  margin: 10px 0;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+/* CARDS */
+.cards-container {
+  text-align: center;
+  background-color: #EB6F3D;
+  color: azure;
+  display: flex;
+  padding: 2% 5%;
+  /* width: 100%; */
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.cards-titles {
+  position: absolute;
+}
+
+.cards-titles h3 {
+  font-size: 30px;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.cards-titles p {
+  font-size: 24px;
+}
+
+.card {
+  background-color: azure;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 5%;
+  color: black;
+  margin: 70px 10px 0;
+  transition: 0.3s;
+  width: 200px;
+}
+
+.card img{
+  width: 100%;
+  height: 20vh;
+  border-radius: 5% 5% 0 0;
+}
+
+.card-details {
+  padding: 5%;
+}
+
+.card-details h4 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.card-details h5 {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.card-details blockquote {
+  color: #615f5f;
+  font-size: italic;
+}
+
+/* FORMULÁRIO */
+.form {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 26px;
+  /* width: 900px; */
+}
+
+.form h3 {
+  font-size: 26px;
+  color: #EB6F3D;
+  margin-bottom: 16px;
+  text-transform: uppercase;
+}
+
+.form label {
+  font-weight: bold;
+}
+
+.form input {
+  margin: 6px 0 18px 0;
+  padding: 6px;
+  width: 100%;
+}
+
+.form button {
+  background-color: #3FA1A3;
+  border-radius: 4%;
+  color: aliceblue;
+  font-weight: bold;
+  padding: 16px;
+  margin: 0 0 0 8px;
+  text-transform: uppercase;
+  width: 100%;
+}
+
+
+/* MEDIA QUERIES */
 @media(max-width: 390px) {
   .main-content h3, .main-content h4, .main-content p {
     margin: 10px 30px;
+  }
+}
+
+@media(max-width: 550px) {
+  .card {
+    margin: 120px 10px 0 0;
 
   }
-  
-  
-
 }

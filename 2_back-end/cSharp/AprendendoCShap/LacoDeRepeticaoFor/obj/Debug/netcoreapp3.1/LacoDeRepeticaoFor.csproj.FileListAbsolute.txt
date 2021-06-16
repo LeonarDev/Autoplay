@@ -1,0 +1,12 @@
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\bin\Debug\netcoreapp3.1\LacoDeRepeticaoFor.exe
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\bin\Debug\netcoreapp3.1\LacoDeRepeticaoFor.deps.json
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\bin\Debug\netcoreapp3.1\LacoDeRepeticaoFor.runtimeconfig.json
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\bin\Debug\netcoreapp3.1\LacoDeRepeticaoFor.runtimeconfig.dev.json
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\bin\Debug\netcoreapp3.1\LacoDeRepeticaoFor.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\bin\Debug\netcoreapp3.1\LacoDeRepeticaoFor.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\obj\Debug\netcoreapp3.1\LacoDeRepeticaoFor.AssemblyInfoInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\obj\Debug\netcoreapp3.1\LacoDeRepeticaoFor.AssemblyInfo.cs
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\obj\Debug\netcoreapp3.1\LacoDeRepeticaoFor.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\obj\Debug\netcoreapp3.1\LacoDeRepeticaoFor.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\obj\Debug\netcoreapp3.1\LacoDeRepeticaoFor.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\LacoDeRepeticaoFor\obj\Debug\netcoreapp3.1\LacoDeRepeticaoFor.genruntimeconfig.cache

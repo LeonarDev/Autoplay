@@ -1,0 +1,12 @@
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\bin\Debug\netcoreapp3.1\MultiplosDeTres.exe
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\bin\Debug\netcoreapp3.1\MultiplosDeTres.deps.json
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\bin\Debug\netcoreapp3.1\MultiplosDeTres.runtimeconfig.json
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\bin\Debug\netcoreapp3.1\MultiplosDeTres.runtimeconfig.dev.json
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\bin\Debug\netcoreapp3.1\MultiplosDeTres.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\bin\Debug\netcoreapp3.1\MultiplosDeTres.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\obj\Debug\netcoreapp3.1\MultiplosDeTres.AssemblyInfoInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\obj\Debug\netcoreapp3.1\MultiplosDeTres.AssemblyInfo.cs
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\obj\Debug\netcoreapp3.1\MultiplosDeTres.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\obj\Debug\netcoreapp3.1\MultiplosDeTres.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\obj\Debug\netcoreapp3.1\MultiplosDeTres.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\MultiplosDeTres\obj\Debug\netcoreapp3.1\MultiplosDeTres.genruntimeconfig.cache

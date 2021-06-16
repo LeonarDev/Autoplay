@@ -1,0 +1,13 @@
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.exe
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.deps.json
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.runtimeconfig.json
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.runtimeconfig.dev.json
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\bin\Debug\netcoreapp3.1\Fatorial.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.csproj.AssemblyReference.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.AssemblyInfoInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.AssemblyInfo.cs
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\Fatorial\obj\Debug\netcoreapp3.1\Fatorial.genruntimeconfig.cache

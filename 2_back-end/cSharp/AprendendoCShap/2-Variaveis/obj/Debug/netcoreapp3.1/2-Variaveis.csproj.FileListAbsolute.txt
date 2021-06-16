@@ -1,0 +1,13 @@
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\bin\Debug\netcoreapp3.1\2-Variaveis.exe
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\bin\Debug\netcoreapp3.1\2-Variaveis.deps.json
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\bin\Debug\netcoreapp3.1\2-Variaveis.runtimeconfig.json
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\bin\Debug\netcoreapp3.1\2-Variaveis.runtimeconfig.dev.json
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\bin\Debug\netcoreapp3.1\2-Variaveis.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\bin\Debug\netcoreapp3.1\2-Variaveis.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.csproj.AssemblyReference.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.AssemblyInfoInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.AssemblyInfo.cs
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\2-Variaveis\obj\Debug\netcoreapp3.1\2-Variaveis.genruntimeconfig.cache

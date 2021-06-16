@@ -1,0 +1,13 @@
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.exe
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.deps.json
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.runtimeconfig.json
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.runtimeconfig.dev.json
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\bin\Debug\netcoreapp3.1\Exercicio.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.csproj.AssemblyReference.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.AssemblyInfoInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.AssemblyInfo.cs
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\Exercicio\obj\Debug\netcoreapp3.1\Exercicio.genruntimeconfig.cache

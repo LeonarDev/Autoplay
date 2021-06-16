@@ -1,0 +1,12 @@
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\bin\Debug\netcoreapp3.1\OperadorSwitch.exe
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\bin\Debug\netcoreapp3.1\OperadorSwitch.deps.json
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\bin\Debug\netcoreapp3.1\OperadorSwitch.runtimeconfig.json
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\bin\Debug\netcoreapp3.1\OperadorSwitch.runtimeconfig.dev.json
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\bin\Debug\netcoreapp3.1\OperadorSwitch.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\bin\Debug\netcoreapp3.1\OperadorSwitch.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\obj\Debug\netcoreapp3.1\OperadorSwitch.AssemblyInfoInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\obj\Debug\netcoreapp3.1\OperadorSwitch.AssemblyInfo.cs
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\obj\Debug\netcoreapp3.1\OperadorSwitch.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\obj\Debug\netcoreapp3.1\OperadorSwitch.dll
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\obj\Debug\netcoreapp3.1\OperadorSwitch.pdb
+C:\Users\Majevski\source\repos\AprendendoCShap\OperadorSwitch\obj\Debug\netcoreapp3.1\OperadorSwitch.genruntimeconfig.cache

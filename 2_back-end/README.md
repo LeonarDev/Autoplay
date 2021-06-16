@@ -6,4 +6,7 @@
 - Diagrama Entidade-Relacionamento e Modelo Relacional
 - Transformação do Diagrama ER para Modelo Relacional
 - MySQL
+- Oracle SQL Developer
 - MongoDB
+- Node
+- Rest API

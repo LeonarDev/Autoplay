@@ -16,14 +16,24 @@ public class TestaIntercalaEmUmArray {
 	        new Nota("ana", 10)
 	    };
 		
-		Nota[] rank = intercala(notas, 0, 4, notas.length);
+		ordena(notas, 0, notas.length);
 		
-		for(Nota nota : rank) {
+		for(Nota nota : notas) {
 		    System.out.println(nota.getAluno() + " " + nota.getValor());
 		}
 	}
 
-	private static Nota[] intercala(Nota[] notas, int inicial, int miolo, int termino) {
+	private static void ordena(Nota[] notas, int inicial, int termino) {
+		int quantidadeElementos = termino - inicial;
+		if(quantidadeElementos > 1) {
+			int meio = (inicial + termino) /2;
+			ordena(notas, inicial, meio);
+			ordena(notas, meio, termino);
+			intercala(notas, inicial, meio, termino);			
+		}
+	}
+
+	private static void intercala(Nota[] notas, int inicial, int miolo, int termino) {
 		Nota[] resultado = new Nota[termino - inicial];
 		
 		int atual = 0;
@@ -59,8 +69,6 @@ public class TestaIntercalaEmUmArray {
 		for (int contador = 0; contador < atual; contador++) {
 			notas[contador + inicial] = resultado[contador];
 		}
-		
-		return notas;
 	}
 	
 	

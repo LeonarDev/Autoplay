@@ -1,0 +1,46 @@
+# C#
+
+### Tópicos estudados:
+- Variáveis e controle de fluxo
+- Condicionais e laços de repetição
+- Principais tipos no C#
+- O que são referencias e objetos
+- Atributos, métodos da instância e da classe
+- Definição de objetos através de construtores
+- Encapsulamento
+- Reutilizando código com Herança e Composição
+- Polimorfismo
+- Implementação de Interface e métodos abstratos
+- Sobrescrita de métodos
+- Modificadores virtual, abstract e override
+- Modificador de visibilidade protected
+- Pilha de chamadas
+- Tratamento de exceções
+- Criando suas próprias exceções
+- Bloco try/catch/finally e using
+- Interface IDisposable
+- Criando bibliotecas;
+- DLLs;
+- NuGet para gerenciar pacotes;
+- Como gerar arquivos XML de documentação para o Visual Studio e outras ferramentas;
+- Manipulando strings no C#
+- Métodos IndexOf, Substring, Contains e outros da classe String
+- Expressões regulares
+- A classe Regex
+- Métodos da classe Object
+- Arrays
+- Criando uma lista dinâmica
+- Tipos genéricos
+- Como usar o argumento params
+- Argumentos opcionais e nomeados
+- Indexadores em classes
+- Tipo genérico List e seus métodos
+- As principais formas de ordenar listas
+- Métodos de extensão genéricos
+- Simplificando seu código com o VAR
+- Expressões lambda
+- Linq
+- Encoding, UTF8, Unicode, ASCII e outros
+- Buffers para lidar com fluxo de dados
+- Criando arquivos binários
+- Classe File

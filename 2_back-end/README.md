@@ -10,3 +10,8 @@
 - MongoDB
 - Node
 - Rest API
+- POO
+- Java
+- C#
+- .Net Framework
+- .Net Core

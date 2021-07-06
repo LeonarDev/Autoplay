@@ -13,7 +13,6 @@ namespace ByteBank.SistemaAgencia
 
             ContaCorrente conta1 = new ContaCorrente(867, 86712540);
             Console.WriteLine("Total de contas: " + ContaCorrente.totalDeContas);
-            conta1.Sacar(-10);
 
             Console.WriteLine("GetAgencia da conta1: " + conta1.Agencia); //getter
             Console.WriteLine("GetNumero da conta1: " + conta1.Numero); //getter
@@ -29,6 +28,12 @@ namespace ByteBank.SistemaAgencia
 
             UsarSistema();
 
+            DateTime dataFinal = new DateTime(2023, 10, 31);
+            DateTime dataAtual = DateTime.Now;
+            TimeSpan prazo = dataFinal - dataAtual;
+            string mensagemPrazo = "Prazo final em " + GetIntervaloDeDias(prazo);
+            Console.WriteLine(mensagemPrazo);
+
             try
             {
                 CarregarContas();
@@ -40,6 +45,20 @@ namespace ByteBank.SistemaAgencia
 
             Console.WriteLine("Execução finalizada. Tecle enter para sair");
             Console.ReadLine();
+        }
+
+        static string GetIntervaloDeDias(TimeSpan timeSpan)
+        {
+            if (timeSpan.Days > 30)
+            {
+                int quantidadeMeses = timeSpan.Days / 30;
+                if (quantidadeMeses == 1)
+                {
+                    return quantidadeMeses + " mês";
+                }
+                return quantidadeMeses + " meses";
+            }
+            return timeSpan.Days + " dias";
         }
 
         public static void UsarSistema()

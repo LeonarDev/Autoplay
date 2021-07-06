@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "ByteBank.Modelos/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/ByteBank.Modelos.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ByteBank.Modelos/1.0.0": {
+      "type": "project",
+      "path": "../ByteBank.Modelos/ByteBank.Modelos.csproj",
+      "msbuildProject": "../ByteBank.Modelos/ByteBank.Modelos.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "ByteBank.Modelos >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\Majevski\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\Majevski\\Documents\\Dev\\Autoplay\\2_back-end\\cSharp\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "projectName": "ByteBank.SistemaAgencia",
+      "projectPath": "C:\\Users\\Majevski\\Documents\\Dev\\Autoplay\\2_back-end\\cSharp\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
+      "packagesPath": "C:\\Users\\Majevski\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Majevski\\Documents\\Dev\\Autoplay\\2_back-end\\cSharp\\ByteBank\\ByteBank.SistemaAgencia\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\Majevski\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\Majevski\\Documents\\Dev\\Autoplay\\2_back-end\\cSharp\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj": {
+              "projectPath": "C:\\Users\\Majevski\\Documents\\Dev\\Autoplay\\2_back-end\\cSharp\\ByteBank\\ByteBank.Modelos\\ByteBank.Modelos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

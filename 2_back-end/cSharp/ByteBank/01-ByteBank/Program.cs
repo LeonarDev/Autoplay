@@ -2,6 +2,7 @@
 using ByteBank.Sistemas;
 using System;
 
+
 namespace ByteBank
 {
     class Program
@@ -25,6 +26,18 @@ namespace ByteBank
             Console.WriteLine("----------------");
 
             UsarSistema();
+
+            try
+            {
+                CarregarContas();
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("CATCH NO METODO MAIN");
+            }
+
+            Console.WriteLine("Execução finalizada. Tecle enter para sair");
+            Console.ReadLine();
         }
 
         public static void UsarSistema()
@@ -75,6 +88,14 @@ namespace ByteBank
 
             Console.WriteLine("Total de bonificações do mês " +
             gerenciadorBonificacao.GetTotalBonificacao());
+        }
+
+        private static void CarregarContas()
+        {
+            using (LeitorDeArquivo leitor = new LeitorDeArquivo("teste.txt"))
+            {
+                leitor.LerProximaLinha();
+            }
         }
     }
 }

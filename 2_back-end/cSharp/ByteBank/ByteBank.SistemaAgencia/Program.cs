@@ -59,6 +59,8 @@ namespace ByteBank.SistemaAgencia
                 return quantidadeMeses + " meses";
             }
             return timeSpan.Days + " dias";
+
+            // Existe uma lib chamada "Humanizer" que lida com o retorno do timeSpan avaliando se restam dias, semanas, meses, etc...
         }
 
         public static void UsarSistema()

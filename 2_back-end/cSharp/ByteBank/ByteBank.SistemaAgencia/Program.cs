@@ -18,8 +18,6 @@ namespace ByteBank.SistemaAgencia
 
             Match match = Regex.Match(texto, padrao);
             Console.WriteLine(match.Value);
-
-
             Console.WriteLine("----------------");
 
             string url = "https://www.bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar&valor=2000";
@@ -27,7 +25,6 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine("moedaOrigem: " + extratorDeValorURL.GetValor("MOEDAORIGEM"));
             Console.WriteLine("moedaDestino: " + extratorDeValorURL.GetValor("moedaDestino"));
             Console.WriteLine("Valor: " + extratorDeValorURL.GetValor("valor"));
-
             Console.WriteLine("----------------");
 
             Console.WriteLine("Total de contas: " + ContaCorrente.totalDeContas);
@@ -40,20 +37,25 @@ namespace ByteBank.SistemaAgencia
 
             ContaCorrente conta2 = new ContaCorrente(867, 86745820);
             Console.WriteLine("Total de contas: " + ContaCorrente.totalDeContas);
+            Console.WriteLine("----------------");
 
+            string contaToString = conta1.ToString();
+            Console.WriteLine($"Resultado {contaToString}"); //string literals
+            Console.WriteLine(conta1);
             Console.WriteLine("----------------");
 
             CalcularBonificacao();
-
             Console.WriteLine("----------------");
 
             UsarSistema();
+            Console.WriteLine("----------------");
 
             DateTime dataFinal = new DateTime(2023, 10, 31);
             DateTime dataAtual = DateTime.Now;
             TimeSpan prazo = dataFinal - dataAtual;
             string mensagemPrazo = "Prazo final em " + GetIntervaloDeDias(prazo);
             Console.WriteLine(mensagemPrazo);
+            Console.WriteLine("----------------");
 
             try
             {
@@ -64,8 +66,8 @@ namespace ByteBank.SistemaAgencia
                 Console.WriteLine("CATCH NO METODO MAIN");
             }
 
-            Console.WriteLine("Execução finalizada. Tecle enter para sair");
-            Console.ReadLine();
+            //Console.WriteLine("Execução finalizada. Tecle enter para sair");
+            //Console.ReadLine();
         }
 
         static string GetIntervaloDeDias(TimeSpan timeSpan)

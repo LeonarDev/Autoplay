@@ -14,3 +14,4 @@ C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\ByteBank\ByteBank.Mod
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\net5.0\ref\ByteBank.Modelos.dll
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\net5.0\ByteBank.Modelos.pdb
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\ByteBank\ByteBank.Modelos\bin\Debug\net5.0\net5.0\ByteBank.Modelos.xml
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\ByteBank\ByteBank.Modelos\obj\Debug\net5.0\ByteBank.Modelos.csproj.AssemblyReference.cache

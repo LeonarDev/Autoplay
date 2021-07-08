@@ -10,6 +10,15 @@ namespace ByteBank.SistemaAgencia
     {
         static void Main(string[] args)
         {
+            ListaGenerica<int> idades = new ListaGenerica<int>();
+
+            idades.Adicionar(5);
+            idades.AdicionarVarios(1, 5, 78);
+
+            Console.WriteLine(SomarVarios(1, 2, 3, 4));
+            Console.WriteLine(SomarVarios(3, 6));
+            Console.WriteLine("----------------");
+
             string texto = "Meu número é: 2342-3453";
             //string padrao = "[0-9][0-9][0-9][0-9][-][0-9][0-9][0-9][0-9]";
             //string padrao = "[0-9]{4}[-][0-9]{4}";
@@ -33,10 +42,24 @@ namespace ByteBank.SistemaAgencia
             Console.WriteLine("Total de contas: " + ContaCorrente.totalDeContas);
 
             Console.WriteLine("GetAgencia da conta1: " + conta1.Agencia); //getter
-            Console.WriteLine("GetNumero da conta1: " + conta1.Numero); //getter
+            Console.WriteLine("GetNumero da conta1: " + conta1.Numero); 
 
             ContaCorrente conta2 = new ContaCorrente(867, 86745820);
             Console.WriteLine("Total de contas: " + ContaCorrente.totalDeContas);
+            Console.WriteLine("----------------");
+
+            ContaCorrente[] contas = new ContaCorrente[]
+            {
+                new ContaCorrente(123, 456789),
+                new ContaCorrente(123, 987654),
+                new ContaCorrente(123, 987456)
+            };
+
+            for(int i = 0; i < contas.Length; i++)
+            {
+                ContaCorrente contaAtual = contas[i];
+                Console.WriteLine($"Conta {i} {contaAtual.Numero}");
+            };
             Console.WriteLine("----------------");
 
             string contaToString = conta1.ToString();
@@ -68,6 +91,16 @@ namespace ByteBank.SistemaAgencia
 
             //Console.WriteLine("Execução finalizada. Tecle enter para sair");
             //Console.ReadLine();
+        }
+
+        static int SomarVarios(params int[] numeros)
+        {
+            int acumulador = 0;
+            foreach (int numero in numeros)
+            {
+                acumulador += numero;
+            }
+            return acumulador;
         }
 
         static string GetIntervaloDeDias(TimeSpan timeSpan)

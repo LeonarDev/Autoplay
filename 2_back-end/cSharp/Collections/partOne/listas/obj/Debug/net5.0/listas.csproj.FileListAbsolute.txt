@@ -1,0 +1,16 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\listas.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\listas.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\listas.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\listas.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\listas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\ref\listas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\bin\Debug\net5.0\listas.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.csproj.AssemblyReference.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\ref\listas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\listas\obj\Debug\net5.0\listas.genruntimeconfig.cache

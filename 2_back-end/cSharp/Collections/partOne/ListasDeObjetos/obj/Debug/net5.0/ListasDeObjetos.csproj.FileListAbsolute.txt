@@ -1,0 +1,16 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ListasDeObjetos.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ListasDeObjetos.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ListasDeObjetos.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ListasDeObjetos.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ListasDeObjetos.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ref\ListasDeObjetos.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\bin\Debug\net5.0\ListasDeObjetos.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.csproj.AssemblyReference.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ref\ListasDeObjetos.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partOne\ListasDeObjetos\obj\Debug\net5.0\ListasDeObjetos.genruntimeconfig.cache

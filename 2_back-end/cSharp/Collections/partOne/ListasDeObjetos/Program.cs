@@ -41,6 +41,12 @@ namespace ListasDeObjetos
             Console.WriteLine($"a1 é equals a Tonini? {a1.Equals(a1Copy)}");
 
             Console.WriteLine();
+
+            Console.WriteLine("Quem é o(a) aluno(a) com a matrícula 34672?");
+            Aluno aluno34672 = csharpColecoes.BuscaMatriculado(34672);
+            Console.WriteLine($"aluno34672: {aluno34672}");
+
+
         }
 
         private static void TestaSets()

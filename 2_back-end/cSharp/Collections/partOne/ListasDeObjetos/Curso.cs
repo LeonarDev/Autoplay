@@ -9,6 +9,7 @@ namespace ListasDeObjetos
 {
     class Curso
     {
+        private IDictionary<int, Aluno> dicionarioAlunos = new Dictionary<int, Aluno>();
         private IList<Aula> aulas;
         private ISet<Aluno> alunos = new HashSet<Aluno>();
 
@@ -49,6 +50,7 @@ namespace ListasDeObjetos
         internal void Matricula(Aluno aluno)
         {
             alunos.Add(aluno);
+            this.dicionarioAlunos.Add(aluno.NumeroMatricula, aluno);
         }
 
         internal bool EstaMatriculado(Aluno aluno)
@@ -76,6 +78,21 @@ namespace ListasDeObjetos
                 //LINQ = Language Integrated Query
                 return aulas.Sum(aula => aula.Tempo);
             }
+        }
+
+        internal Aluno BuscaMatriculado(int numeroMatricula)
+        {
+            //foreach(var aluno in alunos)
+            //{
+            //    if (aluno.NumeroMatricula == numeroMatricula)
+            //    {
+            //        return aluno;
+            //    }
+            //}
+            //throw new Exception($"Matrícula não encontrada: {numeroMatricula}");
+            Aluno aluno = null;
+            this.dicionarioAlunos.TryGetValue(numeroMatricula, out aluno);
+            return aluno;
         }
 
         public override string ToString()

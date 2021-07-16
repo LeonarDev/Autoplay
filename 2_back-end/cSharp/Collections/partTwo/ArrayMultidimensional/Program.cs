@@ -6,6 +6,13 @@ namespace ArrayMultidimensional
     {
         static void Main(string[] args)
         {
+            JogoDaVelha();
+
+
+        }
+
+        private static void JogoDaVelha()
+        {
             // JOGO DA VELHA
             // [0,0]  [1,0]   [2,0]
             // [0,1]  [1,1]   [2,1]
@@ -20,7 +27,7 @@ namespace ArrayMultidimensional
             jogo[0, 1] = 'X';
             jogo[1, 1] = 'X';
             jogo[2, 1] = 'O';
-            
+
             jogo[0, 2] = ' ';
             jogo[1, 2] = 'O';
             jogo[2, 2] = 'X';

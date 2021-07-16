@@ -1,0 +1,15 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\SortedDictionary.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\SortedDictionary.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\SortedDictionary.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\SortedDictionary.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\SortedDictionary.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\ref\SortedDictionary.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\bin\Debug\net5.0\SortedDictionary.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\ref\SortedDictionary.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedDictionary\obj\Debug\net5.0\SortedDictionary.genruntimeconfig.cache

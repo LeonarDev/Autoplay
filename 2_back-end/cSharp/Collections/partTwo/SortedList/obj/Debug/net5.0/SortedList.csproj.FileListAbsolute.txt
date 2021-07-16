@@ -1,0 +1,16 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\SortedList.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\SortedList.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\SortedList.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\SortedList.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\SortedList.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\ref\SortedList.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\bin\Debug\net5.0\SortedList.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.csproj.AssemblyReference.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\ref\SortedList.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\SortedList\obj\Debug\net5.0\SortedList.genruntimeconfig.cache

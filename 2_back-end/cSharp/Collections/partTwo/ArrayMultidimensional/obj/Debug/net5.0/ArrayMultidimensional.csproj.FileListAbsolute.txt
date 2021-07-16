@@ -1,0 +1,16 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.csproj.AssemblyReference.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ArrayMultidimensional.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ArrayMultidimensional.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ArrayMultidimensional.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ArrayMultidimensional.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ArrayMultidimensional.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ref\ArrayMultidimensional.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\bin\Debug\net5.0\ArrayMultidimensional.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ref\ArrayMultidimensional.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ArrayMultidimensional\obj\Debug\net5.0\ArrayMultidimensional.genruntimeconfig.cache

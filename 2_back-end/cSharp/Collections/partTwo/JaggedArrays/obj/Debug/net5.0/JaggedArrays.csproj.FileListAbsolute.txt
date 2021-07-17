@@ -1,0 +1,16 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\JaggedArrays.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\JaggedArrays.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\JaggedArrays.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\JaggedArrays.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\JaggedArrays.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\ref\JaggedArrays.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\bin\Debug\net5.0\JaggedArrays.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.csproj.AssemblyReference.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\ref\JaggedArrays.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\JaggedArrays\obj\Debug\net5.0\JaggedArrays.genruntimeconfig.cache

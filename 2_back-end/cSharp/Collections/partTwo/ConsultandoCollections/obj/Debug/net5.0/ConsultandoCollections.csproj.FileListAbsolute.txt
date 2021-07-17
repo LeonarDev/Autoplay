@@ -1,0 +1,15 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ConsultandoCollections.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ConsultandoCollections.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ConsultandoCollections.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ConsultandoCollections.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ConsultandoCollections.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ref\ConsultandoCollections.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\bin\Debug\net5.0\ConsultandoCollections.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ref\ConsultandoCollections.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.genruntimeconfig.cache

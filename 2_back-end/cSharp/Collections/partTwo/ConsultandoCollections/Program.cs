@@ -48,6 +48,46 @@ namespace ConsultandoCollections
             {
                 Console.WriteLine($"- {item.Nome.ToUpper()}");
             }
+            Console.WriteLine();
+
+            Console.WriteLine("Consultando os meses do primeiro trimestre do ano:");
+            var consultaPrimeiroTrimestre = meses.Take(3);
+            foreach (var item in consultaPrimeiroTrimestre)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Consultando os meses seguintes ao primeiro trimestre do ano:");
+            var consultaPularTrimestre = meses.Skip(3);
+            foreach (var item in consultaPularTrimestre)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Consultando os meses do segundo trimestre do ano:");
+            var consultaSegundoTrimestre = meses.Skip(3).Take(3);
+            foreach (var item in consultaSegundoTrimestre)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Consultando meses antes que algum comece com a letra 'S':");
+            var consultaMesesAntesDeIniciarComS= meses.TakeWhile(mes => !mes.Nome.StartsWith("S"));
+            foreach (var item in consultaMesesAntesDeIniciarComS)
+            {
+                Console.WriteLine(item);
+            }
+            Console.WriteLine();
+
+            Console.WriteLine("Consultando meses a partir daquele que começa com a letra 'S':");
+            var consultaMesApartirDoS = meses.SkipWhile(mes => !mes.Nome.StartsWith("S"));
+            foreach (var item in consultaMesApartirDoS)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 
@@ -71,7 +111,7 @@ namespace ConsultandoCollections
 
         public override string ToString()
         {
-            return $"{Nome} tem {Dias} dias.";
+            return $"- {Nome} ({Dias} dias)";
         }
     }
 }

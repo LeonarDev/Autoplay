@@ -1,0 +1,15 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\OperacoesConjuntosLINQ.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\OperacoesConjuntosLINQ.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\OperacoesConjuntosLINQ.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\OperacoesConjuntosLINQ.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\OperacoesConjuntosLINQ.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\ref\OperacoesConjuntosLINQ.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\bin\Debug\net5.0\OperacoesConjuntosLINQ.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\ref\OperacoesConjuntosLINQ.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\OperacoesConjuntosLINQ\obj\Debug\net5.0\OperacoesConjuntosLINQ.genruntimeconfig.cache

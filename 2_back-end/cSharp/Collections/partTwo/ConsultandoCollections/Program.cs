@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace ConsultandoCollections
 {
@@ -23,26 +24,34 @@ namespace ConsultandoCollections
                new Mes("Dezembro", 31)
             };
 
-            foreach(var mes in meses)
-            {
-                Console.WriteLine(mes);
-            }
+            //foreach(var mes in meses)
+            //{
+            //    Console.WriteLine(mes);
+            //}
+            //Console.WriteLine();
+            //Console.WriteLine("Meses com 31 dias, em letras maiúscula, ordenados alfabeticamente:");
+            //meses.Sort();
+            //foreach(var mes in meses)
+            //{
+            //    if (mes.Dias == 31)
+            //    {
+            //        Console.WriteLine($"- {mes.Nome.ToUpper()}");
+            //    }
+            //}
 
-            Console.WriteLine();
-            Console.WriteLine("Meses com 31 dias, em letras maiúscula, ordenados alfabeticamente:");
-            meses.Sort();
-            foreach(var mes in meses)
-            {
-                if (mes.Dias == 31)
-                {
-                    Console.WriteLine($"- {mes.Nome.ToUpper()}");
-                }
+            IEnumerable<Mes> consulta = meses
+                .Where(mes => mes.Dias == 31)
+                .OrderBy(mes => mes.Nome);
 
+            Console.WriteLine("Meses com 31 dias:");
+            foreach (var item in consulta)
+            {
+                Console.WriteLine($"- {item.Nome.ToUpper()}");
             }
         }
     }
 
-    class Mes : IComparable
+    class Mes //: IComparable
     {
         public Mes(string nome, int dias)
         {
@@ -53,18 +62,16 @@ namespace ConsultandoCollections
         public string Nome { get; private set; }
         public int Dias { get; private set; }
 
-        public int CompareTo(object obj)
-        {
-            Mes outro = obj as Mes;
+        //public int CompareTo(object obj)
+        //{
+        //    Mes outro = obj as Mes;
 
-            return this.Nome.CompareTo(outro.Nome);
-        }
+        //    return this.Nome.CompareTo(outro.Nome);
+        //}
 
         public override string ToString()
         {
             return $"{Nome} tem {Dias} dias.";
         }
     }
-
-    
 }

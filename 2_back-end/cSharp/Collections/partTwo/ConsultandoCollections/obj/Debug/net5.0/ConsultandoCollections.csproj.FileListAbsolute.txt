@@ -13,3 +13,4 @@ C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\C
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ref\ConsultandoCollections.dll
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.pdb
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.genruntimeconfig.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\ConsultandoCollections\obj\Debug\net5.0\ConsultandoCollections.csproj.AssemblyReference.cache

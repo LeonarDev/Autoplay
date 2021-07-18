@@ -1,0 +1,15 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\ref\FaixaContinuaDeValoresDeUmaSequencia.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\bin\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\ref\FaixaContinuaDeValoresDeUmaSequencia.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Collections\partTwo\FaixaContinuaDeValoresDeUmaSequencia\obj\Debug\net5.0\FaixaContinuaDeValoresDeUmaSequencia.genruntimeconfig.cache

@@ -1,0 +1,15 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\CEP.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\CEP.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\CEP.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\CEP.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\CEP.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\ref\CEP.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\bin\Debug\net5.0\CEP.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\ref\CEP.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\CEP\obj\Debug\net5.0\CEP.genruntimeconfig.cache

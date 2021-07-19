@@ -1,0 +1,16 @@
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\TrabalhandoComDatas.exe
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\TrabalhandoComDatas.deps.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\TrabalhandoComDatas.runtimeconfig.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\TrabalhandoComDatas.runtimeconfig.dev.json
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\TrabalhandoComDatas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\ref\TrabalhandoComDatas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\bin\Debug\net5.0\TrabalhandoComDatas.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.AssemblyInfoInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.AssemblyInfo.cs
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.csproj.CoreCompileInputs.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\ref\TrabalhandoComDatas.dll
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.pdb
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.genruntimeconfig.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\TrabalhandoComDatas\obj\Debug\net5.0\TrabalhandoComDatas.csproj.AssemblyReference.cache

@@ -1,4 +1,5 @@
-﻿using Caelum.Stella.CSharp.Validation;
+﻿using Caelum.Stella.CSharp.Format;
+using Caelum.Stella.CSharp.Validation;
 using System;
 using System.Diagnostics;
 
@@ -29,45 +30,49 @@ namespace ValidadorDeDocumentos
 
         private static void ValidarCPF(string cpf)
         {
+            string cpfFormatado = new CPFFormatter().Format(cpf);
+
             try
             {
                 new CPFValidator().AssertValid(cpf);
-                Console.WriteLine($"CPF válido: {cpf}");
-                Console.WriteLine();
+                Console.WriteLine($"CPF válido: {cpfFormatado}");
             }
             catch (Exception exc)
             {
-                Console.WriteLine($"CPF inválido: {cpf} : {exc.ToString()}");
-                Console.WriteLine();
+                Console.WriteLine($"CPF inválido: {cpfFormatado} : {exc.ToString()}");
             }
+            Console.WriteLine();
         }
 
         private static void ValidarCNPJ(string cnpj)
         {
+            string cnpjFormatado = new CNPJFormatter().Format(cnpj);
+
             if (new CNPJValidator().IsValid(cnpj))
             {
-                Console.WriteLine($"CNPJ válido: {cnpj}");
-                Console.WriteLine();
+                Console.WriteLine($"CNPJ válido: {cnpjFormatado}");
             }
             else
             {
-                Console.WriteLine($"CNPJ inválido: {cnpj}");
-                Console.WriteLine();
+                Console.WriteLine($"CNPJ inválido: {cnpjFormatado}");
             }
+            Console.WriteLine();
         }
 
         private static void ValidarTituloEleitoral(string tituloEleitor)
         {
+            var tituloEleitoralFormatado = new TituloEleitoralFormatter().Format(tituloEleitor);
+
             if (new TituloEleitoralValidator().IsValid(tituloEleitor))
             {
-                Console.WriteLine($"Título Eleitoral válido: {tituloEleitor}");
-                Console.WriteLine();
+
+                Console.WriteLine($"Título Eleitoral válido: {tituloEleitoralFormatado}");
             }
             else
             {
-                Console.WriteLine($"Título Eleitoral inválido: {tituloEleitor}");
-                Console.WriteLine();
+                Console.WriteLine($"Título Eleitoral inválido: {tituloEleitoralFormatado}");
             }
+            Console.WriteLine();
         }
     }
 }

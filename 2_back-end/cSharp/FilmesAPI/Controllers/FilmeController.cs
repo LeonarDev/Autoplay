@@ -67,7 +67,6 @@ namespace FilmesAPI.Controllers
             filme.Genero = filmeNovo.Genero;
             filme.Duracao = filmeNovo.Duracao;
             _context.SaveChanges();
-
             return NoContent();
         }
     }

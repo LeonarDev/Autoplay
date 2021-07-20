@@ -26,13 +26,7 @@ namespace FilmesAPI.Controllers
         [HttpPost]
         public IActionResult AdicionaFilme([FromBody] CreateFilmeDto filmeDto)
         {
-            Filme filme = new Filme
-            {
-                Titulo = filmeDto.Titulo,
-                Diretor = filmeDto.Diretor,
-                Genero = filmeDto.Genero,
-                Duracao = filmeDto.Duracao
-            };
+            Filme filme = _mapper.Map<Filme>(filmeDto);
 
             _context.Filmes.Add(filme);
             _context.SaveChanges();
@@ -61,15 +55,7 @@ namespace FilmesAPI.Controllers
 
             if (filme != null)
             {
-                ReadFilmeDto filmeDto = new ReadFilmeDto
-                {
-                    Id = filme.Id,
-                    Titulo = filme.Titulo,
-                    Diretor = filme.Diretor,
-                    Genero = filme.Genero,
-                    Duracao = filme.Duracao,
-                    HorarioDaConsulta= DateTime.Now
-                };
+                ReadFilmeDto filmeDto = _mapper.Map<ReadFilmeDto>(filme);
                 return Ok(filme);
             }
             return NotFound();
@@ -83,10 +69,7 @@ namespace FilmesAPI.Controllers
             {
                 return NotFound();
             }
-            filme.Titulo = filmeDto.Titulo;
-            filme.Diretor = filmeDto.Diretor;
-            filme.Genero = filmeDto.Genero;
-            filme.Duracao = filmeDto.Duracao;
+            _mapper.Map(filmeDto, filme);
             _context.SaveChanges();
             return NoContent();
         }

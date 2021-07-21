@@ -25,6 +25,8 @@ namespace ByteBankImportacaoExportacao
                 EscreverBuffer(buffer);
             }
 
+            fluxoDoArquivo.Close();
+
             Console.ReadLine();
         }
 

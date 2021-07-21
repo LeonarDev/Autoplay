@@ -8,37 +8,27 @@ using System.Threading.Tasks;
 
 namespace ByteBankImportacaoExportacao 
 { 
-    class Program 
+    partial class Program 
     { 
-        static void Main(string[] args) 
+        static void Main(string[] args)
         {
+            //LidandoComFileStream();
+
             var enderecoDoArquivo = "contas.txt";
 
             using (var fluxoDoArquivo = new FileStream(enderecoDoArquivo, FileMode.Open))
+            using (var leitor = new StreamReader(fluxoDoArquivo))
             {
-                var buffer = new byte[1024];
-                var numeroDeBytesLidos = -1;
+                //var linha = leitor.ReadToEnd();  -> Carrega todo o conteúdo do arquivo de uma só vez (pode travar a aplicação) É recomendável não usar
 
-                while (numeroDeBytesLidos != 0)
+                while (!leitor.EndOfStream)
                 {
-                    numeroDeBytesLidos = fluxoDoArquivo.Read(buffer, 0, 1024);
-                    EscreverBuffer(buffer);
+                    var linha = leitor.ReadLine();
+                    Console.WriteLine(linha);
                 }
             }
+
             Console.ReadLine();
-        }
-
-        private static void EscreverBuffer(byte[] buffer)
-        {
-            var utf8 = Encoding.UTF8;
-            var texto = utf8.GetString(buffer);
-            Console.Write(texto);
-
-            //foreach (var byteLido in buffer)
-            //{
-            //    Console.Write(byteLido);
-            //    Console.Write(" ");
-            //}
         }
     }
 } 

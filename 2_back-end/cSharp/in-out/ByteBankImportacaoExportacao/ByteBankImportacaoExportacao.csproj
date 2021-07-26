@@ -43,6 +43,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="1_LidandoComFileStreamDiretamente.cs" />
+    <Compile Include="2_UsandoStreamReader.cs" />
+    <Compile Include="5_UsandoStreamDeEntradaNoConsole.cs" />
+    <Compile Include="4_LeituraBinaria .cs" />
+    <Compile Include="3_CriandoArquivo.cs" />
     <Compile Include="Modelos\Cliente.cs" />
     <Compile Include="Modelos\ContaCorrente.cs" />
     <Compile Include="Program.cs" />

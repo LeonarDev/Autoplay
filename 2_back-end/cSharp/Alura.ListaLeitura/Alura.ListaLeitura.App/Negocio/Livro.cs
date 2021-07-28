@@ -13,7 +13,7 @@ namespace Alura.ListaLeitura.App.Negocio
         {
             var stringBuilder = new StringBuilder();
             stringBuilder.AppendLine("Detalhes do Livro");
-            stringBuilder.AppendLine("=====");
+            stringBuilder.AppendLine("=======================");
             stringBuilder.AppendLine($"Título: {Titulo}");
             stringBuilder.AppendLine($"Autor: {Autor}");
             stringBuilder.AppendLine($"Lista: {Lista.Titulo}");

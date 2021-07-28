@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Routing;
 using Microsoft.Extensions.DependencyInjection;
 using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -27,23 +28,42 @@ namespace Alura.ListaLeitura.App
             roteBuilder.MapRoute("Livros/Lidos", NovoLivroParaLer);
             roteBuilder.MapRoute("Cadastro/NovoLivro/{nome}/{autor}", NovoLivroParaLer);
             roteBuilder.MapRoute("Livros/Detalhes/{id:int}", ExibirDetalhes);
-            roteBuilder.MapRoute("Cadastro/NovoLivro", ExibirFormulario);
+            roteBuilder.MapRoute("Cadastro/NovoLivro", ExibeFormulario);
+            roteBuilder.MapRoute("Cadastro/Incluir", ProcessaFormulario);
             var rotas = roteBuilder.Build();
 
             app.UseRouter(rotas);
             //app.Run(Roteamento);
         }
 
-        public Task ExibirFormulario(HttpContext context)
+        private Task ProcessaFormulario(HttpContext context)
         {
-            var html = @"
-            <html>
-                <form>
-                    <input/>
-                    <input/>
-                    <button>Gravar</button>
-                </form>
-            </html>";
+            var livro = new Livro()
+            {
+                Titulo = context.Request.Form["titulo"].First(),
+                Autor = context.Request.Form["autor"].First(),
+
+                //Titulo = context.GetRouteValue("nome").ToString(), // captura informação mapeada da rota e converte obj para string
+                //Autor = Convert.ToString(context.GetRouteValue("autor")) // converte obj para string (outra forma)
+            };
+
+            var repo = new LivroRepositorioCSV();
+            repo.Incluir(livro);
+            return context.Response.WriteAsync("Livro adicionado com sucesso!");
+        }
+
+        private string CarregaArquivoHTML(string nomeArquivo)
+        {
+            var nomeCompletoArquivo = $"HTML/{nomeArquivo}.html";
+            using (var arquivo = File.OpenText(nomeCompletoArquivo))
+            {
+                return arquivo.ReadToEnd();
+            }
+        }
+
+        private Task ExibeFormulario(HttpContext context)
+        {
+            var html = CarregaArquivoHTML("formulario");
             return context.Response.WriteAsync(html);
         }
 

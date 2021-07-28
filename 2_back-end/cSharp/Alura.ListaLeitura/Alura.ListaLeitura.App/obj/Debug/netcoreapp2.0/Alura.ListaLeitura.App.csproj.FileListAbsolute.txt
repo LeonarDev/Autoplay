@@ -10,3 +10,4 @@ C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Alura.ListaLeitura\Al
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.dll
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.pdb
 C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Alura.ListaLeitura\Alura.ListaLeitura.App\obj\Debug\netcoreapp2.0\Alura.ListaLeitura.App.genruntimeconfig.cache
+C:\Users\Majevski\Documents\Dev\Autoplay\2_back-end\cSharp\Alura.ListaLeitura\Alura.ListaLeitura.App\bin\Debug\netcoreapp2.0\HTML\formulario.html
